@@ -75,7 +75,6 @@ Functions for the fMRI level data
 
 '''
 
-
 def cleanup_level_names(s):
     '''
     Removes parts of the string to make it more orderly and easier to rearrange.
@@ -135,6 +134,9 @@ def get_in_shape_levels(B_s, names_s):
     B_ordered = dfBold.values # convert df to numpy array
     
     return clean_names, dfOrdered, B_ordered
+
+
+
 
 
 

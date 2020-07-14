@@ -69,10 +69,69 @@ def decode_variable(file, item):
             
     return np.array(readable_data)
 
+
+'''
+Functions for the fMRI blocks data
 '''
 
-Functions for the fMRI level data
 
+def cleanup_block_names(s):
+
+    for r in (('vgfmri3_', ''), ('*bf(1)', '')):
+        s = s.replace(*r)
+        
+    return s
+
+
+def get_in_shape_blocks(B_s, names_s):
+    
+    '''
+    Massages data into right shape for the ISC: [TRs, voxels, subjects] - bunch of stacked matrices
+    
+    IN
+    
+    B: the bold data for subject s
+    names: the order of the blocks for subject s
+    
+    OUT
+    
+    dfOrdered: the ordered df, just to sanity check the reordering
+    B_ordered: the ordered B array [blocks, voxels]
+    '''
+    
+    #print(B_s.shape)
+    
+    # cleanup the block names first, remove stuff
+    
+    block_names = []
+
+    for name in names_s:
+        stripped_name = cleanup_block_names(name)
+        block_names.append(stripped_name)
+    
+    # split the strings by white space to separate the sessions and games
+    splitted = [words for segments in block_names for words in segments.split(' ')]
+    sessions = splitted[0::2] # append to separate lists
+    blocks = splitted[1::2] 
+    
+    #print(block_names)
+    # read in B as pandas df
+    df = pd.DataFrame(B_s)
+    df.insert(0, 'block', blocks) # insert block names as first col
+    df.insert(1, 'session', sessions) # insert block names as first col
+    
+    # First look at the name (alphabetic order) then look at the session number
+    dfOrdered = df.sort_values(by=['block','session'], ascending=True) # return for sanity checks
+    dfBold = dfOrdered.drop(['block', 'session'], axis=1) # don't need these columns anymore, got the Betas in the same order.
+    
+    B_ordered = dfBold.values # convert df to numpy array
+    
+    return dfOrdered, B_ordered
+
+
+
+'''
+Functions for the fMRI level data
 '''
 
 def cleanup_level_names(s):
@@ -86,7 +145,7 @@ def cleanup_level_names(s):
 
 
 
-def get_in_shape_levels(B_s, names_s):
+def get_in_shape_levels(B_s, names_s, num_runs=6):
     
     '''
     Massages data into right shape to perform ISC: [TRs, voxels, subjects] - bunch of stacked matrices

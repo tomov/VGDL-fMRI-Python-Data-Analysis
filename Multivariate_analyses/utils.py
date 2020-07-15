@@ -219,7 +219,7 @@ def plot_sub_isc_statmap(sub, data, brain_nii, mask_data, threshold=0.2):
     # use the mask to find all the coordinates that represent the brain
     coords_sub = np.where(mask_data[sub] == 1) 
 
-    # Make the ISC output a volume
+    # Make zeros 3D cube
     isc_vol = np.zeros(brain_nii.shape)
 
     # Map the ISC data for a subject into brain space

@@ -196,6 +196,65 @@ def get_in_shape_levels(B_s, names_s, num_runs=6):
 
 
 
+'''
+ISC functions
+'''
+
+def plot_sub_isc_statmap(sub, data, brain_nii, mask_data, threshold=0.2):
+
+    '''
+    Computes and plots an ISC statmap for a given subject. 
+
+    subject: participant number
+    data: BOLD data array in the shape [n_TRs, n_voxels, n_subjects]
+    brain_nii: nii image (mask)
+    mask_data: the whole brain mask (boolean arr)
+    '''
+
+    isc_maps = isc(data, pairwise=False) # The output of ISC is a voxel by 
+                           # participant matrix (showing the result of each individual with the group).
+
+    #print(isc_maps.shape)
+
+    # use the mask to find all the coordinates that represent the brain
+    coords_sub = np.where(mask_data[sub] == 1) 
+
+    # Make the ISC output a volume
+    isc_vol = np.zeros(brain_nii.shape)
+
+    # Map the ISC data for a subject into brain space
+    isc_vol[coords_sub] = isc_maps[sub,:]
+
+    # make a nii image of the isc map 
+    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
+
+    # plot the data as statmap
+    f, ax = plt.subplots(1,1, figsize = (12, 5), dpi=100)
+    plotting.plot_stat_map(
+        isc_nifti, 
+        threshold=threshold, 
+        axes=ax
+    )
+    ax.set_title(f'ISC map for subject {sub+1}');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

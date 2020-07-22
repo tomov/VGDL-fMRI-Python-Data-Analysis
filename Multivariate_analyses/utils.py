@@ -190,7 +190,7 @@ def get_in_shape_levels(B_s, names_s, num_runs=6):
     dfOrdered = df.sort_values(by=['game','session','instance'], ascending=True) # return to check if order is the same
     dfOrdered.insert(3, 'level', levels) 
     
-    dfBold = dfOrdered.drop(['game','instance','session',], axis=1) # don't need these columns anymore, got the Betas in the same order.
+    dfBold = dfOrdered.drop(['game','instance','session','level'], axis=1) # don't need these columns anymore, got the Betas in the same order.
     B_ordered = dfBold.values # convert df to numpy array
     
     return clean_names, dfOrdered, B_ordered
@@ -326,9 +326,10 @@ def plot_statmap_avg(isc_vol, coords, collapsed_isc_corrs, brain_nii, use_braini
         ax.set_title(f'ISC collapsed correlations'); 
 
 
+
 def surface_plot_avg(isc_vol, coords, brain_nii, collapsed_isc_corrs, view='medial', threshold=0.2):
     '''
-    make a surface plot
+    make a surface plot of the avg correlations
     '''
 
     # get a surface

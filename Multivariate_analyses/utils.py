@@ -295,8 +295,10 @@ def plot_statmap_avg(isc_vol, coords, collapsed_isc_corrs, brain_nii, use_braini
     # Map the ISC data for a subject into brain space
     isc_vol[coords] =  collapsed_isc_corrs
 
+    print(isc_vol.shape)
+
     # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
+    isc_nifti = nib.Nifti1Image(isc_vol, a_nii.affine, brain_nii.header)
 
     if use_brainii==True:
 
@@ -352,6 +354,41 @@ def surface_plot_avg(isc_vol, coords, brain_nii, collapsed_isc_corrs, view='medi
         colorbar=True,
         bg_map=fsaverage.sulc_left,
         vmax=1)
+
+
+
+
+
+def test_plot_statmap_avg(mask_volume, nii_coords, brain_nii, mask_nii, collapsed_isc_corrs):
+
+    '''
+    Make a statistical map of the average/collapsed correlations.
+    '''
+
+    mask_volume[nii_coords] = collapsed_isc_corrs
+
+    # make a nii image of the isc map 
+    nifti_from_mask = nib.Nifti1Image(mask_volume, mask_nii.affine, mask_nii.header)
+
+    # plot the data as statmap
+    f, ax = plt.subplots(1,1, figsize = (12, 5))
+    plotting.plot_stat_map(
+        stat_map_img=nifti_from_mask, 
+        bg_img=brain_nii, # brain_nii is anatomical image
+        threshold=0.2, 
+        axes=ax,
+        cut_coords=[-30, -4, 5]
+    )
+    ax.set_title(f'Whole brain mask overlayed on brain_nii'); 
+
+
+
+
+
+
+
+
+
 
 
 

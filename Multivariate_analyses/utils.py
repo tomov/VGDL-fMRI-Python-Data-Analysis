@@ -26,6 +26,7 @@ from brainiak.isc import isc, isfc, permutation_isc
 from brainiak.isc import compute_summary_statistic
 import matplotlib.pyplot as plt
 import pandas as pd
+from scipy import stats
 
 
 def decode_variable(file, item):
@@ -298,7 +299,7 @@ def plot_statmap_avg(isc_vol, coords, collapsed_isc_corrs, brain_nii, use_braini
     print(isc_vol.shape)
 
     # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, a_nii.affine, brain_nii.header)
+    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
 
     if use_brainii==True:
 
@@ -383,10 +384,141 @@ def test_plot_statmap_avg(mask_volume, nii_coords, brain_nii, mask_nii, collapse
 
 
 
+'''
+@momchil Custom ISC functions
+'''
 
 
+def isc_onesub(data, s):
+
+    ''' Intersubject correlation
+
+    For each voxel, compute the pearson correlation between each subjects' response
+    time series. Calculates the intersubject correlation using the leave-one-out approach. 
 
 
+    Parameters
+    ----------
+    data : list or ndarray (n_TRs x n_voxels x n_subjects)
+            fMRI data for which to compute ISC
+    s : subject/participant
+
+
+    Returns
+    -------
+    iscs_r : [1, voxels ndarray]
+        The pearson correlation coefficients for each voxel time series
+
+    iscs_p : [1, voxels ndarray]
+        The p values for each voxel time series
+    
+    '''
+    # get number of voxels
+    n_voxels = len(data[1])
+
+    # for each subject should return a (1 x voxels matrix)
+    iscs_r_sub = []
+    iscs_p_sub = []
+
+    betas_one_sub = data[:,:,s] # take the subject matrix 
+
+    # remove this subjects' data from whole dataset and compute mean
+    # TODO: can I compute the mean in this way or should transform first?
+    mean_betas_rest = np.mean(np.delete(data, s, axis=2), axis=2) 
+
+    # for each voxel (column) 
+    for v in np.arange(n_voxels):
+
+        # take the two columns that you want to correlate 
+        voxel_v_sub = betas_one_sub[:, v] # all rows, one column at a time (voxel time series)
+        voxel_v_rest = mean_betas_rest[:, v]
+
+        r_vox_v, p_vox_v = array_correlation(x=voxel_v_sub, y=voxel_v_rest)
+
+        # store the r and p value to subject arr
+        iscs_r_sub.append(r_vox_v)
+        iscs_p_sub.append(p_vox_v)
+
+    return iscs_r_sub, iscs_p_sub
+
+
+def array_correlation(x, y):
+
+    ''' Column-wise pearson correlation between two arrays.
+
+    Computes the 
+
+    Parameters
+    ----------
+    x : one of the voxels from the given subject
+            
+    y : the corresponding voxel from the array of rest average 
+
+
+    Returns
+    -------
+    r_vox_v : Pearson’s correlation coefficient
+
+    p_vox_v : Two-tailed p-value.
+
+    '''
+
+    # correlation between left-out subject and mean of others
+    r_vox_v, p_vox_v = stats.pearsonr(x, y) 
+
+    return r_vox_v, p_vox_v
+
+
+def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
+
+    ''' Check which correlations are significant
+
+
+    Each r value corresponds to a p value. We only want to display the ones that are significant, i.e. 
+    for which p < alpha. This function returns the significant correlations and fills in 0 otherwise.
+
+    Parameters
+    ----------
+    iscs_r_arr : an ndarray with the pearson correlations [subjects, voxels]
+
+    iscs_pvalues_arr : an ndarray with the corresponding p values [subjects, voxels]
+    
+
+    iscs_r_arr.shape == iscs_pvalues_arr
+
+
+    Returns
+    -------
+    
+    zeros_arr : an ndarray in the same shape as the input arrays with correlations where 
+    p < alpha and zero otherwise.
+
+
+    '''
+
+    zeros_arr = np.zeros(iscs_r_arr.shape)
+
+    # we do this for each row
+    for row in range(len(iscs_pvalues_arr)):
+        #print(row)
+        
+        # take the respective rows
+        row_p = iscs_pvalues_arr[row,:]
+        row_r = iscs_r_arr[row,:]
+        
+        #print(row_pvalues.shape, row_r.shape)
+        
+        # get the indices where the pvalues are significant
+        sig_p_row_indices = np.where(row_p < alpha)
+        
+        #print(r_row[sig_p_row_indices])
+        
+        print(zeros_arr[row,:].shape)
+        
+        # now use the zeros volume to use only the significant r values from 
+        zeros_arr[row][sig_p_row_indices] = row_r[sig_p_row_indices] 
+
+    return zeros_arr
 
 
 

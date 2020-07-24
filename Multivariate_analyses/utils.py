@@ -446,7 +446,8 @@ def array_correlation(x, y):
 
     ''' Column-wise pearson correlation between two arrays.
 
-    Computes the 
+    scipy docs: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html
+
 
     Parameters
     ----------
@@ -520,6 +521,14 @@ def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
 
     return zeros_arr
 
+
+def collapsed_isc_correlations():
+
+    '''
+    
+
+
+    '''
 
 
 

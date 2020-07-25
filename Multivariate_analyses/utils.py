@@ -475,8 +475,9 @@ def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
     ''' Check which correlations are significant
 
 
-    Each r value corresponds to a p value. We only want to display the ones that are significant, i.e. 
-    for which p < alpha. This function returns the significant correlations and fills in 0 otherwise.
+    Each r value corresponds to a p value. We only want to display the correlation coefficients that are significant,
+    i.e. for which p < alpha. This function returns the significant correlations and fills in 0 otherwise. Can be used
+    for the statistical map.
 
     Parameters
     ----------
@@ -485,7 +486,7 @@ def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
     iscs_pvalues_arr : an ndarray with the corresponding p values [subjects, voxels]
     
 
-    iscs_r_arr.shape == iscs_pvalues_arr
+    Note that iscs_r_arr.shape == iscs_pvalues_arr
 
 
     Returns
@@ -514,7 +515,7 @@ def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
         
         #print(r_row[sig_p_row_indices])
         
-        print(zeros_arr[row,:].shape)
+        #print(zeros_arr[row,:].shape)
         
         # now use the zeros volume to use only the significant r values from 
         zeros_arr[row][sig_p_row_indices] = row_r[sig_p_row_indices] 
@@ -522,19 +523,33 @@ def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
     return zeros_arr
 
 
-def collapsed_isc_correlations():
+def compute_avg_iscs(iscs, axis=0):
+
+    '''Computes summary statistics for ISCs
+
+    Computes the 'mean' across a set of ISCs in the following way:
+        1) Take an ndarray with correlation coefficients [-1,1]
+        2) Do a Fischer Z transform (arctanh) 
+        3) Compute the mean
+        4) Take the inverse Fisher transform (tanh)
+
+    Parameters
+    ----------
+
+    iscs : [subjects, voxels] 
+    list or ndarray, these are the isc values per subject
+
+    Returns
+    -------
+
+    collapsed_isc_corrs : 1d array with the collapsed correlations for each voxel
 
     '''
-    
+
+    collapsed_isc_corrs = np.tanh(np.mean(np.arctanh(iscs), axis=axis))
 
 
-    '''
-
-
-
-
-
-
+    return collapsed_isc_corrs
 
 
 

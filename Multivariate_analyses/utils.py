@@ -359,7 +359,6 @@ def surface_plot_avg(isc_vol, coords, brain_nii, collapsed_isc_corrs, view='medi
 
 
 
-
 def test_plot_statmap_avg(mask_volume, nii_coords, brain_nii, mask_nii, collapsed_isc_corrs):
 
     '''

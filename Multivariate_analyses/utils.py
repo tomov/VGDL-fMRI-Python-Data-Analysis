@@ -202,146 +202,98 @@ def get_in_shape_levels(B_s, names_s, num_runs=6):
 ISC functions
 '''
 
-def plot_sub_isc_statmap(sub, data, brain_nii, mask_data, threshold=0.2):
+
+def plot_correlations_onesub(sub, coords, isc_maps, brain_nii, mask_nii, threshold=0.2):
 
     '''
-    Computes and plots an ISC statmap for a given subject. 
-
-    subject: participant number
-    data: BOLD data array in the shape [n_TRs, n_voxels, n_subjects]
-    brain_nii: nii image (mask)
-    mask_data: the whole brain mask (boolean arr)
-    '''
-
-    isc_maps = isc(data, pairwise=False) # The output of ISC is a voxel by 
-                           # participant matrix (showing the result of each individual with the group).
-
-    #print(isc_maps.shape)
-
-    # use the mask to find all the coordinates that represent the brain
-    coords_sub = np.where(mask_data[sub] == 1) 
-
-    # Make zeros 3D cube
-    isc_vol = np.zeros(brain_nii.shape)
-
-    # Map the ISC data for a subject into brain space
-    isc_vol[coords_sub] = isc_maps[sub,:]
-
-    # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
-
-    # plot the data as statmap
-    f, ax = plt.subplots(1,1, figsize = (12, 5), dpi=100)
-    plotting.plot_stat_map(
-        isc_nifti, 
-        threshold=threshold, 
-        axes=ax
-    )
-    ax.set_title(f'ISC map for subject {sub+1}');
-
-
-
-
-def plot_statmap_onesub(sub, isc_vol, isc_maps, coords, brain_nii, threshold=0.2, use_brainii=True):
-
-    '''
-    Plot the statistical map for a given subject.
+    Visualise the ISC correlations on the anatomical image.
     
     subject: participant number
     brain_nii: nii image (mask)
     coords: voxel coords from whole brain mask
     '''
 
+    coords = tuple(coords) # needs to be a tuple
+
+    # 1) create a volume from mask_nii
+    isc_vol = np.zeros(mask_nii.shape) 
+
+
     # Map the ISC data for a subject into brain space
     isc_vol[coords] = isc_maps[sub,:]
 
-    # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
+    # 3) Create a nifti image from this with the affine from mask_nii
+    isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
 
-    if use_brainii==True:
 
-        # plot the data as statmap
-        f, ax = plt.subplots(1,1, figsize = (12, 5))
-        plotting.plot_stat_map(
-            stat_map_img=isc_nifti, 
-            bg_img=brain_nii,
-            threshold=threshold, 
-            axes=ax,
-            black_bg=True,
-            vmax=1,
-        )
-        ax.set_title(f'ISC map for subject {sub+1}'); 
-
-    else:
-
-        # plot the correlations on the MNI standards
-        f, ax = plt.subplots(1,1, figsize = (12, 5))
-        plotting.plot_stat_map(
-            stat_map_img=isc_nifti,
-            threshold=threshold, 
-            axes=ax,
-            black_bg=True,
-            vmax=1,
-        )
-        ax.set_title(f'ISC map for subject {sub+1}'); 
+    # plot the data as statmap
+    f, ax = plt.subplots(1,1, figsize = (12, 5))
+    plotting.plot_stat_map(
+        stat_map_img=isc_nifti, 
+        bg_img=brain_nii,
+        threshold=threshold, 
+        axes=ax,
+        black_bg=True,
+        vmax=1,
+        cut_coords=[-30, -4, 5],
+    )
+    ax.set_title(f'ISC collapsed correlations'); 
 
 
 
-def plot_statmap_avg(isc_vol, coords, collapsed_isc_corrs, brain_nii, use_brainii=True, threshold=0.2):
+def plot_correlations_collapsed(coords, collapsed_isc_corrs, brain_nii, mask_nii, threshold=0.2):
 
     '''
     Make a statistical map of the average/collapsed correlations.
     '''
 
-    # Map the ISC data for a subject into brain space
+    coords = tuple(coords) # needs to be a tuple
+
+    # 1) create a volume from mask_nii
+    isc_vol = np.zeros(mask_nii.shape) 
+
+    # 2) Map the ISC data for a subject into brain space
     isc_vol[coords] = collapsed_isc_corrs
 
-    print(isc_vol.shape)
+    # 3) Create a nifti image from this with the affine from mask_nii
+    isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
 
-    # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
 
-    if use_brainii==True:
-
-        # plot the data as statmap
-        f, ax = plt.subplots(1,1, figsize = (12, 5))
-        plotting.plot_stat_map(
-            stat_map_img=isc_nifti, 
-            bg_img=brain_nii,
-            threshold=threshold, 
-            axes=ax,
-            black_bg=True,
-            vmax=1,
-        )
-        ax.set_title(f'ISC collapsed correlations'); 
-
-    else:
-
-        # plot the correlations on the MNI standards
-        f, ax = plt.subplots(1,1, figsize = (12, 5))
-        plotting.plot_stat_map(
-            stat_map_img=isc_nifti,
-            threshold=threshold, 
-            axes=ax,
-            black_bg=True,
-            vmax=1,
-        )
-        ax.set_title(f'ISC collapsed correlations'); 
+    # plot the data as statmap
+    f, ax = plt.subplots(1,1, figsize = (12, 5))
+    plotting.plot_stat_map(
+        stat_map_img=isc_nifti, 
+        bg_img=brain_nii,
+        threshold=threshold, 
+        axes=ax,
+        black_bg=True,
+        vmax=1,
+        cut_coords=[-30, -4, 5],
+    )
+    ax.set_title(f'ISC map subject {sub+1}'); 
 
 
 
-def surface_plot_avg(isc_vol, coords, brain_nii, collapsed_isc_corrs, view='medial', threshold=0.2):
+
+def surface_plot_collapsed(coords, brain_nii, mask_nii, collapsed_isc_corrs, view, threshold=0.2):
     '''
     make a surface plot of the avg correlations
     '''
 
-    # get a surface
+    coords = tuple(coords) # needs to be a tuple
+
+    # 1) create a volume from mask_nii
+    isc_vol = np.zeros(mask_nii.shape) 
+
+    # get a surface 
     fsaverage = datasets.fetch_surf_fsaverage5()
 
-    # Map the ISC data for the first participant into brain space
+    # map values into brain space
     isc_vol[coords] = collapsed_isc_corrs
+
     # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, brain_nii.affine, brain_nii.header)
+    isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
+    
     # make "texture" 
     texture = surface.vol_to_surf(isc_nifti, fsaverage.pial_left) 
 
@@ -359,27 +311,27 @@ def surface_plot_avg(isc_vol, coords, brain_nii, collapsed_isc_corrs, view='medi
 
 
 
-def test_plot_statmap_avg(mask_volume, nii_coords, brain_nii, mask_nii, collapsed_isc_corrs):
+# def test_plot_statmap_avg(mask_volume, nii_coords, brain_nii, mask_nii, collapsed_isc_corrs):
 
-    '''
-    Make a statistical map of the average/collapsed correlations.
-    '''
+#     '''
+#     Make a statistical map of the average/collapsed correlations.
+#     '''
 
-    mask_volume[nii_coords] = collapsed_isc_corrs
+#     mask_volume[nii_coords] = collapsed_isc_corrs
 
-    # make a nii image of the isc map 
-    nifti_from_mask = nib.Nifti1Image(mask_volume, mask_nii.affine, mask_nii.header)
+#     # make a nii image of the isc map 
+#     nifti_from_mask = nib.Nifti1Image(mask_volume, mask_nii.affine, mask_nii.header)
 
-    # plot the data as statmap
-    f, ax = plt.subplots(1,1, figsize = (12, 5))
-    plotting.plot_stat_map(
-        stat_map_img=nifti_from_mask, 
-        bg_img=brain_nii, # brain_nii is anatomical image
-        threshold=0.2, 
-        axes=ax,
-        cut_coords=[-30, -4, 5]
-    )
-    ax.set_title(f'Whole brain mask overlayed on brain_nii'); 
+#     # plot the data as statmap
+#     f, ax = plt.subplots(1,1, figsize = (12, 5))
+#     plotting.plot_stat_map(
+#         stat_map_img=nifti_from_mask, 
+#         bg_img=brain_nii, # brain_nii is anatomical image
+#         threshold=0.2, 
+#         axes=ax,
+#         cut_coords=[-30, -4, 5]
+#     )
+#     ax.set_title(f'Whole brain mask overlayed on brain_nii'); 
 
 
 

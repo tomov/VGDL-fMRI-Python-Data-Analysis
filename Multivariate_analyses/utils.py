@@ -294,7 +294,7 @@ def plot_statmap_avg(isc_vol, coords, collapsed_isc_corrs, brain_nii, use_braini
     '''
 
     # Map the ISC data for a subject into brain space
-    isc_vol[coords] =  collapsed_isc_corrs
+    isc_vol[coords] = collapsed_isc_corrs
 
     print(isc_vol.shape)
 

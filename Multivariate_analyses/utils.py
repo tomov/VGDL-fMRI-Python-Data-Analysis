@@ -131,7 +131,6 @@ def get_in_shape_blocks(B_s, names_s):
     return dfOrdered, B_ordered
 
 
-
 '''
 Functions for the fMRI level data
 '''
@@ -273,68 +272,6 @@ def plot_correlations_collapsed(coords, collapsed_isc_corrs, brain_nii, mask_nii
     ax.set_title(f'ISC map subject {sub+1}'); 
 
 
-
-
-def surface_plot_collapsed(coords, brain_nii, mask_nii, collapsed_isc_corrs, view, threshold=0.2):
-    '''
-    make a surface plot of the avg correlations
-    '''
-
-    coords = tuple(coords) # needs to be a tuple
-
-    # 1) create a volume from mask_nii
-    isc_vol = np.zeros(mask_nii.shape) 
-
-    # get a surface 
-    fsaverage = datasets.fetch_surf_fsaverage5()
-
-    # map values into brain space
-    isc_vol[coords] = collapsed_isc_corrs
-
-    # make a nii image of the isc map 
-    isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
-    
-    # make "texture" 
-    texture = surface.vol_to_surf(isc_nifti, fsaverage.pial_left) 
-
-    # plot 
-    title_text = (f'Avg ISC map, {view} view')
-    surf_map = plotting.plot_surf_stat_map(
-        fsaverage.infl_left, texture, 
-        hemi='left', view=view, 
-        title= title_text, 
-        threshold=threshold, cmap='RdYlBu_r', 
-        colorbar=True,
-        bg_map=fsaverage.sulc_left,
-        vmax=1)
-
-
-
-
-# def test_plot_statmap_avg(mask_volume, nii_coords, brain_nii, mask_nii, collapsed_isc_corrs):
-
-#     '''
-#     Make a statistical map of the average/collapsed correlations.
-#     '''
-
-#     mask_volume[nii_coords] = collapsed_isc_corrs
-
-#     # make a nii image of the isc map 
-#     nifti_from_mask = nib.Nifti1Image(mask_volume, mask_nii.affine, mask_nii.header)
-
-#     # plot the data as statmap
-#     f, ax = plt.subplots(1,1, figsize = (12, 5))
-#     plotting.plot_stat_map(
-#         stat_map_img=nifti_from_mask, 
-#         bg_img=brain_nii, # brain_nii is anatomical image
-#         threshold=0.2, 
-#         axes=ax,
-#         cut_coords=[-30, -4, 5]
-#     )
-#     ax.set_title(f'Whole brain mask overlayed on brain_nii'); 
-
-
-
 '''
 @momchil Custom ISC functions
 '''
@@ -436,7 +373,6 @@ def get_significant_corrs(iscs_r_arr, iscs_pvalues_arr, alpha=0.05):
 
     iscs_pvalues_arr : an ndarray with the corresponding p values [subjects, voxels]
     
-
     Note that iscs_r_arr.shape == iscs_pvalues_arr
 
 
@@ -504,6 +440,176 @@ def compute_avg_iscs(iscs, axis=0):
 
 
 
+def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.05, threshold=False, cut_coords=[42, 28, 26]):
+
+    '''
+
+    Parameters
+    ----------
+    
+    coords: coordinates from the whole brain mask
+
+    tstats: the t statistics from the r coefficients
+
+    pvalues: the p values from the r coefficients
+    
+    brain_nii: the anatomical or structural image
+
+    mask_nii: the whole brain mask
+
+    theta: the p value used for thresholding        
+
+    Returns
+    -------
+
+    plot? 
+
+    '''
+
+    coords = tuple(coords) # needs to be a tuple in order to work
+
+    # 1) create a volume from mask_nii
+    isc_vol = np.zeros(mask_nii.shape) 
+
+
+    if threshold==True:
+
+        print(f'thresholding with p={theta}')
+
+        # use theta to select the t statistics to plot
+        # make arr to store the t stats with p <= theta
+        sig_arr = np.zeros(pvalues.shape)
+
+        # get p indices smaller or equal to theta
+        theta_indices = np.where(pvalues <= theta)
+
+        # get the t stats at these indices
+        selected_tstats = tstats[theta_indices]
+
+        # map the selected t statistics on the right places
+        sig_arr[theta_indices] = selected_tstats
+
+        # 2) Map the t statistics in voxel space
+        isc_vol[coords] = sig_arr
+
+        # 3) Create a nifti image from this with the affine from mask_nii
+        isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
+
+        f, ax = plt.subplots(1,1, figsize = (12, 5))
+        plotting.plot_stat_map(
+            stat_map_img=isc_nifti, 
+            bg_img=brain_nii,
+            axes=ax,
+            threshold=3,
+            black_bg=True,
+            vmax=10,
+            cut_coords=cut_coords,
+            cmap='jet'
+        );
+
+    else:
+
+        # plot all t statistics
+
+        # 2) Map the t statistics in voxel space
+        isc_vol[coords] = tstats
+
+        # 3) Create a nifti image from this with the affine from mask_nii
+        isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
+
+        f, ax = plt.subplots(1,1, figsize = (12, 5))
+        plotting.plot_stat_map(
+            stat_map_img=isc_nifti, 
+            bg_img=brain_nii,
+            axes=ax,
+            threshold=3,
+            black_bg=True,
+            vmax=10,
+            cut_coords=cut_coords,
+            cmap='jet'
+        );
+
+
+
+def make_surface_plot(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.05, threshold=False, cut_coords=[42, 28, 26],
+    hemisphere='left', view='medial'):
+
+    coords = tuple(coords) # needs to be a tuple
+    
+    # 1) create a volume from mask_nii
+    isc_vol = np.zeros(mask_nii.shape) 
+    
+    # get a surface 
+    fsaverage = datasets.fetch_surf_fsaverage5()
+    
+    
+    if threshold==True:
+        pass
+    
+        print(f'thresholding with p={theta}')
+
+        # use theta to select the t statistics to plot
+        # make arr to store the t stats with p <= theta
+        sig_arr = np.zeros(pvalues.shape)
+
+        # get p indices smaller or equal to theta
+        theta_indices = np.where(abs(pvalues) <= theta)
+
+        # get the t stats at these indices
+        selected_tstats = tstats[theta_indices]
+
+        # map the selected t statistics on the right places
+        sig_arr[theta_indices] = selected_tstats
+
+        # 2) Map the t statistics in voxel space
+        isc_vol[coords] = sig_arr
+
+        # 3) Create a nifti image from this with the affine from mask_nii
+        isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
+        
+         # 4) make "texture" with isc_nifti
+        texture = surface.vol_to_surf(isc_nifti, fsaverage.pial_left) 
+
+        # plot 
+        f, ax = plt.subplots(1,1, figsize = (12, 5))
+        
+        plotting.plot_surf_stat_map(
+            fsaverage.infl_left, 
+            texture, 
+            hemi=hemisphere, 
+            view=view, 
+            axes=ax,
+            threshold=3, cmap='jet', 
+            colorbar=True,
+            bg_map=fsaverage.sulc_left,
+        );
+    
+    else:
+        
+        # plot all t statistics
+
+        # 2) Map the t statistics in voxel space
+        isc_vol[coords] = tstats
+
+        # 3) Create a nifti image from this with the affine from mask_nii
+        isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
+        
+        # 4) make "texture" with isc_nifti
+        texture = surface.vol_to_surf(isc_nifti, fsaverage.pial_left) 
+    
+                # plot 
+        f, ax = plt.subplots(1,1, figsize = (12, 5))
+        
+        plotting.plot_surf_stat_map(
+            fsaverage.infl_left, 
+            texture, 
+            hemi=hemisphere, 
+            view=view, 
+            axes=ax,
+            threshold=3, cmap='jet', 
+            colorbar=True,
+            bg_map=fsaverage.sulc_left,
+        );
 
 
 

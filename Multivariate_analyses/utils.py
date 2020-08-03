@@ -458,7 +458,7 @@ def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.0
 
     mask_nii: the whole brain mask
 
-    theta: the cutoff point. Only display the t stats with p values <= theta.
+    theta: the cutoff point. Only display the t stats with p values < theta.
 
     vmax: Upper bound for plotting, passed to matplotlib.pyplot.imshow. By default vmax=None.
           (UB is specified by largest t value.)
@@ -536,13 +536,28 @@ def prep_for_surface_plot(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.
 
         
     '''
-    Prepares 
+    Prepares the tstatistics for a surface plot. Default threshold is 0.05.
 
     
     Parameters
     ----------
+        
+    coords: coordinates from the whole brain mask
 
+    tstats: the t statistics from the r coefficients
 
+    pvalues: the p values from the r coefficients
+    
+    brain_nii: the anatomical or structural image
+
+    mask_nii: the whole brain mask
+
+    theta: the cutoff point. Only display the t stats with p values < theta.
+
+    Returns
+    -------
+
+    isc_nifti: nifti image that should be used to make a 'texture'
 
     '''
 

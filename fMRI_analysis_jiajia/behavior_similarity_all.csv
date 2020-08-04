@@ -1,0 +1,2251 @@
+subject,questionIndex,game1,game2,visual,goal,rule,difficulty
+r1_Eg8mES,0,butterflies,myaliens,9,7,7,7
+r1_Eg8mES,1,plaqueAttack,survivezombies,9,4,4,1
+r1_Eg8mES,2,myaliens,bees and birds,9,2,2,3
+r1_Eg8mES,3,plaqueAttack,myaliens,9,2,2,2
+r1_Eg8mES,4,survivezombies,myaliens,9,4,4,6
+r1_Eg8mES,5,bees and birds,aliens,9,1,1,8
+r1_Eg8mES,6,survivezombies,aliens,9,2,2,8
+r1_Eg8mES,7,plaqueAttack,butterflies,9,2,2,1
+r1_Eg8mES,8,butterflies,survivezombies,9,8,8,7
+r1_Eg8mES,9,plaqueAttack,bees and birds,9,2,2,1
+r1_Eg8mES,10,plaqueAttack,aliens,9,1,1,1
+r1_Eg8mES,11,myaliens,aliens,9,3,3,5
+r1_Eg8mES,12,butterflies,bees and birds,9,6,6,8
+r1_Eg8mES,13,survivezombies,bees and birds,9,6,6,6
+r1_Eg8mES,14,butterflies,aliens,9,1,1,7
+B19vyLQEr,0,plaqueAttack,myaliens,2,5,3,2
+B19vyLQEr,1,bees and birds,plaqueAttack,3,8,6,3
+B19vyLQEr,2,survivezombies,aliens,5,2,2,2
+B19vyLQEr,3,survivezombies,butterflies,7,8,7,2
+B19vyLQEr,4,myaliens,survivezombies,5,7,6,6
+B19vyLQEr,5,myaliens,aliens,8,5,5,4
+B19vyLQEr,6,myaliens,butterflies,8,7,5,4
+B19vyLQEr,7,plaqueAttack,aliens,2,6,3,2
+B19vyLQEr,8,plaqueAttack,survivezombies,3,5,3,4
+B19vyLQEr,9,bees and birds,survivezombies,8,2,4,6
+B19vyLQEr,10,aliens,butterflies,7,3,3,9
+B19vyLQEr,11,plaqueAttack,butterflies,4,2,2,1
+B19vyLQEr,12,bees and birds,aliens,3,2,2,6
+B19vyLQEr,13,bees and birds,butterflies,5,4,4,7
+B19vyLQEr,14,bees and birds,myaliens,6,3,2,7
+Hkom78X4H,0,survivezombies,plaqueAttack,1,1,3,7
+Hkom78X4H,1,bees and birds,aliens,2,2,3,4
+Hkom78X4H,2,bees and birds,myaliens,2,4,4,9
+Hkom78X4H,3,survivezombies,bees and birds,6,7,6,7
+Hkom78X4H,4,butterflies,aliens,3,1,1,3
+Hkom78X4H,5,myaliens,plaqueAttack,2,1,1,1
+Hkom78X4H,6,survivezombies,aliens,7,2,1,5
+Hkom78X4H,7,plaqueAttack,aliens,2,1,4,9
+Hkom78X4H,8,bees and birds,plaqueAttack,2,3,3,6
+Hkom78X4H,9,butterflies,bees and birds,7,7,6,8
+Hkom78X4H,10,survivezombies,myaliens,4,4,5,9
+Hkom78X4H,11,butterflies,survivezombies,7,6,5,8
+Hkom78X4H,12,butterflies,myaliens,6,6,6,7
+Hkom78X4H,13,butterflies,plaqueAttack,1,1,2,4
+Hkom78X4H,14,myaliens,aliens,5,2,1,3
+ryGhJL7Vr,0,bees and birds,plaqueAttack,7,9,8,8
+ryGhJL7Vr,1,aliens,plaqueAttack,6,8,8,10
+ryGhJL7Vr,2,plaqueAttack,myaliens,9,7,8,9
+ryGhJL7Vr,3,aliens,butterflies,6,9,8,8
+ryGhJL7Vr,4,bees and birds,myaliens,7,8,9,8
+ryGhJL7Vr,5,survivezombies,plaqueAttack,9,7,8,8
+ryGhJL7Vr,6,aliens,survivezombies,6,9,8,7
+ryGhJL7Vr,7,bees and birds,butterflies,8,7,9,7
+ryGhJL7Vr,9,survivezombies,myaliens,7,7,7,9
+ryGhJL7Vr,12,aliens,myaliens,8,8,10,8
+ryGhJL7Vr,8,bees and birds,survivezombies,10,8,8,10
+ryGhJL7Vr,10,butterflies,plaqueAttack,10,8,7,9
+ryGhJL7Vr,11,butterflies,myaliens,8,7,7,6
+ryGhJL7Vr,13,bees and birds,aliens,8,9,8,9
+ryGhJL7Vr,14,butterflies,survivezombies,1,3,2,4
+S1T1d8mVB,0,aliens,plaqueAttack,6,3,3,7
+S1T1d8mVB,1,bees and birds,butterflies,5,2,2,7
+S1T1d8mVB,2,survivezombies,aliens,4,2,2,7
+S1T1d8mVB,5,myaliens,bees and birds,8,4,2,7
+S1T1d8mVB,6,survivezombies,plaqueAttack,6,5,5,7
+S1T1d8mVB,7,bees and birds,aliens,5,3,2,8
+S1T1d8mVB,11,aliens,butterflies,4,6,5,6
+S1T1d8mVB,13,bees and birds,survivezombies,5,6,6,9
+S1T1d8mVB,3,myaliens,plaqueAttack,6,6,5,6
+S1T1d8mVB,4,plaqueAttack,butterflies,5,7,6,7
+S1T1d8mVB,8,myaliens,survivezombies,5,7,7,7
+S1T1d8mVB,9,myaliens,butterflies,7,5,5,8
+S1T1d8mVB,10,survivezombies,butterflies,2,3,3,6
+S1T1d8mVB,12,myaliens,aliens,6,3,2,6
+S1T1d8mVB,14,bees and birds,plaqueAttack,5,4,4,8
+S134HUQ4H,0,bees and birds,butterflies,3,7,5,2
+S134HUQ4H,6,bees and birds,survivezombies,5,3,7,5
+S134HUQ4H,7,aliens,butterflies,3,5,2,7
+S134HUQ4H,10,aliens,myaliens,8,7,4,7
+S134HUQ4H,13,bees and birds,plaqueAttack,2,5,3,6
+S134HUQ4H,14,survivezombies,plaqueAttack,3,6,4,6
+S134HUQ4H,1,bees and birds,myaliens,2,6,3,2
+S134HUQ4H,2,butterflies,plaqueAttack,2,6,4,7
+S134HUQ4H,3,survivezombies,butterflies,3,1,4,6
+S134HUQ4H,4,aliens,plaqueAttack,2,8,6,3
+S134HUQ4H,5,survivezombies,myaliens,3,7,7,4
+S134HUQ4H,8,myaliens,butterflies,1,5,4,7
+S134HUQ4H,9,survivezombies,aliens,5,3,7,5
+S134HUQ4H,11,bees and birds,aliens,2,4,8,6
+S134HUQ4H,12,myaliens,plaqueAttack,2,6,4,2
+ByC1Yt7VS,0,chase,corridor,4,6,4,8
+ByC1Yt7VS,1,preconditions,corridor,3,5,4,8
+ByC1Yt7VS,2,jaws,sokoban,3,2,3,6
+ByC1Yt7VS,4,jaws,preconditions,4,6,4,8
+ByC1Yt7VS,5,jaws,corridor,6,7,7,8
+ByC1Yt7VS,6,chase,avoidgeorge,3,6,6,7
+ByC1Yt7VS,7,preconditions,avoidgeorge,3,4,4,7
+ByC1Yt7VS,8,chase,sokoban,6,4,6,8
+ByC1Yt7VS,10,preconditions,sokoban,7,7,7,9
+ByC1Yt7VS,11,jaws,avoidgeorge,3,5,5,7
+ByC1Yt7VS,3,corridor,avoidgeorge,7,8,7,8
+ByC1Yt7VS,9,chase,jaws,3,4,4,7
+ByC1Yt7VS,12,chase,preconditions,8,8,8,9
+ByC1Yt7VS,13,avoidgeorge,sokoban,5,6,7,8
+ByC1Yt7VS,14,corridor,sokoban,6,3,3,8
+HyY8KFXNB,0,corridor,jaws,9,2,8,6
+HyY8KFXNB,5,jaws,preconditions,2,1,2,5
+HyY8KFXNB,6,corridor,preconditions,2,8,2,6
+HyY8KFXNB,7,chase,preconditions,7,5,6,7
+HyY8KFXNB,8,sokoban,preconditions,8,9,6,7
+HyY8KFXNB,9,jaws,chase,5,7,6,8
+HyY8KFXNB,11,corridor,avoidgeorge,2,5,5,7
+HyY8KFXNB,12,jaws,sokoban,4,7,7,8
+HyY8KFXNB,13,sokoban,chase,7,8,5,7
+HyY8KFXNB,14,avoidgeorge,chase,3,6,6,8
+HyY8KFXNB,1,corridor,chase,4,2,5,7
+HyY8KFXNB,2,corridor,sokoban,2,1,1,2
+HyY8KFXNB,3,sokoban,avoidgeorge,7,1,2,7
+HyY8KFXNB,4,jaws,avoidgeorge,9,10,10,7
+HyY8KFXNB,10,avoidgeorge,preconditions,2,3,5,7
+ryrvFYmNH,1,chase,corridor,5,4,6,7
+ryrvFYmNH,3,chase,jaws,8,9,8,8
+ryrvFYmNH,6,sokoban,preconditions,7,9,7,9
+ryrvFYmNH,8,jaws,corridor,6,4,3,6
+ryrvFYmNH,9,sokoban,corridor,5,3,5,6
+ryrvFYmNH,12,jaws,preconditions,3,5,4,6
+ryrvFYmNH,0,preconditions,avoidgeorge,6,7,5,8
+ryrvFYmNH,2,chase,sokoban,6,9,7,6
+ryrvFYmNH,4,corridor,preconditions,4,5,5,6
+ryrvFYmNH,5,sokoban,jaws,4,3,5,8
+ryrvFYmNH,7,chase,avoidgeorge,8,9,8,7
+ryrvFYmNH,10,chase,preconditions,9,9,7,6
+ryrvFYmNH,11,corridor,avoidgeorge,6,5,4,5
+ryrvFYmNH,13,sokoban,avoidgeorge,4,5,3,5
+ryrvFYmNH,14,jaws,avoidgeorge,8,10,7,10
+HyhGFYmNB,0,avoidgeorge,preconditions,8,9,8,9
+HyhGFYmNB,1,sokoban,jaws,9,9,8,9
+HyhGFYmNB,2,avoidgeorge,sokoban,9,10,9,9
+HyhGFYmNB,3,preconditions,jaws,9,10,9,10
+HyhGFYmNB,4,preconditions,sokoban,9,9,10,9
+HyhGFYmNB,5,jaws,corridor,9,9,8,10
+HyhGFYmNB,6,avoidgeorge,jaws,9,9,9,8
+HyhGFYmNB,7,avoidgeorge,chase,8,8,9,8
+HyhGFYmNB,8,sokoban,corridor,9,9,8,9
+HyhGFYmNB,9,sokoban,chase,8,9,8,9
+HyhGFYmNB,10,chase,jaws,9,9,9,8
+HyhGFYmNB,11,preconditions,corridor,9,8,8,9
+HyhGFYmNB,12,avoidgeorge,corridor,9,8,8,9
+HyhGFYmNB,13,preconditions,chase,8,9,8,9
+HyhGFYmNB,14,chase,corridor,9,8,9,9
+H1-_5I74S,0,butterflies,aliens,5,1,1,1
+H1-_5I74S,1,survivezombies,butterflies,8,6,3,5
+H1-_5I74S,2,bees and birds,aliens,4,1,4,3
+H1-_5I74S,3,bees and birds,myaliens,1,2,4,6
+H1-_5I74S,4,bees and birds,survivezombies,4,2,5,7
+H1-_5I74S,5,bees and birds,plaqueAttack,3,2,1,1
+H1-_5I74S,6,myaliens,butterflies,3,9,6,4
+H1-_5I74S,7,aliens,plaqueAttack,1,2,2,10
+H1-_5I74S,8,myaliens,aliens,3,1,1,2
+H1-_5I74S,9,survivezombies,plaqueAttack,3,3,2,2
+H1-_5I74S,10,survivezombies,myaliens,3,8,6,8
+H1-_5I74S,11,butterflies,plaqueAttack,3,1,1,1
+H1-_5I74S,12,bees and birds,butterflies,7,6,3,4
+H1-_5I74S,13,myaliens,plaqueAttack,1,1,2,3
+H1-_5I74S,14,survivezombies,aliens,2,1,4,2
+HkHXw8QEr,0,myaliens,bees and birds,5,7,9,7
+HkHXw8QEr,1,myaliens,butterflies,9,7,9,7
+HkHXw8QEr,2,plaqueAttack,bees and birds,9,7,9,8
+HkHXw8QEr,3,myaliens,aliens,6,8,6,9
+HkHXw8QEr,4,plaqueAttack,butterflies,8,9,8,10
+HkHXw8QEr,5,plaqueAttack,survivezombies,9,8,10,6
+HkHXw8QEr,6,bees and birds,survivezombies,9,7,10,8
+HkHXw8QEr,7,plaqueAttack,aliens,8,9,6,9
+HkHXw8QEr,8,survivezombies,aliens,10,7,9,8
+HkHXw8QEr,9,myaliens,survivezombies,8,9,7,10
+HkHXw8QEr,10,butterflies,aliens,6,9,6,9
+HkHXw8QEr,11,myaliens,plaqueAttack,10,8,9,7
+HkHXw8QEr,12,bees and birds,aliens,10,7,9,8
+HkHXw8QEr,13,butterflies,bees and birds,10,8,10,8
+HkHXw8QEr,14,butterflies,survivezombies,10,8,10,9
+ByEYHwmVB,0,myaliens,bees and birds,2,4,3,4
+ByEYHwmVB,1,myaliens,aliens,6,6,5,6
+ByEYHwmVB,2,aliens,butterflies,4,5,5,3
+ByEYHwmVB,3,plaqueAttack,bees and birds,1,3,3,5
+ByEYHwmVB,4,myaliens,butterflies,4,4,5,6
+ByEYHwmVB,5,bees and birds,butterflies,4,5,5,5
+ByEYHwmVB,6,aliens,plaqueAttack,1,3,3,3
+ByEYHwmVB,7,survivezombies,butterflies,2,2,2,2
+Hy5BhvQVH,0,butterflies,plaqueAttack,7,7,7,7
+Hy5BhvQVH,1,myaliens,plaqueAttack,3,3,3,3
+Hy5BhvQVH,2,myaliens,survivezombies,1,1,1,1
+Hy5BhvQVH,3,aliens,myaliens,10,10,10,10
+Hy5BhvQVH,4,aliens,butterflies,7,7,7,7
+Hy5BhvQVH,5,butterflies,bees and birds,8,8,8,8
+Hy5BhvQVH,6,plaqueAttack,bees and birds,7,7,7,7
+Hy5BhvQVH,7,aliens,plaqueAttack,1,1,1,1
+Hy5BhvQVH,8,butterflies,survivezombies,10,10,10,10
+Hy5BhvQVH,9,myaliens,butterflies,1,1,1,1
+Hy5BhvQVH,10,plaqueAttack,survivezombies,9,9,9,9
+Hy5BhvQVH,11,myaliens,bees and birds,7,7,7,7
+Hy5BhvQVH,12,aliens,bees and birds,6,6,6,6
+Hy5BhvQVH,13,aliens,survivezombies,9,9,9,9
+Hy5BhvQVH,14,survivezombies,bees and birds,7,7,7,7
+B14yxdQ4B,0,myaliens,aliens,5,8,4,7
+B14yxdQ4B,1,myaliens,survivezombies,5,4,7,5
+B14yxdQ4B,2,butterflies,aliens,4,8,6,4
+B14yxdQ4B,3,plaqueAttack,survivezombies,6,3,4,6
+B14yxdQ4B,4,survivezombies,butterflies,4,6,3,7
+B14yxdQ4B,5,myaliens,butterflies,7,4,8,2
+B14yxdQ4B,6,bees and birds,aliens,7,3,4,7
+B14yxdQ4B,7,plaqueAttack,aliens,4,2,6,7
+B14yxdQ4B,8,plaqueAttack,bees and birds,6,4,7,5
+B14yxdQ4B,9,plaqueAttack,myaliens,3,5,4,8
+B14yxdQ4B,10,bees and birds,butterflies,4,3,7,5
+B14yxdQ4B,11,survivezombies,bees and birds,6,4,6,5
+B14yxdQ4B,12,myaliens,bees and birds,7,4,6,3
+B14yxdQ4B,13,survivezombies,aliens,6,3,5,4
+B14yxdQ4B,14,plaqueAttack,butterflies,6,3,6,5
+Sydh9tXVS,0,corridor,preconditions,8,10,8,9
+Sydh9tXVS,1,avoidgeorge,jaws,9,8,10,9
+Sydh9tXVS,2,sokoban,jaws,9,8,9,8
+Sydh9tXVS,4,corridor,jaws,9,8,10,9
+Sydh9tXVS,5,avoidgeorge,sokoban,8,9,9,8
+Sydh9tXVS,8,sokoban,chase,9,8,10,9
+Sydh9tXVS,11,sokoban,preconditions,9,10,9,10
+Sydh9tXVS,13,jaws,chase,10,9,9,10
+Sydh9tXVS,3,jaws,preconditions,8,10,9,10
+Sydh9tXVS,6,avoidgeorge,chase,9,9,10,9
+Sydh9tXVS,7,preconditions,chase,9,8,10,9
+Sydh9tXVS,9,avoidgeorge,corridor,9,8,10,9
+Sydh9tXVS,10,avoidgeorge,preconditions,9,8,10,9
+Sydh9tXVS,12,corridor,chase,9,8,10,9
+Sydh9tXVS,14,sokoban,corridor,10,9,10,9
+HkU59xi4B,0,zelda,butterflies,4,4,6,9
+HkU59xi4B,1,aliens,watergame,1,2,1,4
+HkU59xi4B,2,watergame,plaqueAttack,1,1,1,3
+HkU59xi4B,3,aliens,butterflies,9,3,2,8
+HkU59xi4B,4,antagonist,butterflies,8,7,7,8
+HkU59xi4B,5,antagonist,zelda,3,6,5,2
+HkU59xi4B,9,aliens,plaqueAttack,1,9,8,9
+HkU59xi4B,10,watergame,zelda,7,8,7,8
+HkU59xi4B,11,aliens,zelda,2,6,3,6
+HkU59xi4B,12,aliens,antagonist,7,6,6,9
+HkU59xi4B,13,butterflies,plaqueAttack,2,3,2,8
+HkU59xi4B,6,antagonist,plaqueAttack,3,1,1,7
+HkU59xi4B,7,zelda,plaqueAttack,2,1,3,6
+HkU59xi4B,8,watergame,butterflies,1,5,5,3
+HkU59xi4B,14,watergame,antagonist,1,4,4,7
+BJCNogsEH,1,plaqueAttack,antagonist,3,4,6,4
+BJCNogsEH,3,aliens,watergame,2,2,2,3
+BJCNogsEH,5,zelda,plaqueAttack,4,6,5,7
+BJCNogsEH,8,zelda,antagonist,4,5,4,6
+BJCNogsEH,9,plaqueAttack,butterflies,3,4,6,5
+BJCNogsEH,10,plaqueAttack,aliens,4,5,3,5
+BJCNogsEH,12,aliens,butterflies,5,6,5,7
+BJCNogsEH,0,antagonist,butterflies,3,7,4,6
+BJCNogsEH,2,aliens,antagonist,6,7,5,8
+BJCNogsEH,4,zelda,butterflies,4,2,4,6
+BJCNogsEH,6,plaqueAttack,watergame,2,2,3,4
+BJCNogsEH,7,watergame,butterflies,3,4,5,4
+BJCNogsEH,11,zelda,aliens,3,4,4,4
+BJCNogsEH,13,antagonist,watergame,6,5,5,7
+BJCNogsEH,14,zelda,watergame,4,6,4,7
+H1nYjxsNH,0,butterflies,antagonist,4,6,6,8
+H1nYjxsNH,5,butterflies,plaqueAttack,1,2,2,2
+H1nYjxsNH,7,watergame,aliens,1,1,1,1
+H1nYjxsNH,9,aliens,butterflies,1,1,2,2
+H1nYjxsNH,11,antagonist,plaqueAttack,1,1,1,2
+H1nYjxsNH,12,antagonist,zelda,1,1,2,2
+H1nYjxsNH,1,watergame,antagonist,1,1,1,4
+H1nYjxsNH,2,watergame,plaqueAttack,1,2,2,3
+H1nYjxsNH,3,watergame,butterflies,1,2,2,3
+H1nYjxsNH,4,aliens,plaqueAttack,1,2,2,3
+H1nYjxsNH,6,aliens,antagonist,4,3,3,2
+H1nYjxsNH,8,aliens,zelda,2,2,3,3
+H1nYjxsNH,10,plaqueAttack,zelda,2,2,3,3
+H1nYjxsNH,13,butterflies,zelda,1,1,1,2
+H1nYjxsNH,14,watergame,zelda,1,1,1,2
+H1-H2bi4r,3,zelda,watergame,7,8,8,8
+H1-H2bi4r,5,plaqueAttack,aliens,1,1,1,1
+H1-H2bi4r,7,plaqueAttack,watergame,2,7,6,1
+H1-H2bi4r,8,aliens,watergame,1,1,1,1
+H1-H2bi4r,10,zelda,aliens,2,1,1,1
+H1-H2bi4r,13,zelda,butterflies,6,8,9,7
+H1-H2bi4r,0,zelda,antagonist,6,2,4,1
+H1-H2bi4r,1,butterflies,aliens,2,1,1,1
+H1-H2bi4r,2,antagonist,plaqueAttack,4,7,5,3
+H1-H2bi4r,4,butterflies,watergame,2,1,1,3
+H1-H2bi4r,6,antagonist,butterflies,8,9,8,8
+H1-H2bi4r,9,antagonist,aliens,4,1,1,1
+H1-H2bi4r,11,antagonist,watergame,2,9,7,8
+H1-H2bi4r,12,butterflies,plaqueAttack,4,2,3,2
+H1-H2bi4r,14,zelda,plaqueAttack,5,3,3,2
+SkmNTfsVS,10,butterflies,antagonist,7,9,6,4
+SkmNTfsVS,11,antagonist,plaqueAttack,2,7,6,2
+SkmNTfsVS,12,antagonist,aliens,3,1,1,7
+SkmNTfsVS,13,watergame,aliens,1,1,1,6
+SkmNTfsVS,14,butterflies,plaqueAttack,2,8,2,2
+SkmNTfsVS,0,zelda,plaqueAttack,7,2,2,8
+SkmNTfsVS,1,zelda,aliens,2,1,1,6
+SkmNTfsVS,2,zelda,antagonist,5,2,4,5
+SkmNTfsVS,3,watergame,plaqueAttack,5,1,1,2
+SkmNTfsVS,4,butterflies,aliens,6,8,4,5
+SkmNTfsVS,5,watergame,zelda,8,6,5,2
+SkmNTfsVS,6,watergame,butterflies,2,1,1,8
+SkmNTfsVS,7,watergame,antagonist,2,5,7,3
+SkmNTfsVS,8,zelda,butterflies,6,1,1,3
+SkmNTfsVS,9,aliens,plaqueAttack,2,8,8,4
+H1wrm4sNB,1,bait,helper,3,6,3,6
+H1wrm4sNB,3,lemmings,helper,10,8,7,10
+H1wrm4sNB,5,bait,butterflies,6,3,4,1
+H1wrm4sNB,8,bait,lemmings,7,9,9,10
+H1wrm4sNB,11,plaqueAttack,helper,3,6,9,9
+H1wrm4sNB,12,plaqueAttack,butterflies,10,6,5,3
+H1wrm4sNB,14,lemmings,aliens,4,1,4,2
+H1wrm4sNB,0,bait,aliens,8,6,6,10
+H1wrm4sNB,2,plaqueAttack,aliens,8,8,7,10
+H1wrm4sNB,4,butterflies,aliens,10,10,9,10
+H1wrm4sNB,6,lemmings,butterflies,10,5,4,3
+H1wrm4sNB,7,helper,aliens,10,7,4,1
+H1wrm4sNB,9,plaqueAttack,bait,4,4,6,7
+H1wrm4sNB,10,helper,butterflies,10,6,6,4
+H1wrm4sNB,13,plaqueAttack,lemmings,10,8,7,10
+HypV4NjEr,11,plaqueAttack,butterflies,4,6,5,5
+HypV4NjEr,0,lemmings,aliens,2,2,2,4
+HypV4NjEr,1,bait,helper,3,3,5,6
+HypV4NjEr,2,lemmings,butterflies,3,3,4,3
+HypV4NjEr,3,lemmings,bait,3,3,2,3
+HypV4NjEr,4,lemmings,plaqueAttack,2,4,4,5
+HypV4NjEr,7,bait,butterflies,3,8,7,7
+HypV4NjEr,8,aliens,helper,3,7,6,6
+HypV4NjEr,9,lemmings,helper,3,3,2,2
+HypV4NjEr,5,plaqueAttack,aliens,4,8,9,8
+HypV4NjEr,6,aliens,butterflies,4,8,9,7
+HypV4NjEr,10,helper,butterflies,6,7,6,7
+HypV4NjEr,12,plaqueAttack,bait,4,6,5,5
+HypV4NjEr,13,plaqueAttack,helper,4,5,6,5
+HypV4NjEr,14,bait,aliens,4,6,6,5
+ryAcXNoVr,0,butterflies,aliens,8,6,7,9
+ryAcXNoVr,1,butterflies,lemmings,8,5,7,6
+ryAcXNoVr,2,butterflies,bait,9,7,5,9
+ryAcXNoVr,3,bait,lemmings,9,6,8,9
+ryAcXNoVr,4,helper,lemmings,9,8,9,7
+ryAcXNoVr,5,butterflies,helper,8,6,8,5
+ryAcXNoVr,6,helper,aliens,6,6,8,7
+ryAcXNoVr,8,helper,plaqueAttack,8,5,7,6
+ryAcXNoVr,10,bait,plaqueAttack,7,6,8,9
+ryAcXNoVr,13,lemmings,plaqueAttack,7,8,8,6
+ryAcXNoVr,14,butterflies,plaqueAttack,8,9,6,9
+ryAcXNoVr,7,bait,aliens,6,5,7,8
+ryAcXNoVr,9,aliens,plaqueAttack,8,6,5,8
+ryAcXNoVr,11,bait,helper,7,8,6,9
+ryAcXNoVr,12,lemmings,aliens,9,8,8,7
+BycKTK7Er,0,jaws,preconditions,9,7,8,8
+BycKTK7Er,1,jaws,corridor,7,8,7,6
+BycKTK7Er,2,preconditions,sokoban,8,7,5,8
+BycKTK7Er,3,chase,corridor,8,7,6,8
+BycKTK7Er,4,avoidgeorge,sokoban,6,5,8,6
+BycKTK7Er,5,jaws,avoidgeorge,6,4,6,7
+BycKTK7Er,6,avoidgeorge,corridor,8,6,8,7
+BycKTK7Er,7,jaws,sokoban,5,7,4,7
+BycKTK7Er,8,corridor,sokoban,5,3,6,6
+BycKTK7Er,9,preconditions,chase,4,4,7,7
+BycKTK7Er,10,avoidgeorge,chase,4,4,5,7
+BycKTK7Er,11,preconditions,corridor,4,3,6,7
+BycKTK7Er,12,chase,sokoban,7,5,7,8
+BycKTK7Er,13,preconditions,avoidgeorge,5,4,6,5
+BycKTK7Er,14,jaws,chase,7,6,5,5
+ryPyP9XVr,0,chase,avoidgeorge,2,3,4,6
+ryPyP9XVr,1,avoidgeorge,jaws,3,5,8,6
+ryPyP9XVr,2,avoidgeorge,sokoban,3,2,3,5
+ryPyP9XVr,3,corridor,sokoban,5,6,6,7
+ryPyP9XVr,4,preconditions,jaws,3,3,5,3
+ryPyP9XVr,5,preconditions,avoidgeorge,6,3,3,6
+ryPyP9XVr,6,chase,corridor,4,6,6,5
+ryPyP9XVr,7,chase,jaws,4,5,6,4
+ryPyP9XVr,8,chase,preconditions,8,7,7,6
+ryPyP9XVr,9,corridor,jaws,3,8,8,7
+ryPyP9XVr,10,preconditions,sokoban,8,9,8,8
+ryPyP9XVr,11,jaws,sokoban,3,2,3,5
+ryPyP9XVr,12,chase,sokoban,6,6,7,7
+ryPyP9XVr,13,avoidgeorge,corridor,5,3,5,6
+ryPyP9XVr,14,preconditions,corridor,6,7,7,6
+Hk3xgiQ4S,0,avoidgeorge,corridor,7,9,5,8
+Hk3xgiQ4S,1,sokoban,corridor,6,3,6,8
+Hk3xgiQ4S,2,corridor,jaws,7,5,3,6
+Hk3xgiQ4S,3,sokoban,chase,5,8,4,7
+Hk3xgiQ4S,4,avoidgeorge,chase,7,5,7,6
+Hk3xgiQ4S,5,avoidgeorge,sokoban,4,7,5,8
+Hk3xgiQ4S,6,preconditions,chase,8,6,6,9
+Hk3xgiQ4S,7,preconditions,sokoban,8,4,6,9
+Hk3xgiQ4S,8,avoidgeorge,jaws,8,5,3,6
+Hk3xgiQ4S,9,preconditions,avoidgeorge,8,6,8,7
+Hk3xgiQ4S,10,corridor,chase,6,4,7,9
+Hk3xgiQ4S,11,jaws,chase,4,6,4,7
+Hk3xgiQ4S,12,preconditions,jaws,7,4,6,8
+Hk3xgiQ4S,13,sokoban,jaws,8,5,7,6
+Hk3xgiQ4S,14,preconditions,corridor,6,4,6,5
+HkHG3iQNr,0,chase,jaws,2,3,3,5
+HkHG3iQNr,1,corridor,jaws,3,3,4,4
+HkHG3iQNr,2,preconditions,avoidgeorge,4,3,3,4
+HkHG3iQNr,3,corridor,chase,1,2,2,3
+HkHG3iQNr,4,preconditions,sokoban,7,6,4,8
+HkHG3iQNr,5,chase,avoidgeorge,6,8,7,6
+HkHG3iQNr,6,jaws,avoidgeorge,7,8,8,7
+HkHG3iQNr,7,preconditions,chase,6,4,4,5
+HkHG3iQNr,8,sokoban,jaws,2,2,3,4
+HkHG3iQNr,9,sokoban,chase,6,5,4,7
+HkHG3iQNr,10,corridor,sokoban,2,1,3,8
+HkHG3iQNr,11,sokoban,avoidgeorge,4,3,5,5
+HkHG3iQNr,12,preconditions,jaws,2,3,5,4
+HkHG3iQNr,13,corridor,preconditions,2,1,3,8
+HkHG3iQNr,14,corridor,avoidgeorge,3,4,2,5
+SJtSM3Q4r,0,preconditions,sokoban,8,7,7,8
+SJtSM3Q4r,1,preconditions,chase,6,8,8,9
+SJtSM3Q4r,2,avoidgeorge,sokoban,9,10,8,8
+SJtSM3Q4r,3,avoidgeorge,jaws,10,10,10,10
+SJtSM3Q4r,4,corridor,jaws,7,9,9,9
+SJtSM3Q4r,5,avoidgeorge,chase,8,7,9,9
+SJtSM3Q4r,6,preconditions,jaws,8,8,8,8
+SJtSM3Q4r,7,preconditions,corridor,9,10,10,9
+SJtSM3Q4r,8,corridor,sokoban,9,9,8,9
+SJtSM3Q4r,9,avoidgeorge,preconditions,7,7,7,7
+SJtSM3Q4r,10,avoidgeorge,corridor,10,10,8,9
+SJtSM3Q4r,11,chase,jaws,6,6,10,8
+SJtSM3Q4r,12,corridor,chase,9,8,8,8
+SJtSM3Q4r,13,chase,sokoban,4,4,5,7
+SJtSM3Q4r,14,jaws,sokoban,6,5,7,8
+r1Wv3HIEH,0,zelda,lemmings,9,5,7,4
+r1Wv3HIEH,1,helper,lemmings,9,9,6,9
+r1Wv3HIEH,2,helper,zelda,2,5,9,2
+r1Wv3HIEH,3,helper,watergame,10,4,4,6
+r1Wv3HIEH,4,watergame,zelda,3,7,4,6
+r1Wv3HIEH,5,antagonist,lemmings,2,9,9,9
+r1Wv3HIEH,6,bait,watergame,10,9,10,10
+r1Wv3HIEH,7,antagonist,watergame,7,6,7,4
+r1Wv3HIEH,8,antagonist,zelda,5,7,5,8
+r1Wv3HIEH,9,bait,helper,9,8,6,1
+r1Wv3HIEH,10,helper,antagonist,9,10,9,10
+r1Wv3HIEH,11,bait,lemmings,9,6,5,3
+r1Wv3HIEH,12,bait,antagonist,9,2,8,2
+r1Wv3HIEH,13,bait,zelda,5,8,10,7
+r1Wv3HIEH,14,watergame,lemmings,5,7,8,3
+ryQPpSIEr,0,helper,antagonist,9,8,8,9
+ryQPpSIEr,1,helper,watergame,4,7,5,9
+ryQPpSIEr,2,antagonist,zelda,3,5,6,5
+ryQPpSIEr,3,lemmings,bait,4,6,7,7
+ryQPpSIEr,4,zelda,watergame,4,6,7,7
+ryQPpSIEr,5,bait,watergame,8,7,8,8
+ryQPpSIEr,6,lemmings,zelda,7,7,8,8
+ryQPpSIEr,7,helper,lemmings,5,5,5,6
+ryQPpSIEr,8,antagonist,bait,2,4,5,5
+ryQPpSIEr,9,helper,zelda,4,5,5,5
+ryQPpSIEr,11,lemmings,watergame,3,5,5,5
+ryQPpSIEr,12,zelda,bait,6,7,7,7
+ryQPpSIEr,13,antagonist,lemmings,3,5,6,7
+ryQPpSIEr,14,helper,bait,2,4,6,6
+ryQPpSIEr,10,antagonist,watergame,2,5,5,5
+B1Cl6HUVS,0,watergame,bait,4,7,7,7
+B1Cl6HUVS,1,bait,helper,2,2,2,4
+B1Cl6HUVS,2,antagonist,lemmings,4,3,3,7
+B1Cl6HUVS,3,antagonist,helper,7,6,6,8
+B1Cl6HUVS,4,bait,zelda,5,6,6,8
+B1Cl6HUVS,5,antagonist,zelda,3,2,6,6
+B1Cl6HUVS,6,lemmings,watergame,4,6,6,6
+B1Cl6HUVS,8,antagonist,bait,1,2,2,4
+B1Cl6HUVS,9,lemmings,zelda,7,7,6,5
+B1Cl6HUVS,10,zelda,helper,3,4,6,4
+B1Cl6HUVS,11,lemmings,helper,2,3,3,7
+B1Cl6HUVS,13,watergame,helper,2,2,2,4
+B1Cl6HUVS,14,antagonist,watergame,1,2,2,6
+B1Cl6HUVS,7,watergame,zelda,3,3,4,5
+B1Cl6HUVS,12,lemmings,bait,4,5,4,5
+ry7NaBUEr,1,zelda,lemmings,5,1,1,1
+ry7NaBUEr,3,bait,watergame,8,8,8,8
+ry7NaBUEr,6,helper,watergame,2,2,2,2
+ry7NaBUEr,8,helper,bait,2,2,2,2
+ry7NaBUEr,14,helper,lemmings,2,2,2,2
+ry7NaBUEr,0,helper,antagonist,7,5,8,8
+ry7NaBUEr,2,antagonist,bait,6,5,3,2
+ry7NaBUEr,4,lemmings,bait,5,7,7,7
+ry7NaBUEr,5,lemmings,watergame,9,9,9,9
+ry7NaBUEr,7,zelda,bait,2,2,2,2
+ry7NaBUEr,9,helper,zelda,5,5,5,5
+ry7NaBUEr,10,zelda,watergame,2,2,2,2
+ry7NaBUEr,11,zelda,antagonist,9,9,9,9
+ry7NaBUEr,12,antagonist,watergame,2,2,2,2
+ry7NaBUEr,13,antagonist,lemmings,2,2,2,2
+HywNQIIEr,0,watergame,lemmings,6,4,5,3
+HywNQIIEr,4,zelda,helper,8,1,6,5
+HywNQIIEr,5,watergame,bait,7,10,10,10
+HywNQIIEr,6,zelda,bait,7,7,7,7
+HywNQIIEr,7,bait,lemmings,6,6,7,7
+HywNQIIEr,8,watergame,antagonist,2,4,2,1
+HywNQIIEr,9,watergame,zelda,1,2,2,2
+HywNQIIEr,10,bait,helper,3,7,7,6
+HywNQIIEr,12,watergame,helper,2,2,1,2
+HywNQIIEr,1,antagonist,helper,10,1,5,3
+HywNQIIEr,2,zelda,lemmings,6,7,6,4
+HywNQIIEr,3,zelda,antagonist,4,3,6,3
+HywNQIIEr,11,lemmings,antagonist,2,2,2,2
+HywNQIIEr,13,bait,antagonist,1,4,4,3
+HywNQIIEr,14,lemmings,helper,2,7,7,7
+r1uq3r8VB,0,helper,watergame,3,4,3,5
+B1k18I8ES,0,antagonist,zelda,2,3,3,3
+B1k18I8ES,2,watergame,zelda,2,1,2,3
+B1k18I8ES,5,lemmings,bait,5,3,3,2
+B1k18I8ES,6,antagonist,helper,2,5,2,2
+B1k18I8ES,9,antagonist,lemmings,4,3,3,4
+B1k18I8ES,10,watergame,bait,2,5,4,4
+B1k18I8ES,1,antagonist,bait,3,2,3,4
+B1k18I8ES,3,zelda,lemmings,3,4,3,4
+B1k18I8ES,4,watergame,antagonist,2,1,1,1
+B1k18I8ES,7,watergame,lemmings,3,2,4,3
+B1k18I8ES,8,helper,bait,1,2,3,2
+B1k18I8ES,11,zelda,bait,2,4,3,4
+B1k18I8ES,12,watergame,helper,4,3,4,3
+B1k18I8ES,13,helper,zelda,9,5,7,5
+B1k18I8ES,14,helper,lemmings,3,2,1,3
+ryVOAI8VB,0,helper,lemmings,7,9,8,10
+ryVOAI8VB,1,helper,zelda,1,1,1,2
+ryVOAI8VB,2,antagonist,watergame,6,5,7,7
+ryVOAI8VB,3,lemmings,bait,8,7,9,9
+ryVOAI8VB,4,antagonist,bait,8,7,6,9
+ryVOAI8VB,5,lemmings,zelda,9,10,9,10
+ryVOAI8VB,6,antagonist,lemmings,1,1,1,1
+ryVOAI8VB,7,bait,watergame,6,7,7,8
+ryVOAI8VB,8,bait,zelda,5,5,6,5
+ryVOAI8VB,9,lemmings,watergame,8,7,9,8
+ryVOAI8VB,10,antagonist,zelda,6,5,6,6
+ryVOAI8VB,11,helper,bait,1,1,1,1
+ryVOAI8VB,12,antagonist,helper,3,4,2,4
+ryVOAI8VB,13,helper,watergame,1,1,1,1
+ryVOAI8VB,14,watergame,zelda,6,8,7,6
+ByD9i88VS,0,antagonist,zelda,3,2,1,6
+ByD9i88VS,1,bait,watergame,8,8,6,7
+ByD9i88VS,2,watergame,lemmings,4,5,2,3
+ByD9i88VS,3,bait,zelda,6,9,9,5
+ByD9i88VS,4,antagonist,watergame,4,3,2,3
+ByD9i88VS,5,antagonist,lemmings,2,1,1,3
+ByD9i88VS,6,watergame,zelda,5,1,1,3
+ByD9i88VS,7,bait,helper,2,2,2,6
+ByD9i88VS,8,watergame,helper,2,2,2,4
+ByD9i88VS,9,helper,lemmings,5,2,2,8
+ByD9i88VS,10,helper,zelda,2,2,2,7
+ByD9i88VS,11,lemmings,zelda,7,1,1,8
+ByD9i88VS,12,bait,lemmings,4,3,3,7
+ByD9i88VS,13,antagonist,helper,9,7,6,8
+ByD9i88VS,14,antagonist,bait,2,3,2,5
+rJC5lPL4H,0,lemmings,watergame,2,8,7,3
+rJC5lPL4H,1,antagonist,watergame,1,2,2,3
+rJC5lPL4H,2,bait,watergame,7,8,6,8
+rJC5lPL4H,3,zelda,helper,1,1,5,5
+rJC5lPL4H,4,bait,helper,1,1,3,3
+rJC5lPL4H,5,zelda,antagonist,1,3,3,2
+rJC5lPL4H,6,lemmings,antagonist,1,3,3,2
+rJC5lPL4H,7,lemmings,bait,7,8,8,6
+rJC5lPL4H,8,watergame,helper,1,1,4,2
+rJC5lPL4H,9,zelda,watergame,7,7,8,7
+rJC5lPL4H,10,antagonist,bait,1,3,2,2
+rJC5lPL4H,11,antagonist,helper,9,7,7,8
+rJC5lPL4H,12,zelda,bait,6,8,8,7
+rJC5lPL4H,13,lemmings,zelda,7,8,8,7
+rJC5lPL4H,14,lemmings,helper,3,2,2,1
+HJD0kKUEr,0,bait,zelda,7,8,6,8
+HJD0kKUEr,1,antagonist,zelda,6,7,8,8
+HJD0kKUEr,2,watergame,lemmings,8,6,7,9
+HJD0kKUEr,3,watergame,antagonist,6,7,8,7
+HJD0kKUEr,4,bait,helper,6,7,8,7
+HJD0kKUEr,5,zelda,helper,7,8,7,8
+HJD0kKUEr,6,helper,lemmings,8,5,6,8
+HJD0kKUEr,7,antagonist,lemmings,8,6,7,7
+HJD0kKUEr,8,bait,antagonist,8,7,8,7
+HJD0kKUEr,9,antagonist,helper,5,6,7,8
+HJD0kKUEr,10,watergame,zelda,8,7,6,7
+HJD0kKUEr,11,bait,watergame,7,8,6,8
+HJD0kKUEr,12,zelda,lemmings,8,7,8,7
+HJD0kKUEr,13,watergame,helper,8,8,8,8
+HJD0kKUEr,14,bait,lemmings,6,5,6,7
+BJAHzJP4r,0,survivezombies,bees and birds,7,7,5,6
+BJAHzJP4r,1,preconditions,bees and birds,8,8,7,8
+BJAHzJP4r,2,preconditions,survivezombies,7,8,7,6
+BJAHzJP4r,3,survivezombies,myaliens,7,6,5,5
+BJAHzJP4r,4,myaliens,jaws,6,4,5,7
+BJAHzJP4r,5,corridor,preconditions,4,3,4,6
+BJAHzJP4r,6,myaliens,bees and birds,6,4,5,5
+BJAHzJP4r,7,preconditions,myaliens,6,4,4,5
+BJAHzJP4r,8,preconditions,jaws,4,3,3,4
+BJAHzJP4r,9,jaws,bees and birds,5,4,4,5
+BJAHzJP4r,10,corridor,bees and birds,3,3,3,5
+BJAHzJP4r,11,corridor,jaws,5,6,6,5
+BJAHzJP4r,12,corridor,survivezombies,4,3,4,5
+BJAHzJP4r,13,survivezombies,jaws,5,4,4,4
+BJAHzJP4r,14,corridor,myaliens,4,4,4,6
+HyGo7yvVH,0,bees and birds,survivezombies,7,8,8,7
+HyGo7yvVH,1,bees and birds,jaws,5,4,4,5
+HyGo7yvVH,2,survivezombies,corridor,5,5,7,9
+HyGo7yvVH,3,preconditions,corridor,8,7,7,9
+HyGo7yvVH,4,preconditions,jaws,3,6,6,7
+HyGo7yvVH,5,corridor,myaliens,7,4,5,7
+HyGo7yvVH,6,bees and birds,myaliens,7,9,7,8
+HyGo7yvVH,7,myaliens,jaws,9,7,8,7
+HyGo7yvVH,8,survivezombies,myaliens,2,8,6,4
+HyGo7yvVH,10,preconditions,myaliens,7,9,7,9
+HyGo7yvVH,11,survivezombies,preconditions,8,8,5,5
+HyGo7yvVH,13,survivezombies,jaws,6,8,3,8
+HyGo7yvVH,9,bees and birds,corridor,6,6,7,5
+HyGo7yvVH,12,corridor,jaws,7,8,5,8
+HyGo7yvVH,14,bees and birds,preconditions,8,7,10,9
+HJ3Eu1wES,0,survivezombies,myaliens,2,1,1,4
+HJ3Eu1wES,1,bees and birds,corridor,4,6,6,8
+HJ3Eu1wES,4,preconditions,myaliens,3,4,4,7
+HJ3Eu1wES,5,preconditions,bees and birds,4,6,6,9
+HJ3Eu1wES,2,survivezombies,corridor,3,5,5,5
+HJ3Eu1wES,3,jaws,corridor,2,7,7,9
+HJ3Eu1wES,6,survivezombies,preconditions,8,8,8,8
+HJ3Eu1wES,7,survivezombies,bees and birds,9,5,5,6
+HJ3Eu1wES,8,survivezombies,jaws,3,3,3,8
+HJ3Eu1wES,9,bees and birds,myaliens,1,2,2,7
+HJ3Eu1wES,10,preconditions,jaws,1,2,2,6
+HJ3Eu1wES,11,preconditions,corridor,3,4,4,7
+HJ3Eu1wES,12,myaliens,corridor,2,7,7,9
+HJ3Eu1wES,13,jaws,myaliens,6,6,6,8
+HJ3Eu1wES,14,jaws,bees and birds,2,3,3,5
+B1gHofjNS,8,antagonist,aliens,4,5,7,4
+B1gHofjNS,9,watergame,butterflies,3,5,5,8
+B1gHofjNS,10,zelda,aliens,4,3,7,8
+B1gHofjNS,11,antagonist,watergame,1,4,6,6
+B1gHofjNS,12,plaqueAttack,zelda,6,5,7,6
+B1gHofjNS,13,butterflies,aliens,5,5,7,8
+B1gHofjNS,14,zelda,butterflies,1,3,4,10
+B1gHofjNS,0,watergame,plaqueAttack,1,3,5,10
+B1gHofjNS,1,antagonist,butterflies,1,7,7,9
+B1gHofjNS,2,antagonist,zelda,4,5,4,3
+B1gHofjNS,3,watergame,aliens,1,1,1,10
+B1gHofjNS,4,plaqueAttack,aliens,1,4,5,3
+B1gHofjNS,5,plaqueAttack,butterflies,4,6,3,3
+B1gHofjNS,6,antagonist,plaqueAttack,1,6,5,4
+B1gHofjNS,7,watergame,zelda,1,6,6,10
+H1qBBEsNr,0,aliens,helper,5,6,8,7
+H1qBBEsNr,2,lemmings,helper,4,5,7,9
+H1qBBEsNr,3,helper,butterflies,9,9,10,10
+H1qBBEsNr,4,aliens,lemmings,10,10,10,10
+H1qBBEsNr,8,lemmings,bait,10,9,10,10
+H1qBBEsNr,9,plaqueAttack,aliens,8,7,9,10
+H1qBBEsNr,10,plaqueAttack,bait,9,10,9,10
+H1qBBEsNr,13,lemmings,butterflies,10,9,10,10
+H1qBBEsNr,6,helper,bait,9,8,9,8
+H1qBBEsNr,7,plaqueAttack,lemmings,8,9,8,10
+H1qBBEsNr,11,aliens,bait,10,9,10,10
+H1qBBEsNr,12,plaqueAttack,helper,10,10,9,10
+H1qBBEsNr,14,aliens,butterflies,8,9,10,10
+H1qBBEsNr,1,plaqueAttack,butterflies,6,8,4,10
+H1qBBEsNr,5,butterflies,bait,10,10,10,10
+SyrqUEiVS,2,helper,aliens,5,3,6,4
+SyrqUEiVS,3,helper,lemmings,4,3,6,4
+SyrqUEiVS,10,helper,plaqueAttack,4,2,4,9
+SyrqUEiVS,11,plaqueAttack,lemmings,3,5,4,8
+SyrqUEiVS,12,bait,lemmings,3,5,4,7
+SyrqUEiVS,0,helper,butterflies,4,3,2,7
+SyrqUEiVS,1,butterflies,plaqueAttack,3,1,5,4
+SyrqUEiVS,4,aliens,lemmings,2,4,7,9
+SyrqUEiVS,5,helper,bait,4,2,5,4
+SyrqUEiVS,6,bait,plaqueAttack,4,5,3,7
+SyrqUEiVS,7,butterflies,bait,3,6,4,7
+SyrqUEiVS,8,aliens,plaqueAttack,3,2,5,3
+SyrqUEiVS,9,butterflies,lemmings,3,6,4,7
+SyrqUEiVS,13,aliens,bait,4,3,7,5
+SyrqUEiVS,14,butterflies,aliens,7,5,3,6
+B1lVN4oNB,5,bait,aliens,3,5,3,4
+B1lVN4oNB,7,butterflies,helper,8,8,7,9
+B1lVN4oNB,9,bait,plaqueAttack,5,8,6,7
+B1lVN4oNB,13,butterflies,plaqueAttack,6,7,7,9
+B1lVN4oNB,0,lemmings,plaqueAttack,9,7,8,5
+B1lVN4oNB,1,butterflies,aliens,6,8,7,8
+B1lVN4oNB,2,lemmings,helper,6,5,7,5
+B1lVN4oNB,3,aliens,plaqueAttack,2,6,7,5
+B1lVN4oNB,4,butterflies,lemmings,5,8,8,7
+B1lVN4oNB,6,aliens,helper,9,8,7,9
+B1lVN4oNB,8,bait,helper,4,7,8,7
+B1lVN4oNB,10,bait,lemmings,7,8,9,8
+B1lVN4oNB,11,bait,butterflies,6,8,7,9
+B1lVN4oNB,12,lemmings,aliens,6,8,6,8
+B1lVN4oNB,14,helper,plaqueAttack,6,8,6,8
+SJNFhEsNS,0,helper,aliens,8,7,5,7
+SJNFhEsNS,1,bait,helper,9,7,8,10
+SJNFhEsNS,2,butterflies,helper,5,7,8,6
+SJNFhEsNS,3,plaqueAttack,helper,9,6,3,9
+SJNFhEsNS,4,bait,plaqueAttack,3,7,8,9
+SJNFhEsNS,5,lemmings,butterflies,8,6,6,3
+SJNFhEsNS,6,butterflies,aliens,3,6,7,10
+SJNFhEsNS,7,lemmings,bait,9,7,5,8
+SJNFhEsNS,8,butterflies,plaqueAttack,10,7,6,8
+SJNFhEsNS,9,lemmings,helper,9,7,6,9
+SJNFhEsNS,10,plaqueAttack,aliens,10,9,7,5
+SJNFhEsNS,11,bait,butterflies,9,7,5,7
+SJNFhEsNS,12,lemmings,aliens,8,6,6,9
+SJNFhEsNS,13,lemmings,plaqueAttack,7,5,6,8
+SJNFhEsNS,14,bait,aliens,9,7,5,6
+Sk6VT4iEB,4,butterflies,lemmings,3,2,3,3
+Sk6VT4iEB,5,butterflies,plaqueAttack,3,2,2,3
+Sk6VT4iEB,6,bait,aliens,3,2,2,2
+Sk6VT4iEB,7,helper,lemmings,3,2,2,3
+Sk6VT4iEB,8,bait,plaqueAttack,3,2,2,3
+Sk6VT4iEB,9,aliens,lemmings,2,2,2,3
+Sk6VT4iEB,0,butterflies,helper,3,3,3,9
+Sk6VT4iEB,1,butterflies,aliens,4,4,3,3
+Sk6VT4iEB,2,bait,helper,5,3,2,2
+Sk6VT4iEB,3,bait,lemmings,3,4,3,3
+Sk6VT4iEB,10,bait,butterflies,2,2,3,3
+Sk6VT4iEB,11,helper,plaqueAttack,2,2,3,2
+Sk6VT4iEB,12,helper,aliens,2,2,3,2
+Sk6VT4iEB,13,plaqueAttack,aliens,2,2,2,3
+Sk6VT4iEB,14,plaqueAttack,lemmings,2,2,3,3
+ByrqrywNH,0,preconditions,bees and birds,7,8,7,10
+ByrqrywNH,1,myaliens,survivezombies,1,6,4,1
+ByrqrywNH,2,preconditions,corridor,4,3,4,9
+ByrqrywNH,3,myaliens,bees and birds,8,9,8,8
+ByrqrywNH,4,jaws,preconditions,2,9,8,10
+ByrqrywNH,5,jaws,myaliens,1,9,9,10
+ByrqrywNH,6,jaws,bees and birds,1,8,8,10
+ByrqrywNH,7,jaws,survivezombies,1,4,7,8
+ByrqrywNH,8,bees and birds,survivezombies,8,9,8,10
+ByrqrywNH,9,myaliens,corridor,8,6,4,3
+ByrqrywNH,10,preconditions,survivezombies,10,8,9,8
+ByrqrywNH,11,preconditions,myaliens,2,4,5,1
+ByrqrywNH,12,bees and birds,corridor,4,6,7,9
+ByrqrywNH,13,corridor,survivezombies,1,3,4,2
+ByrqrywNH,14,jaws,corridor,6,7,6,9
+H10-RkvVS,0,corridor,preconditions,2,4,2,5
+H10-RkvVS,1,myaliens,preconditions,3,2,3,7
+H10-RkvVS,2,bees and birds,preconditions,6,7,5,3
+H10-RkvVS,3,jaws,survivezombies,1,3,6,6
+H10-RkvVS,4,jaws,myaliens,8,6,9,8
+H10-RkvVS,5,corridor,survivezombies,2,2,1,4
+H10-RkvVS,6,myaliens,survivezombies,2,2,1,7
+H10-RkvVS,7,corridor,bees and birds,8,6,4,8
+H10-RkvVS,8,jaws,bees and birds,4,2,2,5
+H10-RkvVS,9,jaws,corridor,5,8,6,9
+H10-RkvVS,10,corridor,myaliens,6,6,5,9
+H10-RkvVS,11,preconditions,survivezombies,9,8,8,10
+H10-RkvVS,12,myaliens,bees and birds,6,4,4,8
+H10-RkvVS,13,bees and birds,survivezombies,6,7,7,5
+H10-RkvVS,14,jaws,preconditions,4,2,2,7
+rJcQAlvVH,0,corridor,survivezombies,1,1,1,7
+rJcQAlvVH,1,myaliens,jaws,8,1,10,9
+rJcQAlvVH,2,bees and birds,jaws,1,1,1,2
+rJcQAlvVH,3,myaliens,survivezombies,1,1,1,9
+rJcQAlvVH,4,myaliens,corridor,10,4,10,10
+rJcQAlvVH,5,preconditions,jaws,1,1,1,6
+rJcQAlvVH,6,corridor,jaws,9,2,10,10
+rJcQAlvVH,7,survivezombies,jaws,1,1,1,3
+rJcQAlvVH,8,bees and birds,corridor,1,7,8,6
+rJcQAlvVH,9,myaliens,bees and birds,1,2,2,8
+rJcQAlvVH,10,bees and birds,survivezombies,4,1,1,7
+rJcQAlvVH,11,preconditions,corridor,1,8,1,7
+rJcQAlvVH,12,myaliens,preconditions,1,1,1,2
+rJcQAlvVH,13,preconditions,bees and birds,5,10,7,8
+rJcQAlvVH,14,preconditions,survivezombies,7,1,6,8
+ByNbSWD4S,0,bees and birds,corridor,6,7,7,7
+ByNbSWD4S,1,bees and birds,myaliens,6,6,5,7
+ByNbSWD4S,2,preconditions,jaws,8,6,6,7
+ByNbSWD4S,3,myaliens,corridor,8,6,6,6
+ByNbSWD4S,4,preconditions,survivezombies,9,8,8,8
+ByNbSWD4S,5,survivezombies,corridor,7,7,7,7
+ByNbSWD4S,6,myaliens,survivezombies,7,5,5,8
+ByNbSWD4S,7,preconditions,myaliens,8,6,7,8
+ByNbSWD4S,8,bees and birds,jaws,7,6,6,7
+ByNbSWD4S,9,jaws,myaliens,8,5,5,6
+ByNbSWD4S,10,jaws,corridor,8,5,6,7
+ByNbSWD4S,11,jaws,survivezombies,7,6,6,6
+ByNbSWD4S,12,preconditions,corridor,8,8,7,6
+ByNbSWD4S,13,bees and birds,survivezombies,9,9,8,8
+ByNbSWD4S,14,preconditions,bees and birds,9,8,8,8
+S1hCB-vEH,0,preconditions,corridor,1,2,2,5
+S1hCB-vEH,1,preconditions,myaliens,1,1,1,4
+S1hCB-vEH,2,survivezombies,jaws,3,4,3,6
+S1hCB-vEH,3,survivezombies,preconditions,5,6,5,3
+S1hCB-vEH,4,bees and birds,preconditions,5,3,6,5
+S1hCB-vEH,5,bees and birds,myaliens,3,6,3,4
+S1hCB-vEH,6,myaliens,corridor,7,1,1,3
+S1hCB-vEH,7,jaws,myaliens,3,2,1,6
+S1hCB-vEH,8,bees and birds,corridor,1,3,2,6
+S1hCB-vEH,9,bees and birds,survivezombies,7,2,4,5
+S1hCB-vEH,10,survivezombies,corridor,1,2,3,7
+S1hCB-vEH,11,bees and birds,jaws,1,1,1,1
+S1hCB-vEH,12,survivezombies,myaliens,1,1,1,4
+S1hCB-vEH,13,jaws,corridor,6,3,5,8
+S1hCB-vEH,14,jaws,preconditions,4,1,1,6
+HygmvWwEr,0,preconditions,survivezombies,8,7,8,9
+HygmvWwEr,1,myaliens,survivezombies,4,6,7,6
+HygmvWwEr,2,myaliens,jaws,6,7,8,7
+HygmvWwEr,3,bees and birds,survivezombies,6,7,6,8
+HygmvWwEr,4,myaliens,bees and birds,5,8,9,8
+HygmvWwEr,5,corridor,survivezombies,5,8,6,6
+HygmvWwEr,6,myaliens,preconditions,6,8,7,7
+HygmvWwEr,7,jaws,survivezombies,6,8,6,8
+HygmvWwEr,8,myaliens,corridor,10,8,8,9
+HygmvWwEr,9,preconditions,bees and birds,8,8,9,8
+HygmvWwEr,10,corridor,jaws,6,8,8,7
+HygmvWwEr,11,corridor,preconditions,6,8,9,7
+HygmvWwEr,12,corridor,bees and birds,6,8,7,8
+HygmvWwEr,13,preconditions,jaws,6,7,8,7
+HygmvWwEr,14,bees and birds,jaws,6,8,8,8
+S1xr_MDEr,0,survivezombies,corridor,3,4,4,6
+S1xr_MDEr,1,bees and birds,preconditions,6,5,6,7
+S1xr_MDEr,2,jaws,corridor,4,5,4,6
+S1xr_MDEr,3,bees and birds,jaws,5,4,5,5
+S1xr_MDEr,4,preconditions,myaliens,5,3,4,5
+S1xr_MDEr,5,survivezombies,preconditions,5,3,5,4
+S1xr_MDEr,6,bees and birds,corridor,3,4,3,4
+S1xr_MDEr,7,jaws,preconditions,3,2,3,3
+S1xr_MDEr,8,myaliens,corridor,3,4,3,5
+S1xr_MDEr,9,survivezombies,myaliens,2,3,5,5
+S1xr_MDEr,10,bees and birds,myaliens,3,4,3,5
+S1xr_MDEr,11,jaws,survivezombies,4,5,3,5
+S1xr_MDEr,12,jaws,myaliens,3,4,4,5
+S1xr_MDEr,13,preconditions,corridor,4,5,5,5
+S1xr_MDEr,14,bees and birds,survivezombies,4,5,4,4
+SyS3qsPVS,0,avoidgeorge,survivezombies,2,1,1,3
+SyS3qsPVS,1,chase,bees and birds,3,1,1,4
+SyS3qsPVS,2,bees and birds,sokoban,5,4,5,5
+SyS3qsPVS,3,myaliens,sokoban,1,1,1,1
+SyS3qsPVS,4,avoidgeorge,sokoban,2,3,1,3
+SyS3qsPVS,5,chase,sokoban,5,3,3,4
+SyS3qsPVS,6,survivezombies,bees and birds,2,3,3,3
+SyS3qsPVS,7,chase,survivezombies,8,4,3,5
+SyS3qsPVS,8,avoidgeorge,bees and birds,2,3,2,4
+SyS3qsPVS,9,myaliens,survivezombies,1,1,1,1
+SyS3qsPVS,10,survivezombies,sokoban,4,4,3,5
+SyS3qsPVS,11,myaliens,avoidgeorge,5,2,2,4
+SyS3qsPVS,12,chase,avoidgeorge,4,3,3,5
+SyS3qsPVS,13,myaliens,bees and birds,1,1,1,1
+SyS3qsPVS,14,chase,myaliens,1,1,1,1
+HkpznjP4S,0,avoidgeorge,bees and birds,3,3,2,7
+HkpznjP4S,1,chase,bees and birds,7,3,3,5
+HkpznjP4S,2,sokoban,avoidgeorge,2,1,2,5
+HkpznjP4S,3,bees and birds,myaliens,1,1,1,2
+HkpznjP4S,4,avoidgeorge,myaliens,1,1,1,2
+HkpznjP4S,5,survivezombies,sokoban,7,1,2,2
+HkpznjP4S,6,chase,myaliens,1,1,1,1
+HkpznjP4S,7,sokoban,myaliens,1,1,1,2
+HkpznjP4S,8,sokoban,bees and birds,7,1,1,2
+HkpznjP4S,9,chase,survivezombies,8,2,1,5
+HkpznjP4S,10,survivezombies,myaliens,1,1,1,1
+HkpznjP4S,11,chase,sokoban,5,1,1,1
+HkpznjP4S,12,chase,avoidgeorge,2,1,1,1
+HkpznjP4S,13,survivezombies,avoidgeorge,1,1,1,1
+HkpznjP4S,14,survivezombies,bees and birds,6,1,1,1
+S1Vtb2vNr,0,survivezombies,bees and birds,7,6,9,6
+S1Vtb2vNr,1,bees and birds,myaliens,6,8,9,7
+S1Vtb2vNr,2,bees and birds,chase,6,7,9,8
+S1Vtb2vNr,3,sokoban,myaliens,4,5,6,8
+S1Vtb2vNr,4,avoidgeorge,myaliens,9,7,6,8
+S1Vtb2vNr,5,survivezombies,chase,8,6,6,9
+S1Vtb2vNr,6,sokoban,chase,7,6,6,8
+S1Vtb2vNr,7,avoidgeorge,bees and birds,8,6,7,8
+S1Vtb2vNr,8,chase,myaliens,7,5,6,9
+S1Vtb2vNr,9,survivezombies,myaliens,7,6,6,8
+S1Vtb2vNr,10,avoidgeorge,chase,8,6,7,8
+S1Vtb2vNr,11,sokoban,avoidgeorge,7,5,8,8
+S1Vtb2vNr,12,sokoban,bees and birds,8,7,6,9
+S1Vtb2vNr,13,survivezombies,avoidgeorge,7,6,6,8
+S1Vtb2vNr,14,survivezombies,sokoban,7,6,8,8
+SySoLnwNB,0,chase,bees and birds,5,8,7,4
+SySoLnwNB,1,bees and birds,survivezombies,4,6,7,8
+SySoLnwNB,2,avoidgeorge,survivezombies,4,3,7,8
+SySoLnwNB,3,survivezombies,myaliens,2,2,2,3
+SySoLnwNB,4,chase,survivezombies,2,2,1,2
+SySoLnwNB,5,sokoban,myaliens,2,2,2,2
+SySoLnwNB,6,avoidgeorge,myaliens,4,5,2,3
+SySoLnwNB,7,sokoban,bees and birds,7,7,8,8
+SySoLnwNB,8,chase,avoidgeorge,5,4,5,4
+SySoLnwNB,9,bees and birds,myaliens,3,3,2,2
+SySoLnwNB,10,sokoban,chase,7,7,3,3
+SySoLnwNB,11,chase,myaliens,5,5,2,3
+SySoLnwNB,12,sokoban,avoidgeorge,3,2,4,5
+SySoLnwNB,13,sokoban,survivezombies,6,6,3,3
+SySoLnwNB,14,bees and birds,avoidgeorge,4,3,2,2
+r1PLssPES,0,survivezombies,avoidgeorge,8,7,8,8
+r1PLssPES,1,avoidgeorge,chase,9,8,8,9
+r1PLssPES,2,bees and birds,sokoban,8,9,8,7
+r1PLssPES,3,bees and birds,chase,8,7,8,7
+r1PLssPES,4,survivezombies,chase,9,8,9,8
+r1PLssPES,5,bees and birds,survivezombies,8,7,8,7
+r1PLssPES,6,myaliens,survivezombies,8,7,8,9
+r1PLssPES,7,bees and birds,myaliens,7,7,8,8
+r1PLssPES,8,myaliens,avoidgeorge,8,7,9,9
+r1PLssPES,9,bees and birds,avoidgeorge,9,8,7,9
+r1PLssPES,10,myaliens,chase,9,8,7,9
+r1PLssPES,11,myaliens,sokoban,9,8,7,9
+r1PLssPES,12,sokoban,chase,9,8,7,8
+r1PLssPES,13,sokoban,avoidgeorge,8,7,8,9
+r1PLssPES,14,sokoban,survivezombies,8,7,9,8
+SyWdvaD4H,0,avoidgeorge,chase,2,4,4,5
+SyWdvaD4H,1,avoidgeorge,myaliens,2,1,1,3
+SyWdvaD4H,2,chase,bees and birds,2,1,1,1
+SyWdvaD4H,3,survivezombies,myaliens,1,1,1,1
+SyWdvaD4H,4,chase,survivezombies,4,2,2,4
+SyWdvaD4H,5,survivezombies,sokoban,3,1,1,1
+SyWdvaD4H,6,avoidgeorge,sokoban,2,1,1,1
+SyWdvaD4H,7,survivezombies,bees and birds,2,1,1,2
+SyWdvaD4H,8,chase,sokoban,2,1,1,4
+SyWdvaD4H,9,avoidgeorge,bees and birds,2,1,1,1
+SyWdvaD4H,10,avoidgeorge,survivezombies,2,4,4,4
+SyWdvaD4H,11,bees and birds,myaliens,2,1,1,5
+SyWdvaD4H,12,sokoban,myaliens,2,1,1,3
+SyWdvaD4H,13,bees and birds,sokoban,3,6,3,8
+SyWdvaD4H,14,chase,myaliens,2,3,3,4
+ryi_YavES,0,chase,avoidgeorge,10,3,4,1
+ryi_YavES,1,chase,sokoban,10,2,2,5
+ryi_YavES,2,bees and birds,sokoban,1,8,9,10
+ryi_YavES,3,sokoban,avoidgeorge,3,5,5,3
+ryi_YavES,4,chase,survivezombies,3,8,8,8
+ryi_YavES,5,myaliens,survivezombies,1,1,1,3
+ryi_YavES,6,myaliens,avoidgeorge,1,1,1,5
+ryi_YavES,7,chase,bees and birds,6,2,2,8
+ryi_YavES,8,survivezombies,avoidgeorge,6,7,7,8
+ryi_YavES,9,myaliens,sokoban,1,1,1,5
+ryi_YavES,10,myaliens,chase,1,1,1,4
+ryi_YavES,11,myaliens,bees and birds,1,1,1,10
+ryi_YavES,12,survivezombies,bees and birds,10,5,5,3
+ryi_YavES,13,bees and birds,avoidgeorge,3,4,4,5
+ryi_YavES,14,survivezombies,sokoban,4,2,2,5
+S1SQgADNr,0,myaliens,bees and birds,1,1,2,9
+S1SQgADNr,1,avoidgeorge,chase,1,6,5,10
+S1SQgADNr,2,sokoban,avoidgeorge,1,2,4,7
+S1SQgADNr,3,bees and birds,chase,3,2,4,7
+S1SQgADNr,4,sokoban,chase,8,6,4,8
+S1SQgADNr,5,survivezombies,avoidgeorge,1,4,5,8
+S1SQgADNr,6,myaliens,chase,1,4,3,7
+S1SQgADNr,7,myaliens,sokoban,1,3,5,8
+S1SQgADNr,8,bees and birds,sokoban,7,4,5,6
+S1SQgADNr,9,survivezombies,myaliens,1,5,7,9
+S1SQgADNr,10,survivezombies,bees and birds,6,3,5,7
+S1SQgADNr,11,survivezombies,sokoban,10,7,6,9
+S1SQgADNr,12,bees and birds,avoidgeorge,4,6,5,8
+S1SQgADNr,13,survivezombies,chase,10,3,5,9
+S1SQgADNr,14,myaliens,avoidgeorge,1,3,6,5
+rybFE1dVS,0,chase,avoidgeorge,7,8,6,8
+rybFE1dVS,1,sokoban,myaliens,5,7,6,8
+rybFE1dVS,2,avoidgeorge,bees and birds,5,7,8,7
+rybFE1dVS,3,bees and birds,myaliens,7,8,7,8
+rybFE1dVS,4,survivezombies,avoidgeorge,6,7,6,8
+rybFE1dVS,5,survivezombies,sokoban,6,7,8,6
+rybFE1dVS,6,chase,sokoban,7,8,7,8
+rybFE1dVS,7,chase,bees and birds,6,7,8,7
+rybFE1dVS,8,sokoban,avoidgeorge,6,7,7,8
+rybFE1dVS,9,survivezombies,bees and birds,6,7,6,8
+rybFE1dVS,10,survivezombies,myaliens,6,7,7,7
+rybFE1dVS,11,sokoban,bees and birds,6,7,6,7
+rybFE1dVS,12,avoidgeorge,myaliens,7,7,7,7
+rybFE1dVS,13,chase,myaliens,6,8,7,8
+rybFE1dVS,14,survivezombies,chase,7,7,8,8
+HJyBfx_EB,0,survivezombies,avoidgeorge,7,8,7,8
+HJyBfx_EB,1,myaliens,bees and birds,7,7,8,7
+HJyBfx_EB,2,survivezombies,bees and birds,7,8,7,8
+HJyBfx_EB,3,chase,sokoban,7,8,7,8
+HJyBfx_EB,4,bees and birds,chase,7,8,7,8
+HJyBfx_EB,5,survivezombies,sokoban,7,8,7,8
+HJyBfx_EB,6,myaliens,avoidgeorge,7,8,7,8
+HJyBfx_EB,7,myaliens,chase,7,8,7,9
+HJyBfx_EB,8,bees and birds,sokoban,7,8,7,8
+HJyBfx_EB,9,survivezombies,myaliens,7,8,7,8
+HJyBfx_EB,10,bees and birds,avoidgeorge,7,7,9,8
+HJyBfx_EB,11,avoidgeorge,sokoban,7,8,8,8
+HJyBfx_EB,12,avoidgeorge,chase,6,8,7,9
+HJyBfx_EB,13,survivezombies,chase,7,8,7,8
+HJyBfx_EB,14,myaliens,sokoban,7,8,7,8
+H14LQEOVB,0,bees and birds,antagonist,8,4,4,7
+H14LQEOVB,1,antagonist,watergame,2,3,6,3
+H14LQEOVB,2,zelda,survivezombies,9,7,8,9
+H14LQEOVB,3,zelda,antagonist,6,4,7,4
+H14LQEOVB,4,antagonist,myaliens,5,6,7,10
+H14LQEOVB,5,bees and birds,survivezombies,5,4,6,4
+H14LQEOVB,6,watergame,survivezombies,3,4,6,3
+H14LQEOVB,7,zelda,watergame,3,4,4,2
+H14LQEOVB,8,bees and birds,watergame,4,8,6,5
+H14LQEOVB,9,zelda,myaliens,5,2,5,1
+H14LQEOVB,10,bees and birds,zelda,7,5,6,4
+H14LQEOVB,11,survivezombies,myaliens,2,4,3,1
+H14LQEOVB,12,antagonist,survivezombies,3,5,5,3
+H14LQEOVB,13,watergame,myaliens,2,3,5,4
+H14LQEOVB,14,bees and birds,myaliens,3,1,4,6
+BktZXNuNS,0,myaliens,watergame,3,1,1,4
+BktZXNuNS,1,antagonist,survivezombies,4,2,2,5
+BktZXNuNS,2,antagonist,myaliens,3,6,4,7
+BktZXNuNS,3,survivezombies,watergame,3,2,2,4
+BktZXNuNS,4,myaliens,zelda,2,1,1,5
+BktZXNuNS,5,antagonist,watergame,3,2,2,4
+BktZXNuNS,6,bees and birds,survivezombies,6,2,2,7
+BktZXNuNS,7,antagonist,zelda,4,4,6,5
+BktZXNuNS,8,myaliens,survivezombies,2,4,5,4
+BktZXNuNS,9,watergame,zelda,4,8,7,5
+BktZXNuNS,10,bees and birds,antagonist,3,2,5,7
+BktZXNuNS,11,bees and birds,myaliens,3,2,1,6
+BktZXNuNS,12,survivezombies,zelda,5,2,3,5
+BktZXNuNS,13,bees and birds,zelda,5,8,6,7
+BktZXNuNS,14,bees and birds,watergame,4,9,7,7
+BJh5DN_4r,0,zelda,bees and birds,10,8,7,8
+BJh5DN_4r,1,watergame,survivezombies,8,4,3,6
+BJh5DN_4r,2,zelda,watergame,10,7,6,7
+BJh5DN_4r,3,zelda,survivezombies,8,4,5,6
+BJh5DN_4r,4,bees and birds,myaliens,9,5,3,4
+BJh5DN_4r,5,zelda,antagonist,8,4,4,3
+BJh5DN_4r,6,watergame,myaliens,7,4,4,4
+BJh5DN_4r,7,survivezombies,antagonist,8,3,4,2
+BJh5DN_4r,8,myaliens,antagonist,9,3,3,2
+BJh5DN_4r,9,watergame,antagonist,9,7,4,3
+BJh5DN_4r,10,zelda,myaliens,8,4,3,4
+BJh5DN_4r,11,bees and birds,antagonist,8,5,5,3
+BJh5DN_4r,12,survivezombies,myaliens,7,3,3,6
+BJh5DN_4r,13,watergame,bees and birds,8,6,7,5
+BJh5DN_4r,14,survivezombies,bees and birds,10,6,6,7
+HkqZqV_ES,0,zelda,myaliens,4,8,8,5
+HkqZqV_ES,1,antagonist,survivezombies,5,8,7,6
+HkqZqV_ES,2,antagonist,bees and birds,6,6,7,5
+HkqZqV_ES,3,zelda,watergame,6,5,5,5
+HkqZqV_ES,4,antagonist,myaliens,9,8,7,7
+HkqZqV_ES,5,bees and birds,zelda,6,5,5,5
+HkqZqV_ES,6,survivezombies,myaliens,5,6,6,4
+HkqZqV_ES,7,bees and birds,watergame,5,5,5,5
+HkqZqV_ES,8,zelda,survivezombies,5,5,5,4
+HkqZqV_ES,9,antagonist,watergame,4,1,5,7
+HkqZqV_ES,10,survivezombies,watergame,4,5,5,6
+HkqZqV_ES,11,bees and birds,myaliens,5,3,5,7
+HkqZqV_ES,12,antagonist,zelda,5,6,6,7
+HkqZqV_ES,13,bees and birds,survivezombies,5,4,5,7
+HkqZqV_ES,14,watergame,myaliens,3,1,5,5
+HkBYI4_4B,0,antagonist,zelda,8,7,10,9
+HkBYI4_4B,1,myaliens,survivezombies,6,6,7,7
+HkBYI4_4B,2,zelda,bees and birds,6,6,8,8
+HkBYI4_4B,3,zelda,watergame,6,6,8,10
+HkBYI4_4B,4,zelda,myaliens,7,8,6,8
+HkBYI4_4B,5,watergame,survivezombies,8,8,8,10
+HkBYI4_4B,6,myaliens,bees and birds,6,6,8,9
+HkBYI4_4B,7,bees and birds,survivezombies,9,7,7,10
+HkBYI4_4B,8,antagonist,myaliens,5,5,4,5
+HkBYI4_4B,9,antagonist,bees and birds,5,5,6,8
+HkBYI4_4B,10,zelda,survivezombies,7,6,9,9
+HkBYI4_4B,11,bees and birds,watergame,5,5,6,7
+HkBYI4_4B,12,antagonist,watergame,5,5,8,9
+HkBYI4_4B,13,myaliens,watergame,5,5,8,8
+HkBYI4_4B,14,antagonist,survivezombies,7,7,9,10
+HydH5NONS,0,zelda,myaliens,2,2,2,8
+HydH5NONS,1,zelda,antagonist,2,10,8,3
+HydH5NONS,2,zelda,watergame,5,9,5,3
+HydH5NONS,3,survivezombies,antagonist,1,9,9,6
+HydH5NONS,4,zelda,survivezombies,10,5,3,8
+HydH5NONS,5,myaliens,survivezombies,1,9,7,9
+HydH5NONS,6,antagonist,watergame,1,2,1,7
+HydH5NONS,7,zelda,bees and birds,10,8,8,6
+HydH5NONS,8,bees and birds,watergame,1,8,7,6
+HydH5NONS,9,bees and birds,myaliens,1,3,6,4
+HydH5NONS,10,bees and birds,antagonist,1,2,2,2
+HydH5NONS,11,survivezombies,watergame,3,2,4,4
+HydH5NONS,12,myaliens,antagonist,9,8,9,7
+HydH5NONS,13,myaliens,watergame,1,1,4,3
+HydH5NONS,14,bees and birds,survivezombies,9,8,8,9
+rkvVZruES,0,antagonist,myaliens,7,4,2,1
+rkvVZruES,1,bees and birds,watergame,5,6,5,2
+rkvVZruES,2,watergame,myaliens,3,2,4,1
+rkvVZruES,3,bees and birds,zelda,6,3,1,3
+rkvVZruES,4,antagonist,zelda,5,2,4,1
+rkvVZruES,5,bees and birds,antagonist,6,3,4,2
+rkvVZruES,6,antagonist,watergame,4,3,3,1
+rkvVZruES,7,survivezombies,antagonist,4,2,3,1
+rkvVZruES,8,watergame,zelda,4,2,3,1
+rkvVZruES,9,bees and birds,myaliens,4,1,5,1
+rkvVZruES,10,survivezombies,myaliens,3,2,5,8
+rkvVZruES,11,survivezombies,watergame,1,5,3,1
+rkvVZruES,12,survivezombies,zelda,7,5,7,5
+rkvVZruES,13,bees and birds,survivezombies,1,3,5,1
+rkvVZruES,14,myaliens,zelda,3,1,4,1
+H1Po-BO4S,0,zelda,survivezombies,8,9,6,6
+H1Po-BO4S,1,antagonist,survivezombies,9,5,5,9
+H1Po-BO4S,2,bees and birds,antagonist,10,8,8,6
+H1Po-BO4S,3,watergame,zelda,5,10,8,9
+H1Po-BO4S,4,myaliens,antagonist,3,7,6,5
+H1Po-BO4S,5,bees and birds,survivezombies,8,9,6,6
+H1Po-BO4S,6,myaliens,survivezombies,8,4,8,8
+H1Po-BO4S,7,zelda,antagonist,6,8,9,7
+H1Po-BO4S,8,watergame,antagonist,9,5,5,8
+H1Po-BO4S,9,bees and birds,zelda,10,5,9,9
+H1Po-BO4S,10,bees and birds,myaliens,9,10,6,8
+H1Po-BO4S,11,watergame,survivezombies,8,8,5,6
+H1Po-BO4S,12,watergame,myaliens,9,8,9,7
+H1Po-BO4S,13,watergame,bees and birds,5,9,8,8
+H1Po-BO4S,14,myaliens,zelda,9,10,10,7
+r18-ZLO4S,0,myaliens,watergame,1,3,3,5
+r18-ZLO4S,1,survivezombies,bees and birds,4,5,5,7
+r18-ZLO4S,2,zelda,myaliens,2,2,1,3
+r18-ZLO4S,3,bees and birds,zelda,4,5,5,6
+r18-ZLO4S,4,bees and birds,watergame,5,6,5,5
+r18-ZLO4S,5,survivezombies,myaliens,1,1,2,4
+r18-ZLO4S,6,survivezombies,watergame,1,1,1,6
+r18-ZLO4S,7,antagonist,watergame,1,1,1,6
+r18-ZLO4S,8,survivezombies,antagonist,2,3,3,6
+r18-ZLO4S,9,survivezombies,zelda,5,6,6,7
+r18-ZLO4S,10,bees and birds,myaliens,1,2,1,4
+r18-ZLO4S,11,zelda,watergame,4,5,7,5
+r18-ZLO4S,12,antagonist,zelda,2,2,1,6
+r18-ZLO4S,13,antagonist,myaliens,7,7,8,7
+r18-ZLO4S,14,bees and birds,antagonist,1,1,2,4
+S1LLzud4S,0,bees and birds,myaliens,8,6,2,7
+S1LLzud4S,1,myaliens,bait,6,4,3,6
+S1LLzud4S,2,helper,bait,7,9,7,8
+S1LLzud4S,3,myaliens,helper,8,5,3,7
+S1LLzud4S,4,bees and birds,helper,8,7,6,6
+S1LLzud4S,5,lemmings,bait,8,7,4,8
+S1LLzud4S,6,bees and birds,bait,7,6,4,7
+S1LLzud4S,7,bees and birds,survivezombies,8,3,2,3
+S1LLzud4S,8,lemmings,survivezombies,9,4,3,3
+S1LLzud4S,9,survivezombies,bait,6,3,2,3
+S1LLzud4S,10,lemmings,myaliens,6,5,1,7
+S1LLzud4S,11,lemmings,helper,7,8,5,8
+S1LLzud4S,14,myaliens,survivezombies,5,10,7,5
+S1LLzud4S,12,lemmings,bees and birds,9,8,8,8
+S1LLzud4S,13,helper,survivezombies,8,4,2,2
+ByqnxOdVr,0,survivezombies,bees and birds,1,2,1,3
+ByqnxOdVr,1,bait,helper,1,8,6,6
+ByqnxOdVr,2,bees and birds,myaliens,1,1,1,10
+ByqnxOdVr,3,lemmings,bait,7,6,5,5
+ByqnxOdVr,4,bait,bees and birds,6,7,6,8
+ByqnxOdVr,5,bait,myaliens,1,1,1,3
+ByqnxOdVr,6,survivezombies,lemmings,4,4,5,5
+ByqnxOdVr,7,myaliens,helper,5,4,5,10
+ByqnxOdVr,8,survivezombies,myaliens,1,1,1,1
+ByqnxOdVr,9,lemmings,bees and birds,2,1,4,6
+ByqnxOdVr,12,bees and birds,helper,2,8,8,8
+ByqnxOdVr,13,lemmings,helper,1,1,2,5
+ByqnxOdVr,10,lemmings,myaliens,1,1,3,8
+ByqnxOdVr,11,survivezombies,bait,7,6,6,6
+ByqnxOdVr,14,survivezombies,helper,1,2,5,5
+BJjebd_NB,0,helper,myaliens,5,2,3,7
+BJjebd_NB,1,lemmings,survivezombies,6,7,7,6
+BJjebd_NB,2,bees and birds,myaliens,5,4,4,6
+BJjebd_NB,3,helper,bees and birds,5,4,4,5
+BJjebd_NB,4,survivezombies,myaliens,4,5,5,4
+BJjebd_NB,5,lemmings,bait,3,4,4,5
+BJjebd_NB,6,survivezombies,bait,4,4,5,5
+BJjebd_NB,7,survivezombies,bees and birds,4,4,5,4
+BJjebd_NB,8,bait,bees and birds,5,4,5,5
+BJjebd_NB,9,lemmings,myaliens,4,3,4,4
+BJjebd_NB,10,lemmings,bees and birds,4,4,4,5
+BJjebd_NB,11,helper,bait,4,4,3,4
+BJjebd_NB,12,lemmings,helper,3,4,4,4
+BJjebd_NB,13,survivezombies,helper,3,3,4,4
+BJjebd_NB,14,bait,myaliens,4,3,4,4
+rJFAmO_NS,4,myaliens,bait,6,1,1,3
+rJFAmO_NS,6,myaliens,survivezombies,6,1,1,1
+rJFAmO_NS,13,helper,bait,7,3,2,3
+rJFAmO_NS,14,survivezombies,bait,5,1,1,6
+rJFAmO_NS,0,bees and birds,survivezombies,8,3,3,7
+rJFAmO_NS,1,bees and birds,myaliens,7,1,1,6
+rJFAmO_NS,2,lemmings,helper,8,6,4,8
+rJFAmO_NS,3,bees and birds,helper,9,6,5,8
+rJFAmO_NS,5,lemmings,bees and birds,9,7,7,9
+rJFAmO_NS,7,helper,survivezombies,7,4,3,6
+rJFAmO_NS,8,myaliens,helper,5,1,1,1
+rJFAmO_NS,9,lemmings,survivezombies,9,4,3,8
+rJFAmO_NS,10,lemmings,myaliens,5,1,1,1
+rJFAmO_NS,11,bees and birds,bait,7,3,2,5
+rJFAmO_NS,12,lemmings,bait,6,2,2,4
+SkHs7O_NS,0,lemmings,myaliens,1,1,3,3
+SkHs7O_NS,1,bait,survivezombies,1,1,3,1
+SkHs7O_NS,2,myaliens,bait,5,1,1,7
+SkHs7O_NS,3,helper,myaliens,3,1,1,3
+SkHs7O_NS,4,lemmings,survivezombies,4,1,2,1
+SkHs7O_NS,6,bees and birds,bait,3,7,6,5
+SkHs7O_NS,7,helper,bait,3,10,8,5
+SkHs7O_NS,8,myaliens,survivezombies,3,6,5,1
+SkHs7O_NS,11,bees and birds,helper,3,5,4,6
+SkHs7O_NS,13,bees and birds,lemmings,3,5,7,7
+SkHs7O_NS,14,lemmings,bait,3,4,5,5
+SkHs7O_NS,5,bees and birds,myaliens,3,1,1,7
+SkHs7O_NS,9,bees and birds,survivezombies,3,1,1,1
+SkHs7O_NS,10,helper,survivezombies,3,1,1,1
+SkHs7O_NS,12,lemmings,helper,2,6,5,6
+rJcHD_uVB,0,survivezombies,bees and birds,4,4,4,3
+rJcHD_uVB,2,bait,myaliens,2,2,1,3
+rJcHD_uVB,3,bait,survivezombies,3,4,2,4
+rJcHD_uVB,5,lemmings,bait,6,5,4,4
+rJcHD_uVB,6,helper,myaliens,4,2,2,5
+rJcHD_uVB,7,helper,lemmings,5,3,4,3
+rJcHD_uVB,1,myaliens,bees and birds,3,3,2,7
+rJcHD_uVB,4,lemmings,bees and birds,6,4,4,4
+rJcHD_uVB,8,bait,bees and birds,6,5,4,4
+rJcHD_uVB,9,lemmings,survivezombies,6,4,3,3
+rJcHD_uVB,10,helper,survivezombies,3,2,2,4
+rJcHD_uVB,11,myaliens,survivezombies,2,6,2,3
+rJcHD_uVB,12,helper,bait,5,4,4,4
+rJcHD_uVB,13,helper,bees and birds,7,6,5,5
+rJcHD_uVB,14,lemmings,myaliens,4,3,3,3
+Bktz8d_EH,1,bait,bees and birds,3,8,6,8
+Bktz8d_EH,2,helper,bees and birds,9,9,8,9
+Bktz8d_EH,3,survivezombies,bait,4,8,5,9
+Bktz8d_EH,0,lemmings,bees and birds,8,5,9,8
+Bktz8d_EH,4,helper,myaliens,9,5,8,10
+Bktz8d_EH,5,helper,bait,4,6,9,5
+Bktz8d_EH,6,survivezombies,bees and birds,9,5,8,6
+Bktz8d_EH,7,lemmings,helper,1,3,3,6
+Bktz8d_EH,8,lemmings,bait,6,8,6,9
+Bktz8d_EH,9,lemmings,survivezombies,6,3,8,7
+Bktz8d_EH,10,survivezombies,helper,8,6,9,7
+Bktz8d_EH,11,myaliens,bait,9,5,8,9
+Bktz8d_EH,12,survivezombies,myaliens,8,5,6,8
+Bktz8d_EH,13,myaliens,bees and birds,8,4,8,7
+Bktz8d_EH,14,lemmings,myaliens,6,3,7,9
+HysL1fiVr,0,butterflies,zelda,10,2,2,6
+HysL1fiVr,1,aliens,zelda,10,2,2,5
+HysL1fiVr,2,aliens,plaqueAttack,10,9,9,1
+HysL1fiVr,3,butterflies,plaqueAttack,10,1,3,5
+HysL1fiVr,4,antagonist,aliens,10,3,3,6
+HysL1fiVr,5,butterflies,watergame,10,3,3,6
+HysL1fiVr,6,antagonist,butterflies,10,5,5,6
+HysL1fiVr,7,watergame,plaqueAttack,10,1,1,1
+HysL1fiVr,8,aliens,watergame,10,2,2,6
+HysL1fiVr,9,antagonist,watergame,10,5,5,4
+HysL1fiVr,10,zelda,plaqueAttack,10,3,3,1
+HysL1fiVr,11,aliens,butterflies,10,2,2,6
+HysL1fiVr,12,antagonist,plaqueAttack,10,6,6,1
+HysL1fiVr,13,antagonist,zelda,10,4,4,4
+HysL1fiVr,14,watergame,zelda,10,8,8,6
+BJBrmZsVS,0,zelda,butterflies,8,5,2,4
+BJBrmZsVS,1,aliens,antagonist,5,1,1,6
+BJBrmZsVS,2,butterflies,watergame,2,1,1,3
+BJBrmZsVS,3,butterflies,antagonist,7,7,7,8
+BJBrmZsVS,4,aliens,watergame,3,5,5,8
+BJBrmZsVS,5,antagonist,watergame,2,9,5,5
+BJBrmZsVS,6,aliens,plaqueAttack,3,9,7,8
+BJBrmZsVS,7,butterflies,plaqueAttack,2,3,2,7
+BJBrmZsVS,8,zelda,aliens,3,2,2,6
+BJBrmZsVS,9,aliens,butterflies,6,3,1,8
+BJBrmZsVS,10,zelda,watergame,7,9,7,7
+BJBrmZsVS,11,plaqueAttack,antagonist,4,4,4,7
+BJBrmZsVS,12,plaqueAttack,watergame,3,1,1,3
+BJBrmZsVS,13,zelda,plaqueAttack,5,1,1,9
+BJBrmZsVS,14,zelda,antagonist,8,3,1,6
+BJx5U_uNB,0,myaliens,bees and birds,1,1,2,3
+BJx5U_uNB,1,myaliens,lemmings,2,6,5,7
+BJx5U_uNB,2,helper,bees and birds,8,6,6,4
+BJx5U_uNB,3,myaliens,bait,1,2,1,2
+BJx5U_uNB,4,survivezombies,bees and birds,9,8,7,6
+BJx5U_uNB,5,helper,bait,2,5,3,4
+BJx5U_uNB,6,bees and birds,bait,7,5,8,6
+BJx5U_uNB,7,survivezombies,lemmings,7,5,4,4
+BJx5U_uNB,8,survivezombies,bait,4,4,5,5
+BJx5U_uNB,9,helper,lemmings,1,3,5,4
+BJx5U_uNB,10,lemmings,bait,4,3,4,6
+BJx5U_uNB,11,lemmings,bees and birds,5,3,6,7
+BJx5U_uNB,12,survivezombies,myaliens,2,1,3,4
+BJx5U_uNB,13,helper,myaliens,8,5,3,6
+BJx5U_uNB,14,survivezombies,helper,2,3,4,4
+B1KlFuuEH,0,bait,helper,2,6,4,3
+B1KlFuuEH,1,survivezombies,myaliens,2,2,1,2
+B1KlFuuEH,2,myaliens,bees and birds,6,5,3,3
+B1KlFuuEH,3,bait,lemmings,4,3,3,3
+B1KlFuuEH,6,bait,myaliens,2,2,3,4
+B1KlFuuEH,8,bait,bees and birds,2,2,2,3
+B1KlFuuEH,9,survivezombies,bait,2,2,3,3
+B1KlFuuEH,10,helper,lemmings,2,2,3,2
+B1KlFuuEH,11,survivezombies,lemmings,4,3,2,10
+B1KlFuuEH,13,helper,bees and birds,3,3,2,5
+B1KlFuuEH,4,lemmings,bees and birds,6,3,3,6
+B1KlFuuEH,5,myaliens,lemmings,2,1,3,2
+B1KlFuuEH,7,survivezombies,helper,2,2,1,9
+B1KlFuuEH,12,myaliens,helper,3,1,1,1
+B1KlFuuEH,14,survivezombies,bees and birds,2,3,2,5
+rJKMXfjVr,0,plaqueAttack,antagonist,10,4,3,3
+rJKMXfjVr,1,aliens,zelda,9,2,1,8
+rJKMXfjVr,2,butterflies,watergame,8,3,3,9
+rJKMXfjVr,3,antagonist,aliens,8,4,2,6
+rJKMXfjVr,4,butterflies,zelda,8,2,2,7
+rJKMXfjVr,5,plaqueAttack,zelda,7,3,3,2
+rJKMXfjVr,6,plaqueAttack,butterflies,8,3,2,2
+rJKMXfjVr,7,antagonist,watergame,6,4,3,8
+rJKMXfjVr,8,zelda,watergame,7,3,2,8
+rJKMXfjVr,9,plaqueAttack,aliens,7,6,4,3
+rJKMXfjVr,10,butterflies,aliens,6,3,3,6
+rJKMXfjVr,11,antagonist,butterflies,6,3,4,7
+rJKMXfjVr,12,antagonist,zelda,7,3,2,7
+rJKMXfjVr,13,plaqueAttack,watergame,5,2,2,1
+rJKMXfjVr,14,aliens,watergame,5,2,2,5
+BkSFcWjEH,0,butterflies,watergame,3,2,2,1
+BkSFcWjEH,1,plaqueAttack,zelda,5,5,6,6
+BkSFcWjEH,2,zelda,butterflies,7,8,9,8
+BkSFcWjEH,3,aliens,butterflies,2,1,2,1
+BkSFcWjEH,4,antagonist,butterflies,5,4,5,7
+BkSFcWjEH,5,plaqueAttack,watergame,1,1,1,1
+BkSFcWjEH,6,antagonist,plaqueAttack,4,5,3,9
+BkSFcWjEH,7,antagonist,aliens,1,2,2,1
+BkSFcWjEH,8,antagonist,zelda,6,5,4,7
+BkSFcWjEH,9,plaqueAttack,butterflies,2,1,3,1
+BkSFcWjEH,10,zelda,watergame,1,1,2,1
+BkSFcWjEH,11,antagonist,watergame,2,3,1,5
+BkSFcWjEH,12,aliens,watergame,7,8,8,2
+BkSFcWjEH,13,plaqueAttack,aliens,5,6,3,7
+BkSFcWjEH,14,zelda,aliens,3,2,5,7
+rkhOjOO4r,0,bait,lemmings,7,8,8,6
+rkhOjOO4r,1,bait,bees and birds,9,6,8,6
+rkhOjOO4r,2,myaliens,lemmings,8,7,6,9
+rkhOjOO4r,3,lemmings,survivezombies,8,7,6,8
+rkhOjOO4r,4,bees and birds,survivezombies,7,8,6,8
+rkhOjOO4r,5,helper,bees and birds,9,8,5,8
+rkhOjOO4r,6,myaliens,helper,6,8,6,8
+rkhOjOO4r,7,myaliens,survivezombies,7,6,8,7
+rkhOjOO4r,8,bees and birds,lemmings,8,6,8,7
+rkhOjOO4r,9,helper,lemmings,5,7,5,7
+rkhOjOO4r,10,myaliens,bees and birds,7,6,5,8
+rkhOjOO4r,11,bait,myaliens,7,4,7,6
+rkhOjOO4r,12,bait,helper,9,7,6,8
+rkhOjOO4r,13,helper,survivezombies,8,5,6,7
+rkhOjOO4r,14,bait,survivezombies,7,5,7,9
+SyMRKFdEB,0,plaqueAttack,jaws,7,7,3,8
+SyMRKFdEB,1,corridor,butterflies,8,3,3,7
+SyMRKFdEB,2,corridor,plaqueAttack,7,3,3,9
+SyMRKFdEB,3,butterflies,plaqueAttack,8,6,5,8
+SyMRKFdEB,4,aliens,jaws,6,4,2,6
+SyMRKFdEB,5,butterflies,jaws,7,3,3,6
+SyMRKFdEB,6,corridor,jaws,7,2,2,7
+SyMRKFdEB,7,corridor,preconditions,7,2,2,5
+SyMRKFdEB,8,preconditions,jaws,6,2,3,7
+SyMRKFdEB,9,aliens,butterflies,6,2,3,7
+SyMRKFdEB,10,aliens,plaqueAttack,5,2,4,7
+SyMRKFdEB,11,preconditions,butterflies,5,4,4,4
+SyMRKFdEB,12,aliens,preconditions,5,2,3,4
+SyMRKFdEB,13,preconditions,plaqueAttack,5,7,5,6
+SyMRKFdEB,14,aliens,corridor,5,2,3,2
+B1W85F_Er,0,jaws,butterflies,5,8,10,5
+B1W85F_Er,1,preconditions,aliens,3,6,6,5
+B1W85F_Er,2,aliens,plaqueAttack,6,8,4,4
+B1W85F_Er,3,plaqueAttack,butterflies,2,8,5,5
+B1W85F_Er,4,preconditions,plaqueAttack,5,8,6,6
+B1W85F_Er,5,corridor,aliens,5,8,8,3
+B1W85F_Er,6,corridor,plaqueAttack,6,5,5,4
+B1W85F_Er,7,aliens,butterflies,8,4,5,7
+B1W85F_Er,8,corridor,butterflies,8,4,4,7
+B1W85F_Er,9,corridor,jaws,5,8,8,6
+B1W85F_Er,10,preconditions,butterflies,3,1,4,4
+B1W85F_Er,11,jaws,plaqueAttack,1,2,2,2
+B1W85F_Er,12,preconditions,jaws,1,1,3,3
+B1W85F_Er,13,jaws,aliens,5,4,4,7
+B1W85F_Er,14,preconditions,corridor,2,1,1,1
+H1ivcKdEH,0,preconditions,jaws,7,9,7,10
+H1ivcKdEH,1,butterflies,plaqueAttack,4,8,4,9
+H1ivcKdEH,2,aliens,jaws,5,9,7,10
+H1ivcKdEH,3,jaws,plaqueAttack,6,9,7,9
+H1ivcKdEH,4,butterflies,jaws,8,4,10,7
+H1ivcKdEH,5,aliens,plaqueAttack,7,5,8,6
+H1ivcKdEH,6,butterflies,corridor,5,9,6,4
+H1ivcKdEH,7,butterflies,preconditions,5,7,5,8
+H1ivcKdEH,8,aliens,corridor,5,8,6,8
+H1ivcKdEH,11,plaqueAttack,corridor,4,8,4,7
+H1ivcKdEH,12,preconditions,plaqueAttack,4,8,4,8
+H1ivcKdEH,14,aliens,butterflies,5,8,5,9
+H1ivcKdEH,9,jaws,corridor,5,7,4,7
+H1ivcKdEH,10,preconditions,corridor,5,8,5,8
+H1ivcKdEH,13,aliens,preconditions,5,8,4,9
+Hyl7qKOEB,0,corridor,jaws,6,8,10,9
+Hyl7qKOEB,6,preconditions,jaws,6,8,9,10
+Hyl7qKOEB,7,butterflies,plaqueAttack,7,8,9,10
+Hyl7qKOEB,10,butterflies,aliens,8,9,10,9
+Hyl7qKOEB,14,butterflies,corridor,8,9,10,9
+Hyl7qKOEB,1,aliens,plaqueAttack,7,9,10,9
+Hyl7qKOEB,2,plaqueAttack,jaws,5,8,9,10
+Hyl7qKOEB,3,aliens,jaws,6,8,9,10
+Hyl7qKOEB,4,corridor,preconditions,7,9,8,10
+Hyl7qKOEB,5,butterflies,preconditions,6,8,9,10
+Hyl7qKOEB,8,preconditions,plaqueAttack,7,8,9,10
+Hyl7qKOEB,9,aliens,preconditions,8,9,10,9
+Hyl7qKOEB,11,butterflies,jaws,8,9,10,9
+Hyl7qKOEB,12,corridor,aliens,9,7,8,9
+Hyl7qKOEB,13,corridor,plaqueAttack,9,7,8,10
+H1eNb5u4S,2,jaws,plaqueAttack,3,4,4,6
+H1eNb5u4S,3,aliens,plaqueAttack,2,4,5,6
+H1eNb5u4S,4,preconditions,plaqueAttack,4,1,1,5
+H1eNb5u4S,7,aliens,butterflies,2,2,2,7
+H1eNb5u4S,8,jaws,corridor,3,4,4,6
+H1eNb5u4S,11,preconditions,butterflies,4,1,1,6
+H1eNb5u4S,12,jaws,aliens,3,5,5,5
+H1eNb5u4S,0,jaws,preconditions,4,1,1,5
+H1eNb5u4S,1,preconditions,corridor,3,1,2,5
+H1eNb5u4S,5,plaqueAttack,corridor,1,2,2,6
+H1eNb5u4S,6,aliens,corridor,1,2,2,6
+H1eNb5u4S,9,preconditions,aliens,2,1,1,6
+H1eNb5u4S,10,plaqueAttack,butterflies,1,5,4,4
+H1eNb5u4S,13,corridor,butterflies,2,1,1,4
+H1eNb5u4S,14,jaws,butterflies,2,3,2,4
+rkXzNcdNH,0,jaws,aliens,2,5,6,8
+rkXzNcdNH,2,butterflies,plaqueAttack,7,8,8,9
+rkXzNcdNH,4,plaqueAttack,aliens,6,5,6,8
+rkXzNcdNH,5,jaws,plaqueAttack,5,4,6,9
+rkXzNcdNH,8,butterflies,preconditions,8,1,1,3
+rkXzNcdNH,9,preconditions,plaqueAttack,7,7,6,7
+rkXzNcdNH,1,jaws,preconditions,7,1,1,4
+rkXzNcdNH,3,butterflies,aliens,6,4,1,3
+rkXzNcdNH,6,plaqueAttack,corridor,6,6,5,7
+rkXzNcdNH,7,butterflies,corridor,4,6,7,4
+rkXzNcdNH,10,preconditions,aliens,4,7,6,5
+rkXzNcdNH,11,jaws,corridor,6,7,7,6
+rkXzNcdNH,12,corridor,aliens,10,1,1,6
+rkXzNcdNH,13,butterflies,jaws,5,7,7,6
+rkXzNcdNH,14,preconditions,corridor,5,7,6,5
+SyG5Qq_4H,1,aliens,corridor,3,4,2,8
+SyG5Qq_4H,2,jaws,preconditions,4,1,1,7
+SyG5Qq_4H,3,preconditions,corridor,1,2,1,4
+SyG5Qq_4H,4,aliens,jaws,6,5,4,9
+SyG5Qq_4H,6,corridor,plaqueAttack,1,2,2,9
+SyG5Qq_4H,7,jaws,butterflies,4,3,1,7
+SyG5Qq_4H,8,jaws,plaqueAttack,1,3,4,1
+SyG5Qq_4H,0,aliens,butterflies,7,3,2,6
+SyG5Qq_4H,5,corridor,butterflies,1,1,2,3
+SyG5Qq_4H,9,aliens,plaqueAttack,1,1,1,1
+SyG5Qq_4H,10,aliens,preconditions,1,1,1,7
+SyG5Qq_4H,11,preconditions,butterflies,3,4,2,10
+SyG5Qq_4H,12,plaqueAttack,butterflies,2,1,2,1
+SyG5Qq_4H,13,jaws,corridor,7,3,6,3
+SyG5Qq_4H,14,preconditions,plaqueAttack,5,4,3,1
+ryCFU9OVr,0,corridor,plaqueAttack,6,4,5,3
+ryCFU9OVr,1,aliens,plaqueAttack,7,7,7,5
+ryCFU9OVr,2,preconditions,aliens,6,4,4,5
+ryCFU9OVr,3,jaws,aliens,6,5,5,5
+ryCFU9OVr,4,preconditions,butterflies,7,5,5,4
+ryCFU9OVr,5,butterflies,corridor,5,4,5,4
+ryCFU9OVr,6,butterflies,plaqueAttack,7,5,4,4
+ryCFU9OVr,7,preconditions,corridor,4,4,3,3
+ryCFU9OVr,8,jaws,plaqueAttack,3,5,4,5
+ryCFU9OVr,9,butterflies,jaws,6,6,6,5
+ryCFU9OVr,10,preconditions,jaws,5,6,5,4
+ryCFU9OVr,11,preconditions,plaqueAttack,5,4,4,3
+ryCFU9OVr,12,butterflies,aliens,5,5,5,7
+ryCFU9OVr,13,corridor,aliens,4,5,5,7
+ryCFU9OVr,14,corridor,jaws,4,4,5,5
+rJ5vhcdVS,0,butterflies,corridor,7,3,4,2
+rJ5vhcdVS,1,plaqueAttack,butterflies,3,2,2,1
+rJ5vhcdVS,2,aliens,jaws,3,3,5,3
+rJ5vhcdVS,3,corridor,preconditions,2,5,7,2
+rJ5vhcdVS,4,aliens,butterflies,5,2,3,7
+rJ5vhcdVS,5,plaqueAttack,preconditions,2,1,2,2
+rJ5vhcdVS,6,plaqueAttack,corridor,1,3,3,4
+rJ5vhcdVS,7,plaqueAttack,aliens,6,8,8,2
+rJ5vhcdVS,8,butterflies,jaws,6,4,4,3
+rJ5vhcdVS,9,aliens,preconditions,2,2,2,6
+rJ5vhcdVS,10,butterflies,preconditions,4,5,7,4
+rJ5vhcdVS,11,jaws,preconditions,5,4,6,3
+rJ5vhcdVS,12,aliens,corridor,2,2,3,3
+rJ5vhcdVS,13,jaws,corridor,8,4,5,7
+rJ5vhcdVS,14,plaqueAttack,jaws,1,6,9,5
+BJQw9sdEB,0,plaqueAttack,jaws,3,4,4,7
+BJQw9sdEB,1,butterflies,jaws,1,2,3,6
+BJQw9sdEB,2,corridor,jaws,7,5,4,10
+BJQw9sdEB,3,butterflies,aliens,1,1,1,10
+BJQw9sdEB,4,preconditions,corridor,1,1,1,4
+BJQw9sdEB,5,aliens,jaws,3,2,2,4
+BJQw9sdEB,6,plaqueAttack,corridor,1,1,1,1
+BJQw9sdEB,7,plaqueAttack,butterflies,9,2,1,1
+BJQw9sdEB,8,aliens,corridor,1,1,1,1
+BJQw9sdEB,9,plaqueAttack,aliens,1,1,1,1
+BJQw9sdEB,10,preconditions,plaqueAttack,8,1,1,10
+BJQw9sdEB,11,preconditions,aliens,1,1,1,10
+BJQw9sdEB,12,preconditions,jaws,1,2,3,1
+BJQw9sdEB,13,butterflies,corridor,1,1,1,10
+BJQw9sdEB,14,preconditions,butterflies,6,3,4,7
+SkRB6kF4r,0,sokoban,aliens,1,3,2,3
+SkRB6kF4r,1,avoidgeorge,butterflies,4,6,3,6
+SkRB6kF4r,2,sokoban,avoidgeorge,1,7,6,6
+SkRB6kF4r,3,aliens,butterflies,1,8,4,7
+SkRB6kF4r,4,aliens,plaqueAttack,2,10,10,3
+SkRB6kF4r,5,avoidgeorge,plaqueAttack,1,2,3,8
+SkRB6kF4r,6,plaqueAttack,chase,8,4,3,6
+SkRB6kF4r,7,avoidgeorge,chase,1,6,4,7
+SkRB6kF4r,8,sokoban,butterflies,7,3,4,6
+SkRB6kF4r,9,sokoban,chase,9,8,5,7
+SkRB6kF4r,10,aliens,avoidgeorge,1,1,2,8
+SkRB6kF4r,11,sokoban,plaqueAttack,7,2,4,4
+SkRB6kF4r,12,plaqueAttack,butterflies,1,3,5,4
+SkRB6kF4r,13,butterflies,chase,1,5,7,5
+SkRB6kF4r,14,aliens,chase,1,7,6,4
+Sy7mp1YNH,0,aliens,chase,6,1,2,1
+Sy7mp1YNH,1,sokoban,butterflies,8,2,7,8
+Sy7mp1YNH,2,sokoban,avoidgeorge,7,2,4,1
+Sy7mp1YNH,3,sokoban,plaqueAttack,7,1,3,1
+Sy7mp1YNH,4,avoidgeorge,butterflies,8,2,5,1
+Sy7mp1YNH,5,plaqueAttack,chase,7,1,2,3
+Sy7mp1YNH,6,avoidgeorge,chase,8,2,3,8
+Sy7mp1YNH,7,plaqueAttack,butterflies,7,1,3,8
+Sy7mp1YNH,8,aliens,butterflies,6,1,2,1
+Sy7mp1YNH,9,sokoban,chase,8,2,6,1
+Sy7mp1YNH,10,plaqueAttack,avoidgeorge,7,3,3,2
+Sy7mp1YNH,11,aliens,avoidgeorge,6,1,2,1
+Sy7mp1YNH,12,chase,butterflies,9,8,6,2
+Sy7mp1YNH,13,aliens,plaqueAttack,4,2,5,8
+Sy7mp1YNH,14,sokoban,aliens,5,1,2,6
+SJPbp1t4B,0,aliens,avoidgeorge,2,3,2,3
+SJPbp1t4B,1,sokoban,aliens,2,2,2,2
+SJPbp1t4B,2,chase,plaqueAttack,4,2,3,2
+SJPbp1t4B,8,avoidgeorge,butterflies,4,3,4,5
+SJPbp1t4B,12,aliens,butterflies,5,4,3,3
+SJPbp1t4B,3,sokoban,chase,4,3,5,4
+SJPbp1t4B,4,plaqueAttack,aliens,4,2,4,3
+SJPbp1t4B,5,sokoban,avoidgeorge,4,3,4,3
+SJPbp1t4B,6,chase,aliens,4,3,4,3
+SJPbp1t4B,7,sokoban,plaqueAttack,2,4,5,4
+SJPbp1t4B,9,chase,butterflies,5,4,5,4
+SJPbp1t4B,10,plaqueAttack,butterflies,5,4,5,5
+SJPbp1t4B,11,plaqueAttack,avoidgeorge,5,4,4,5
+SJPbp1t4B,13,sokoban,butterflies,4,3,4,3
+SJPbp1t4B,14,chase,avoidgeorge,3,4,3,3
+ByYSa1tEr,1,sokoban,avoidgeorge,4,7,9,8
+ByYSa1tEr,4,butterflies,chase,8,7,9,9
+ByYSa1tEr,6,plaqueAttack,avoidgeorge,3,6,9,9
+ByYSa1tEr,7,plaqueAttack,sokoban,4,6,8,7
+ByYSa1tEr,9,plaqueAttack,butterflies,4,6,7,8
+ByYSa1tEr,10,aliens,butterflies,5,7,8,7
+ByYSa1tEr,11,aliens,avoidgeorge,8,7,8,9
+ByYSa1tEr,12,plaqueAttack,chase,7,8,10,9
+ByYSa1tEr,13,aliens,plaqueAttack,5,7,9,8
+ByYSa1tEr,14,aliens,chase,5,6,9,9
+ByYSa1tEr,0,chase,avoidgeorge,4,9,7,8
+ByYSa1tEr,2,butterflies,avoidgeorge,3,7,6,8
+ByYSa1tEr,3,sokoban,butterflies,5,7,9,8
+ByYSa1tEr,5,aliens,sokoban,5,7,8,8
+ByYSa1tEr,8,sokoban,chase,7,7,9,8
+HymvyxFNS,5,sokoban,butterflies,5,7,6,5
+HymvyxFNS,6,plaqueAttack,avoidgeorge,8,7,6,8
+HymvyxFNS,10,butterflies,aliens,7,6,5,8
+HymvyxFNS,12,avoidgeorge,butterflies,8,6,8,6
+HymvyxFNS,13,plaqueAttack,sokoban,7,5,7,9
+HymvyxFNS,14,plaqueAttack,butterflies,6,8,7,6
+HymvyxFNS,0,avoidgeorge,aliens,8,6,8,7
+HymvyxFNS,1,sokoban,chase,7,8,7,8
+HymvyxFNS,2,plaqueAttack,chase,5,7,5,8
+HymvyxFNS,3,avoidgeorge,chase,8,7,6,8
+HymvyxFNS,4,plaqueAttack,aliens,9,7,6,8
+HymvyxFNS,7,chase,aliens,8,9,7,6
+HymvyxFNS,8,sokoban,aliens,8,7,6,8
+HymvyxFNS,9,sokoban,avoidgeorge,9,7,5,8
+HymvyxFNS,11,chase,butterflies,8,6,8,7
+SkbpUeFNr,0,chase,aliens,10,10,10,10
+SkbpUeFNr,1,avoidgeorge,plaqueAttack,10,5,1,10
+SkbpUeFNr,2,plaqueAttack,sokoban,10,1,1,1
+SkbpUeFNr,3,plaqueAttack,butterflies,10,1,1,1
+SkbpUeFNr,4,avoidgeorge,chase,10,1,1,10
+SkbpUeFNr,5,avoidgeorge,aliens,10,1,1,1
+SkbpUeFNr,6,chase,plaqueAttack,10,10,10,10
+SkbpUeFNr,7,aliens,butterflies,10,1,1,1
+SkbpUeFNr,8,butterflies,sokoban,10,5,5,10
+SkbpUeFNr,9,chase,butterflies,10,10,10,1
+SkbpUeFNr,10,aliens,sokoban,10,1,1,1
+SkbpUeFNr,11,chase,sokoban,10,1,1,1
+SkbpUeFNr,12,aliens,plaqueAttack,10,10,10,10
+SkbpUeFNr,13,avoidgeorge,butterflies,10,1,1,10
+SkbpUeFNr,14,avoidgeorge,sokoban,10,1,1,10
+Sk_0vxKVS,0,avoidgeorge,plaqueAttack,5,5,6,5
+Sk_0vxKVS,2,aliens,plaqueAttack,6,5,4,7
+Sk_0vxKVS,3,chase,aliens,2,3,5,5
+Sk_0vxKVS,5,sokoban,avoidgeorge,7,7,5,4
+Sk_0vxKVS,8,chase,avoidgeorge,6,5,4,5
+Sk_0vxKVS,9,chase,plaqueAttack,7,5,4,4
+Sk_0vxKVS,10,butterflies,aliens,5,4,4,5
+Sk_0vxKVS,11,butterflies,avoidgeorge,5,4,5,5
+Sk_0vxKVS,1,butterflies,plaqueAttack,3,4,6,5
+Sk_0vxKVS,4,butterflies,chase,6,4,5,5
+Sk_0vxKVS,6,sokoban,plaqueAttack,2,3,4,4
+Sk_0vxKVS,7,chase,sokoban,7,5,5,6
+Sk_0vxKVS,12,butterflies,sokoban,8,6,7,3
+Sk_0vxKVS,13,sokoban,aliens,5,4,5,4
+Sk_0vxKVS,14,aliens,avoidgeorge,5,4,4,6
+H1Dm1bYEB,0,aliens,avoidgeorge,4,2,3,6
+H1Dm1bYEB,1,avoidgeorge,sokoban,6,2,3,7
+H1Dm1bYEB,2,aliens,plaqueAttack,7,8,5,5
+H1Dm1bYEB,3,aliens,chase,5,3,2,7
+H1Dm1bYEB,4,avoidgeorge,butterflies,8,7,7,7
+H1Dm1bYEB,5,aliens,butterflies,5,3,3,7
+H1Dm1bYEB,6,butterflies,plaqueAttack,4,3,4,7
+H1Dm1bYEB,7,avoidgeorge,chase,7,5,5,6
+H1Dm1bYEB,8,avoidgeorge,plaqueAttack,4,3,3,8
+H1Dm1bYEB,9,chase,plaqueAttack,5,3,3,7
+H1Dm1bYEB,10,sokoban,chase,6,4,5,6
+H1Dm1bYEB,11,butterflies,chase,6,4,5,8
+H1Dm1bYEB,12,butterflies,sokoban,7,3,4,4
+H1Dm1bYEB,13,aliens,sokoban,4,1,2,6
+H1Dm1bYEB,14,sokoban,plaqueAttack,4,1,1,7
+SyT3h-FVr,0,chase,sokoban,8,1,1,8
+SyT3h-FVr,1,chase,aliens,2,7,6,7
+SyT3h-FVr,2,avoidgeorge,plaqueAttack,3,8,4,4
+SyT3h-FVr,3,butterflies,plaqueAttack,5,5,3,4
+SyT3h-FVr,4,butterflies,sokoban,4,3,3,4
+SyT3h-FVr,5,aliens,plaqueAttack,1,10,7,4
+SyT3h-FVr,6,avoidgeorge,butterflies,3,1,5,5
+SyT3h-FVr,7,chase,plaqueAttack,4,7,2,2
+SyT3h-FVr,8,avoidgeorge,aliens,5,1,3,1
+SyT3h-FVr,9,plaqueAttack,sokoban,3,1,1,1
+SyT3h-FVr,10,avoidgeorge,sokoban,6,1,4,7
+SyT3h-FVr,11,butterflies,aliens,2,2,2,1
+SyT3h-FVr,12,aliens,sokoban,1,1,1,1
+SyT3h-FVr,13,avoidgeorge,chase,1,4,4,2
+SyT3h-FVr,14,butterflies,chase,1,1,1,1
+S1xrrzKNH,0,aliens,butterflies,2,3,3,2
+S1xrrzKNH,1,plaqueAttack,chase,7,8,7,8
+S1xrrzKNH,2,aliens,sokoban,3,3,2,3
+S1xrrzKNH,3,plaqueAttack,butterflies,2,3,3,2
+S1xrrzKNH,4,plaqueAttack,sokoban,3,2,3,2
+S1xrrzKNH,5,butterflies,chase,7,8,8,7
+S1xrrzKNH,6,plaqueAttack,avoidgeorge,7,8,7,8
+S1xrrzKNH,7,butterflies,sokoban,3,2,3,2
+S1xrrzKNH,8,sokoban,chase,3,2,3,2
+S1xrrzKNH,9,aliens,chase,2,2,3,2
+S1xrrzKNH,10,aliens,plaqueAttack,7,8,7,8
+S1xrrzKNH,11,avoidgeorge,chase,8,7,8,9
+S1xrrzKNH,12,butterflies,avoidgeorge,8,7,8,7
+S1xrrzKNH,13,avoidgeorge,sokoban,3,2,3,2
+S1xrrzKNH,14,aliens,avoidgeorge,3,2,3,3
+r147OBoNH,0,lemmings,plaqueAttack,10,1,1,10
+r147OBoNH,1,butterflies,aliens,10,1,1,3
+r147OBoNH,2,lemmings,helper,10,4,2,5
+r147OBoNH,3,lemmings,bait,10,1,7,6
+r147OBoNH,4,lemmings,aliens,10,3,2,3
+r147OBoNH,5,butterflies,bait,10,3,2,2
+r147OBoNH,6,bait,aliens,10,2,5,3
+r147OBoNH,7,helper,aliens,10,6,3,4
+S1UCBLiEr,0,helper,lemmings,1,2,2,3
+S1UCBLiEr,1,helper,aliens,1,8,2,5
+S1UCBLiEr,2,bait,plaqueAttack,2,1,1,1
+S1UCBLiEr,3,aliens,butterflies,5,8,5,10
+S1UCBLiEr,4,bait,butterflies,1,1,1,4
+S1UCBLiEr,5,aliens,lemmings,1,1,1,3
+S1UCBLiEr,6,helper,plaqueAttack,1,1,1,1
+S1UCBLiEr,7,butterflies,lemmings,3,1,1,3
+S1UCBLiEr,8,plaqueAttack,lemmings,1,1,1,5
+S1UCBLiEr,9,bait,aliens,1,1,1,6
+S1UCBLiEr,10,plaqueAttack,butterflies,4,1,1,2
+S1UCBLiEr,11,bait,lemmings,2,7,2,5
+S1UCBLiEr,12,plaqueAttack,aliens,3,2,1,1
+S1UCBLiEr,13,helper,bait,2,1,2,6
+S1UCBLiEr,14,helper,butterflies,2,7,3,7
+ryRnAKo4B,0,preconditions,watergame,3,6,6,8
+ryRnAKo4B,1,zelda,antagonist,1,7,5,4
+ryRnAKo4B,2,zelda,preconditions,9,8,8,7
+ryRnAKo4B,3,antagonist,corridor,7,3,2,3
+ryRnAKo4B,4,antagonist,jaws,5,4,3,4
+ryRnAKo4B,5,zelda,jaws,1,1,1,2
+ryRnAKo4B,6,antagonist,watergame,1,2,3,1
+ryRnAKo4B,7,antagonist,preconditions,4,3,4,5
+ryRnAKo4B,8,jaws,corridor,6,4,6,6
+ryRnAKo4B,9,jaws,preconditions,8,3,3,3
+ryRnAKo4B,10,zelda,corridor,3,2,3,2
+ryRnAKo4B,11,zelda,watergame,3,6,5,6
+ryRnAKo4B,12,jaws,watergame,1,1,2,1
+ryRnAKo4B,13,preconditions,corridor,3,3,4,3
+ryRnAKo4B,14,corridor,watergame,1,1,1,8
+r1V5kcjNB,0,antagonist,preconditions,4,4,4,7
+r1V5kcjNB,1,zelda,preconditions,4,4,4,7
+r1V5kcjNB,2,watergame,preconditions,7,7,7,7
+r1V5kcjNB,3,jaws,preconditions,3,3,3,6
+r1V5kcjNB,4,corridor,watergame,3,3,3,6
+r1V5kcjNB,5,zelda,watergame,3,3,3,7
+r1V5kcjNB,6,zelda,antagonist,4,4,4,7
+r1V5kcjNB,7,jaws,zelda,5,5,5,7
+r1V5kcjNB,8,jaws,corridor,5,5,5,7
+r1V5kcjNB,9,jaws,antagonist,5,5,5,7
+r1V5kcjNB,10,corridor,preconditions,3,3,3,7
+r1V5kcjNB,11,corridor,antagonist,6,6,6,7
+r1V5kcjNB,12,watergame,antagonist,5,5,5,7
+r1V5kcjNB,13,corridor,zelda,6,6,6,6
+r1V5kcjNB,14,jaws,watergame,3,3,3,7
+rJue-5sNr,0,watergame,jaws,3,2,2,2
+rJue-5sNr,1,antagonist,zelda,8,5,6,5
+rJue-5sNr,2,zelda,jaws,6,3,3,3
+rJue-5sNr,3,antagonist,jaws,5,6,5,4
+rJue-5sNr,4,corridor,zelda,7,2,2,5
+rJue-5sNr,5,antagonist,corridor,7,6,8,8
+rJue-5sNr,6,corridor,jaws,7,6,5,8
+rJue-5sNr,7,preconditions,zelda,5,7,5,6
+rJue-5sNr,8,watergame,corridor,3,2,2,2
+rJue-5sNr,9,preconditions,jaws,3,2,3,2
+rJue-5sNr,10,preconditions,antagonist,2,4,3,3
+rJue-5sNr,11,watergame,zelda,6,7,6,7
+rJue-5sNr,12,preconditions,corridor,2,2,3,3
+rJue-5sNr,13,antagonist,watergame,4,2,2,3
+rJue-5sNr,14,preconditions,watergame,3,4,3,3
+SJ5aucsNH,0,preconditions,antagonist,9,9,9,10
+SJ5aucsNH,1,preconditions,jaws,8,8,9,10
+SJ5aucsNH,2,zelda,antagonist,8,9,9,9
+SJ5aucsNH,3,preconditions,corridor,10,10,10,10
+SJ5aucsNH,4,zelda,corridor,8,8,10,10
+SJ5aucsNH,5,watergame,corridor,9,9,9,9
+SJ5aucsNH,6,zelda,watergame,9,10,10,10
+SJ5aucsNH,7,jaws,corridor,9,10,9,10
+SJ5aucsNH,8,preconditions,watergame,7,8,8,10
+SJ5aucsNH,9,jaws,antagonist,5,8,9,9
+SJ5aucsNH,10,zelda,preconditions,10,9,9,10
+SJ5aucsNH,11,watergame,antagonist,10,10,10,10
+SJ5aucsNH,12,zelda,jaws,9,9,9,9
+SJ5aucsNH,13,watergame,jaws,9,9,9,9
+SJ5aucsNH,14,antagonist,corridor,10,10,10,10
+rJLvmjjVH,0,watergame,jaws,5,2,6,3
+rJLvmjjVH,1,corridor,antagonist,8,6,7,5
+rJLvmjjVH,2,watergame,zelda,5,7,6,5
+rJLvmjjVH,3,zelda,jaws,7,7,5,6
+rJLvmjjVH,4,zelda,antagonist,7,8,8,7
+rJLvmjjVH,5,preconditions,corridor,6,8,5,6
+rJLvmjjVH,6,preconditions,antagonist,5,6,6,7
+rJLvmjjVH,7,preconditions,jaws,4,2,2,4
+rJLvmjjVH,8,corridor,watergame,4,5,4,7
+rJLvmjjVH,9,preconditions,zelda,6,8,7,7
+rJLvmjjVH,10,corridor,jaws,8,2,7,7
+rJLvmjjVH,11,antagonist,jaws,8,3,8,7
+rJLvmjjVH,12,watergame,antagonist,3,4,5,6
+rJLvmjjVH,13,corridor,zelda,5,8,8,7
+rJLvmjjVH,14,preconditions,watergame,5,8,7,8
+ryxpfjjEr,0,corridor,zelda,10,1,1,1
+ryxpfjjEr,1,jaws,zelda,9,1,1,3
+ryxpfjjEr,2,watergame,antagonist,7,2,1,6
+ryxpfjjEr,3,corridor,watergame,9,3,4,2
+ryxpfjjEr,4,corridor,preconditions,8,7,5,6
+ryxpfjjEr,5,preconditions,antagonist,8,3,2,1
+ryxpfjjEr,6,corridor,antagonist,10,1,1,1
+ryxpfjjEr,7,preconditions,jaws,7,3,2,4
+ryxpfjjEr,8,watergame,zelda,5,4,3,4
+ryxpfjjEr,9,jaws,antagonist,8,4,3,9
+ryxpfjjEr,10,corridor,jaws,10,5,1,1
+ryxpfjjEr,11,preconditions,watergame,5,6,6,4
+ryxpfjjEr,12,antagonist,zelda,7,5,4,4
+ryxpfjjEr,13,watergame,jaws,3,3,2,8
+ryxpfjjEr,14,preconditions,zelda,5,7,6,5
+BkXb4sjVS,1,jaws,antagonist,8,8,7,9
+BkXb4sjVS,2,watergame,preconditions,8,7,9,9
+BkXb4sjVS,3,preconditions,antagonist,7,6,7,8
+BkXb4sjVS,4,antagonist,corridor,8,8,9,8
+BkXb4sjVS,5,zelda,preconditions,9,7,8,8
+BkXb4sjVS,6,jaws,preconditions,8,9,9,9
+BkXb4sjVS,8,jaws,corridor,8,8,9,8
+BkXb4sjVS,9,jaws,zelda,7,8,8,8
+BkXb4sjVS,10,zelda,antagonist,8,9,9,9
+BkXb4sjVS,11,preconditions,corridor,7,8,8,7
+BkXb4sjVS,12,jaws,watergame,8,8,9,8
+BkXb4sjVS,13,zelda,corridor,8,9,9,9
+BkXb4sjVS,0,watergame,zelda,7,8,7,8
+BkXb4sjVS,7,watergame,antagonist,8,8,9,9
+BkXb4sjVS,14,watergame,corridor,8,9,9,9
+Hyj8essNr,0,jaws,watergame,4,2,5,8
+Hyj8essNr,1,corridor,zelda,7,6,4,6
+Hyj8essNr,2,antagonist,zelda,7,7,7,5
+Hyj8essNr,3,watergame,antagonist,5,6,5,6
+Hyj8essNr,4,preconditions,antagonist,4,5,3,6
+Hyj8essNr,5,corridor,watergame,5,3,3,6
+Hyj8essNr,6,watergame,zelda,7,6,8,7
+Hyj8essNr,7,corridor,jaws,6,3,6,8
+Hyj8essNr,8,preconditions,zelda,8,8,8,8
+Hyj8essNr,9,jaws,antagonist,8,5,3,6
+Hyj8essNr,10,jaws,zelda,5,3,3,4
+Hyj8essNr,11,corridor,preconditions,5,5,3,5
+Hyj8essNr,12,corridor,antagonist,6,3,3,3
+Hyj8essNr,13,jaws,preconditions,5,2,3,4
+Hyj8essNr,14,preconditions,watergame,7,6,6,8
+B1824ooEr,1,watergame,corridor,1,9,4,4
+B1824ooEr,3,watergame,zelda,10,9,2,5
+B1824ooEr,5,preconditions,zelda,6,9,4,4
+B1824ooEr,8,jaws,preconditions,1,1,3,2
+B1824ooEr,10,watergame,preconditions,8,10,9,8
+B1824ooEr,11,preconditions,antagonist,1,1,2,6
+B1824ooEr,13,preconditions,corridor,1,5,2,1
+B1824ooEr,14,antagonist,zelda,1,3,5,9
+B1824ooEr,0,jaws,antagonist,4,9,8,4
+B1824ooEr,2,jaws,corridor,10,1,7,9
+B1824ooEr,4,antagonist,corridor,3,4,2,8
+B1824ooEr,6,jaws,zelda,1,1,4,2
+B1824ooEr,7,watergame,jaws,1,1,2,3
+B1824ooEr,9,corridor,zelda,1,9,9,4
+B1824ooEr,12,watergame,antagonist,2,5,4,8
+B1fhPP2NH,1,preconditions,corridor,1,5,3,2
+B1fhPP2NH,4,helper,corridor,3,1,1,1
+B1fhPP2NH,6,jaws,lemmings,1,3,2,1
+B1fhPP2NH,10,lemmings,preconditions,1,3,2,3
+B1fhPP2NH,13,bait,corridor,1,2,1,1
+B1fhPP2NH,0,jaws,helper,2,1,1,1
+B1fhPP2NH,2,preconditions,helper,1,3,1,1
+B1fhPP2NH,3,jaws,bait,1,2,1,1
+B1fhPP2NH,5,jaws,preconditions,1,2,1,2
+B1fhPP2NH,7,lemmings,bait,4,5,5,7
+B1fhPP2NH,8,lemmings,helper,5,4,3,3
+B1fhPP2NH,9,lemmings,corridor,1,3,2,1
+B1fhPP2NH,11,jaws,corridor,5,9,8,8
+B1fhPP2NH,12,bait,helper,1,1,1,1
+B1fhPP2NH,14,preconditions,bait,3,7,6,7
+Hy2ksvhNS,0,helper,preconditions,2,1,1,2
+Hy2ksvhNS,1,jaws,bait,4,1,1,2
+Hy2ksvhNS,2,jaws,helper,6,1,1,2
+Hy2ksvhNS,3,bait,preconditions,4,8,10,7
+Hy2ksvhNS,6,lemmings,preconditions,5,3,8,4
+Hy2ksvhNS,7,jaws,lemmings,4,1,1,8
+Hy2ksvhNS,9,bait,helper,9,3,1,1
+Hy2ksvhNS,10,lemmings,helper,6,10,10,5
+Hy2ksvhNS,4,jaws,preconditions,3,1,4,3
+Hy2ksvhNS,5,bait,corridor,2,1,1,1
+Hy2ksvhNS,8,corridor,preconditions,5,1,1,2
+Hy2ksvhNS,11,jaws,corridor,4,5,8,3
+Hy2ksvhNS,12,helper,corridor,6,1,1,1
+Hy2ksvhNS,13,lemmings,bait,3,2,5,5
+Hy2ksvhNS,14,lemmings,corridor,2,3,1,1
+BJ1NdD2EB,0,bait,preconditions,1,1,1,5
+BJ1NdD2EB,3,helper,jaws,1,1,3,3
+BJ1NdD2EB,4,corridor,bait,1,1,1,8
+BJ1NdD2EB,1,bait,lemmings,5,3,1,5
+BJ1NdD2EB,2,jaws,lemmings,1,1,1,8
+BJ1NdD2EB,5,preconditions,lemmings,1,4,1,8
+BJ1NdD2EB,6,helper,bait,1,1,1,1
+BJ1NdD2EB,8,corridor,jaws,6,4,5,7
+BJ1NdD2EB,10,corridor,preconditions,1,1,1,3
+BJ1NdD2EB,12,helper,lemmings,1,1,1,5
+BJ1NdD2EB,13,helper,corridor,6,2,2,5
+BJ1NdD2EB,7,corridor,lemmings,1,1,1,1
+BJ1NdD2EB,9,preconditions,jaws,1,1,1,5
+BJ1NdD2EB,11,helper,preconditions,1,3,2,3
+BJ1NdD2EB,14,bait,jaws,1,1,1,3
+Bkp8_wn4B,1,corridor,jaws,5,6,5,6
+Bkp8_wn4B,3,corridor,helper,1,4,3,2
+Bkp8_wn4B,4,corridor,lemmings,1,3,2,2
+Bkp8_wn4B,0,helper,lemmings,1,3,1,6
+Bkp8_wn4B,2,corridor,preconditions,1,1,1,6
+Bkp8_wn4B,5,preconditions,lemmings,4,5,4,9
+Bkp8_wn4B,6,corridor,bait,1,4,1,5
+Bkp8_wn4B,12,lemmings,bait,1,3,2,6
+Bkp8_wn4B,14,preconditions,bait,6,2,3,6
+Bkp8_wn4B,7,helper,bait,1,3,4,5
+Bkp8_wn4B,8,preconditions,helper,1,3,3,2
+Bkp8_wn4B,9,jaws,helper,2,1,2,6
+Bkp8_wn4B,10,jaws,lemmings,1,3,3,3
+Bkp8_wn4B,11,jaws,bait,1,3,2,6
+Bkp8_wn4B,13,preconditions,jaws,1,3,4,3
+SJ7v9PhVB,1,preconditions,corridor,1,10,6,2
+SJ7v9PhVB,0,jaws,helper,2,3,3,3
+SJ7v9PhVB,2,bait,helper,1,3,3,5
+SJ7v9PhVB,3,bait,corridor,1,8,2,3
+SJ7v9PhVB,4,jaws,bait,1,2,3,4
+SJ7v9PhVB,5,bait,preconditions,2,10,6,8
+SJ7v9PhVB,9,helper,corridor,6,4,5,5
+SJ7v9PhVB,12,lemmings,preconditions,4,5,5,7
+SJ7v9PhVB,14,helper,preconditions,3,4,4,4
+SJ7v9PhVB,6,jaws,lemmings,1,2,3,5
+SJ7v9PhVB,7,bait,lemmings,4,4,5,6
+SJ7v9PhVB,8,jaws,preconditions,2,6,4,4
+SJ7v9PhVB,10,jaws,corridor,2,10,8,8
+SJ7v9PhVB,11,helper,lemmings,3,5,5,6
+SJ7v9PhVB,13,lemmings,corridor,1,1,3,6
+S1iWl2i4r,0,preconditions,watergame,8,9,7,6
+S1iWl2i4r,1,watergame,zelda,8,5,7,8
+S1iWl2i4r,2,corridor,preconditions,7,7,10,8
+S1iWl2i4r,3,jaws,preconditions,7,10,7,9
+S1iWl2i4r,4,jaws,zelda,6,8,10,7
+S1iWl2i4r,5,corridor,zelda,6,9,10,8
+S1iWl2i4r,6,antagonist,watergame,6,8,9,7
+S1iWl2i4r,7,antagonist,zelda,5,7,9,8
+S1iWl2i4r,8,corridor,antagonist,6,9,6,5
+S1iWl2i4r,9,corridor,jaws,7,5,7,10
+S1iWl2i4r,10,antagonist,preconditions,7,6,8,10
+S1iWl2i4r,11,corridor,watergame,9,7,10,7
+S1iWl2i4r,12,jaws,antagonist,7,6,10,9
+S1iWl2i4r,13,preconditions,zelda,9,6,8,9
+S1iWl2i4r,14,jaws,watergame,10,7,9,8
+SJKpDPnES,0,bait,corridor,8,2,5,1
+SJKpDPnES,1,bait,jaws,5,1,5,1
+SJKpDPnES,2,bait,preconditions,10,10,5,7
+SJKpDPnES,4,corridor,jaws,10,5,3,1
+SJKpDPnES,7,helper,jaws,8,3,1,1
+SJKpDPnES,11,corridor,helper,5,3,1,1
+SJKpDPnES,12,helper,lemmings,7,6,4,2
+SJKpDPnES,13,lemmings,jaws,6,7,6,7
+SJKpDPnES,14,corridor,preconditions,3,1,1,1
+SJKpDPnES,3,bait,helper,5,3,6,1
+SJKpDPnES,5,preconditions,jaws,3,6,1,1
+SJKpDPnES,6,preconditions,helper,4,6,6,6
+SJKpDPnES,8,corridor,lemmings,2,5,1,1
+SJKpDPnES,9,preconditions,lemmings,8,8,7,8
+SJKpDPnES,10,bait,lemmings,7,8,7,9
+B1_tnPhNr,0,corridor,helper,8,2,2,8
+B1_tnPhNr,1,bait,helper,8,9,9,9
+B1_tnPhNr,2,corridor,lemmings,5,2,2,5
+B1_tnPhNr,3,helper,preconditions,2,8,8,9
+B1_tnPhNr,4,bait,preconditions,3,7,8,8
+B1_tnPhNr,5,jaws,lemmings,5,9,9,9
+B1_tnPhNr,6,helper,jaws,7,1,1,9
+B1_tnPhNr,7,bait,corridor,1,1,1,1
+B1_tnPhNr,8,helper,lemmings,5,1,1,1
+B1_tnPhNr,9,bait,jaws,1,1,1,7
+B1_tnPhNr,10,preconditions,lemmings,6,1,1,1
+B1_tnPhNr,11,corridor,jaws,10,10,10,10
+B1_tnPhNr,12,preconditions,jaws,2,2,2,5
+B1_tnPhNr,13,corridor,preconditions,1,1,1,3
+B1_tnPhNr,14,bait,lemmings,5,2,2,4
+BJLkWdnVr,0,helper,lemmings,6,3,5,4
+BJLkWdnVr,1,lemmings,jaws,8,1,1,6
+BJLkWdnVr,2,bait,jaws,9,2,2,7
+BJLkWdnVr,3,corridor,lemmings,7,7,8,6
+BJLkWdnVr,4,helper,jaws,8,1,1,8
+BJLkWdnVr,5,corridor,helper,2,2,2,9
+BJLkWdnVr,6,lemmings,bait,8,2,2,7
+BJLkWdnVr,7,helper,preconditions,8,2,4,2
+BJLkWdnVr,8,corridor,bait,9,2,2,6
+BJLkWdnVr,9,helper,bait,9,3,3,9
+BJLkWdnVr,10,corridor,preconditions,8,2,2,5
+BJLkWdnVr,11,corridor,jaws,7,2,2,7
+BJLkWdnVr,12,preconditions,jaws,9,1,1,6
+BJLkWdnVr,13,bait,preconditions,7,9,9,5
+BJLkWdnVr,14,lemmings,preconditions,6,4,4,7
+B1d4Mu2Nr,0,bait,preconditions,5,6,4,6
+B1d4Mu2Nr,1,corridor,jaws,7,5,4,3
+B1d4Mu2Nr,2,corridor,helper,4,3,6,5
+B1d4Mu2Nr,3,corridor,bait,7,6,4,6
+B1d4Mu2Nr,4,corridor,preconditions,4,5,7,6
+B1d4Mu2Nr,5,lemmings,bait,8,5,3,6
+B1d4Mu2Nr,6,lemmings,jaws,4,6,5,6
+B1d4Mu2Nr,8,helper,jaws,3,4,5,7
+B1d4Mu2Nr,9,jaws,preconditions,6,5,3,4
+B1d4Mu2Nr,10,lemmings,preconditions,4,6,5,6
+B1d4Mu2Nr,12,lemmings,helper,6,4,5,6
+B1d4Mu2Nr,13,corridor,lemmings,4,5,6,5
+B1d4Mu2Nr,14,jaws,bait,6,4,5,6
+B1d4Mu2Nr,7,helper,preconditions,7,5,4,6
+B1d4Mu2Nr,11,helper,bait,4,5,6,4
+Hy4-Uu34H,0,lemmings,bait,5,4,6,5
+Hy4-Uu34H,2,lemmings,preconditions,4,6,5,5
+Hy4-Uu34H,4,preconditions,bait,6,5,6,3
+Hy4-Uu34H,6,helper,corridor,7,5,6,7
+Hy4-Uu34H,8,lemmings,jaws,5,5,8,8
+Hy4-Uu34H,10,helper,bait,6,6,4,7
+Hy4-Uu34H,12,helper,preconditions,5,7,7,5
+Hy4-Uu34H,14,preconditions,jaws,5,7,7,6
+Hy4-Uu34H,1,corridor,jaws,5,3,5,5
+Hy4-Uu34H,3,lemmings,corridor,8,8,5,7
+Hy4-Uu34H,5,helper,lemmings,5,7,5,6
+Hy4-Uu34H,7,helper,jaws,4,6,5,2
+Hy4-Uu34H,9,corridor,preconditions,7,5,5,8
+Hy4-Uu34H,11,bait,jaws,8,5,4,6
+Hy4-Uu34H,13,corridor,bait,9,6,4,6
+S1iAWR2VS,0,antagonist,zelda,3,2,4,7
+S1iAWR2VS,1,zelda,chase,5,5,4,7
+S1iAWR2VS,2,zelda,avoidgeorge,4,6,6,7
+S1iAWR2VS,3,sokoban,avoidgeorge,5,7,6,5
+S1iAWR2VS,4,watergame,avoidgeorge,5,7,8,8
+S1iAWR2VS,5,zelda,sokoban,6,5,8,9
+S1iAWR2VS,6,antagonist,avoidgeorge,6,7,7,10
+S1iAWR2VS,7,sokoban,chase,7,7,7,8
+S1iAWR2VS,8,watergame,chase,7,6,8,8
+S1iAWR2VS,9,antagonist,watergame,5,8,7,8
+S1iAWR2VS,10,sokoban,watergame,7,7,6,8
+S1iAWR2VS,11,avoidgeorge,chase,7,5,8,9
+S1iAWR2VS,12,antagonist,sokoban,6,7,9,8
+S1iAWR2VS,13,antagonist,chase,5,6,7,10
+S1iAWR2VS,14,zelda,watergame,9,8,8,7
+HJSbj0hES,0,watergame,chase,3,5,5,6
+HJSbj0hES,1,avoidgeorge,antagonist,2,9,8,2
+HJSbj0hES,2,chase,sokoban,3,8,6,7
+HJSbj0hES,3,chase,antagonist,2,5,3,7
+HJSbj0hES,4,chase,avoidgeorge,4,5,5,3
+HJSbj0hES,5,watergame,avoidgeorge,3,5,7,5
+HJSbj0hES,6,zelda,antagonist,2,8,7,3
+HJSbj0hES,7,avoidgeorge,sokoban,4,6,6,7
+HJSbj0hES,8,chase,zelda,3,7,6,6
+HJSbj0hES,9,avoidgeorge,zelda,3,7,6,6
+HJSbj0hES,10,zelda,sokoban,2,3,7,5
+HJSbj0hES,11,watergame,zelda,6,4,5,7
+HJSbj0hES,12,watergame,sokoban,2,4,3,6
+HJSbj0hES,13,antagonist,sokoban,6,4,2,5
+HJSbj0hES,14,watergame,antagonist,1,9,2,3
+SyftFA3EH,0,zelda,antagonist,5,3,2,4
+SyftFA3EH,1,avoidgeorge,antagonist,6,4,3,9
+SyftFA3EH,2,chase,avoidgeorge,5,2,2,9
+SyftFA3EH,3,antagonist,watergame,1,1,2,9
+SyftFA3EH,4,sokoban,zelda,10,1,1,10
+SyftFA3EH,5,chase,zelda,6,1,1,10
+SyftFA3EH,6,sokoban,avoidgeorge,5,1,1,10
+SyftFA3EH,7,avoidgeorge,watergame,2,2,2,9
+SyftFA3EH,8,zelda,avoidgeorge,3,3,2,10
+SyftFA3EH,9,zelda,watergame,5,2,2,9
+SyftFA3EH,10,sokoban,antagonist,5,2,2,9
+SyftFA3EH,11,sokoban,watergame,6,2,2,9
+SyftFA3EH,12,chase,antagonist,3,2,2,9
+SyftFA3EH,13,chase,watergame,4,3,3,9
+SyftFA3EH,14,chase,sokoban,7,3,3,9
+B16bFAhNB,0,chase,sokoban,8,9,7,9
+B16bFAhNB,1,chase,avoidgeorge,7,4,6,7
+B16bFAhNB,2,antagonist,sokoban,3,3,4,3
+B16bFAhNB,3,chase,watergame,3,3,1,3
+B16bFAhNB,4,zelda,antagonist,3,4,3,4
+B16bFAhNB,5,watergame,antagonist,4,3,4,4
+B16bFAhNB,6,zelda,watergame,3,5,4,3
+B16bFAhNB,7,watergame,sokoban,6,7,6,6
+B16bFAhNB,8,watergame,avoidgeorge,4,4,5,5
+B16bFAhNB,9,chase,zelda,6,5,6,5
+B16bFAhNB,10,zelda,sokoban,8,7,7,7
+B16bFAhNB,11,avoidgeorge,sokoban,3,5,5,4
+B16bFAhNB,12,chase,antagonist,3,5,4,4
+B16bFAhNB,13,zelda,avoidgeorge,4,5,4,4
+B16bFAhNB,14,antagonist,avoidgeorge,6,5,5,6
+SkhEB1p4B,0,sokoban,watergame,7,8,5,5
+SkhEB1p4B,1,chase,avoidgeorge,5,8,3,6
+SkhEB1p4B,2,avoidgeorge,watergame,5,4,7,6
+SkhEB1p4B,3,avoidgeorge,zelda,5,7,8,4
+SkhEB1p4B,4,antagonist,watergame,7,6,4,3
+SkhEB1p4B,5,chase,sokoban,9,6,8,5
+SkhEB1p4B,6,chase,watergame,7,5,9,7
+SkhEB1p4B,7,antagonist,sokoban,5,7,9,5
+SkhEB1p4B,8,zelda,watergame,4,9,6,8
+SkhEB1p4B,9,avoidgeorge,antagonist,6,8,6,10
+SkhEB1p4B,10,sokoban,zelda,3,6,5,9
+SkhEB1p4B,11,avoidgeorge,sokoban,6,8,6,10
+SkhEB1p4B,12,chase,zelda,4,6,8,7
+SkhEB1p4B,13,antagonist,zelda,6,9,6,8
+SkhEB1p4B,14,chase,antagonist,4,6,8,6
+SyHr1la4B,0,watergame,sokoban,10,10,2,1
+SyHr1la4B,1,zelda,antagonist,10,10,5,5
+SyHr1la4B,2,watergame,avoidgeorge,10,1,1,1
+SyHr1la4B,3,zelda,avoidgeorge,10,10,10,5
+SyHr1la4B,4,watergame,antagonist,10,1,1,1
+SyHr1la4B,5,chase,zelda,10,7,5,5
+SyHr1la4B,6,chase,antagonist,10,1,1,1
+SyHr1la4B,7,zelda,sokoban,9,7,5,5
+SyHr1la4B,8,sokoban,avoidgeorge,7,4,7,7
+SyHr1la4B,9,chase,watergame,8,5,6,7
+SyHr1la4B,10,chase,sokoban,10,1,4,4
+SyHr1la4B,11,chase,avoidgeorge,10,2,4,4
+SyHr1la4B,12,watergame,zelda,10,3,2,2
+SyHr1la4B,13,antagonist,avoidgeorge,10,10,10,10
+SyHr1la4B,14,sokoban,antagonist,10,1,1,1
+B1GY1ea4r,0,sokoban,chase,6,4,6,8
+B1GY1ea4r,1,sokoban,watergame,2,4,6,6
+B1GY1ea4r,2,watergame,antagonist,1,4,4,5
+B1GY1ea4r,3,zelda,antagonist,6,4,6,5
+B1GY1ea4r,4,avoidgeorge,watergame,1,5,6,5
+B1GY1ea4r,5,sokoban,antagonist,3,7,5,6
+B1GY1ea4r,6,chase,antagonist,2,5,4,6
+B1GY1ea4r,7,watergame,zelda,2,5,6,3
+B1GY1ea4r,8,avoidgeorge,antagonist,7,5,4,8
+B1GY1ea4r,9,sokoban,zelda,9,5,7,5
+B1GY1ea4r,10,chase,avoidgeorge,7,5,6,7
+B1GY1ea4r,11,chase,zelda,3,7,5,6
+B1GY1ea4r,12,sokoban,avoidgeorge,2,7,8,7
+B1GY1ea4r,13,chase,watergame,1,6,3,8
+B1GY1ea4r,14,avoidgeorge,zelda,3,4,7,5
+ryVD61T4H,0,avoidgeorge,antagonist,8,7,8,6
+ryVD61T4H,2,sokoban,chase,6,5,5,7
+ryVD61T4H,4,antagonist,watergame,6,5,8,9
+ryVD61T4H,7,zelda,antagonist,5,7,8,7
+ryVD61T4H,12,avoidgeorge,watergame,9,7,6,7
+ryVD61T4H,1,avoidgeorge,zelda,6,8,8,7
+ryVD61T4H,5,chase,watergame,8,6,7,9
+ryVD61T4H,8,zelda,watergame,9,7,6,7
+ryVD61T4H,10,chase,zelda,8,8,6,7
+ryVD61T4H,13,sokoban,watergame,8,6,5,7
+ryVD61T4H,3,avoidgeorge,sokoban,6,6,8,7
+ryVD61T4H,6,sokoban,zelda,8,6,9,9
+ryVD61T4H,9,avoidgeorge,chase,8,7,7,7
+ryVD61T4H,11,sokoban,antagonist,9,7,6,7
+ryVD61T4H,14,chase,antagonist,8,7,6,8
+Sy2PD164S,1,watergame,chase,5,4,4,8
+Sy2PD164S,2,zelda,antagonist,4,4,3,2
+Sy2PD164S,3,zelda,watergame,4,9,8,3
+Sy2PD164S,4,zelda,avoidgeorge,3,2,2,6
+Sy2PD164S,5,zelda,chase,8,4,6,5
+Sy2PD164S,6,zelda,sokoban,8,4,5,6
+Sy2PD164S,7,chase,sokoban,7,4,4,6
+Sy2PD164S,0,antagonist,avoidgeorge,5,2,3,3
+Sy2PD164S,8,antagonist,chase,4,3,3,5
+Sy2PD164S,9,antagonist,sokoban,6,3,4,8
+Sy2PD164S,10,sokoban,avoidgeorge,3,2,2,4
+Sy2PD164S,11,chase,avoidgeorge,3,2,2,3
+Sy2PD164S,12,watergame,avoidgeorge,2,2,2,5
+Sy2PD164S,13,antagonist,watergame,3,4,4,6
+Sy2PD164S,14,watergame,sokoban,5,4,4,4
+SJLYofaVB,0,antagonist,chase,2,2,2,2
+SJLYofaVB,1,zelda,watergame,2,7,6,7
+SJLYofaVB,2,zelda,antagonist,3,7,7,7
+SJLYofaVB,3,avoidgeorge,sokoban,3,3,3,6
+SJLYofaVB,4,sokoban,chase,6,3,3,7
+SJLYofaVB,5,antagonist,watergame,3,6,5,5
+SJLYofaVB,6,zelda,sokoban,8,7,7,7
+SJLYofaVB,7,antagonist,avoidgeorge,8,4,4,4
+SJLYofaVB,8,zelda,chase,8,2,2,3
+SJLYofaVB,9,avoidgeorge,chase,3,3,3,6
+SJLYofaVB,10,antagonist,sokoban,3,6,6,6
+SJLYofaVB,11,watergame,sokoban,8,7,7,7
+SJLYofaVB,12,zelda,avoidgeorge,5,6,6,7
+SJLYofaVB,13,watergame,avoidgeorge,4,4,4,4
+SJLYofaVB,14,watergame,chase,3,1,2,3
+B1dqFO6EH,0,lemmings,avoidgeorge,2,1,2,5
+B1dqFO6EH,1,avoidgeorge,bait,1,2,2,8
+B1dqFO6EH,2,helper,lemmings,1,2,2,3
+B1dqFO6EH,3,lemmings,chase,2,2,4,7
+B1dqFO6EH,4,helper,avoidgeorge,2,1,5,4
+B1dqFO6EH,5,sokoban,lemmings,6,4,4,5
+B1dqFO6EH,6,helper,chase,2,2,2,2
+B1dqFO6EH,7,chase,bait,1,2,1,1
+B1dqFO6EH,8,sokoban,chase,4,2,3,3
+B1dqFO6EH,9,helper,bait,2,2,2,3
+B1dqFO6EH,10,lemmings,bait,3,2,2,3
+B1dqFO6EH,11,helper,sokoban,2,3,3,6
+B1dqFO6EH,12,chase,avoidgeorge,6,4,2,6
+B1dqFO6EH,13,sokoban,avoidgeorge,2,3,2,3
+B1dqFO6EH,14,sokoban,bait,4,3,2,5
+S1RKqOTEr,0,helper,bait,5,3,2,5
+S1RKqOTEr,1,avoidgeorge,sokoban,5,2,2,4
+S1RKqOTEr,2,bait,avoidgeorge,5,2,2,8
+S1RKqOTEr,3,chase,bait,4,2,2,2
+S1RKqOTEr,4,avoidgeorge,lemmings,6,5,5,7
+S1RKqOTEr,5,bait,sokoban,7,7,5,7
+S1RKqOTEr,6,helper,avoidgeorge,5,2,2,4
+S1RKqOTEr,7,helper,lemmings,4,5,5,6
+S1RKqOTEr,8,chase,sokoban,6,4,4,6
+S1RKqOTEr,9,chase,avoidgeorge,6,5,5,6
+S1RKqOTEr,10,chase,lemmings,4,2,2,2
+S1RKqOTEr,11,lemmings,sokoban,5,7,7,7
+S1RKqOTEr,12,chase,helper,4,4,4,4
+S1RKqOTEr,13,helper,sokoban,4,4,4,6
+S1RKqOTEr,14,bait,lemmings,4,2,2,8
+H1Po9uT4S,1,lemmings,bait,10,7,9,9
+H1Po9uT4S,3,helper,chase,5,8,7,10
+H1Po9uT4S,4,bait,chase,10,7,9,9
+H1Po9uT4S,11,bait,sokoban,10,8,9,9
+H1Po9uT4S,12,lemmings,avoidgeorge,10,8,9,9
+H1Po9uT4S,0,helper,avoidgeorge,7,9,8,5
+H1Po9uT4S,2,avoidgeorge,sokoban,8,6,10,9
+H1Po9uT4S,5,helper,lemmings,9,7,10,6
+H1Po9uT4S,6,bait,avoidgeorge,7,6,8,10
+H1Po9uT4S,7,sokoban,chase,10,7,8,8
+H1Po9uT4S,8,lemmings,chase,10,6,10,9
+H1Po9uT4S,9,helper,sokoban,10,9,8,9
+H1Po9uT4S,10,avoidgeorge,chase,9,6,10,9
+H1Po9uT4S,13,lemmings,sokoban,7,8,7,9
+H1Po9uT4S,14,helper,bait,10,8,7,9
+SkVmcuTVr,0,sokoban,lemmings,2,3,4,4
+SkVmcuTVr,1,helper,chase,6,8,7,5
+SkVmcuTVr,4,avoidgeorge,chase,2,7,6,7
+SkVmcuTVr,5,bait,chase,5,8,8,7
+SkVmcuTVr,7,helper,avoidgeorge,2,6,4,9
+SkVmcuTVr,9,bait,sokoban,8,5,8,4
+SkVmcuTVr,10,chase,lemmings,9,5,7,7
+SkVmcuTVr,11,chase,sokoban,4,8,8,5
+SkVmcuTVr,13,avoidgeorge,sokoban,3,7,9,9
+SkVmcuTVr,2,helper,sokoban,3,2,4,8
+SkVmcuTVr,3,helper,lemmings,7,8,5,7
+SkVmcuTVr,6,bait,lemmings,3,4,8,7
+SkVmcuTVr,8,helper,bait,5,8,9,4
+SkVmcuTVr,12,bait,avoidgeorge,4,8,8,7
+SkVmcuTVr,14,avoidgeorge,lemmings,4,8,8,3
+SkBkbYaVH,0,chase,sokoban,8,5,3,6
+SkBkbYaVH,1,helper,bait,8,7,3,7
+SkBkbYaVH,2,lemmings,bait,8,8,7,8
+SkBkbYaVH,3,helper,sokoban,9,8,6,5
+SkBkbYaVH,4,bait,avoidgeorge,7,3,2,5
+SkBkbYaVH,5,lemmings,sokoban,9,9,6,5
+SkBkbYaVH,6,chase,avoidgeorge,9,8,7,6
+SkBkbYaVH,7,helper,lemmings,8,9,7,4
+SkBkbYaVH,8,helper,chase,8,4,3,5
+SkBkbYaVH,9,lemmings,avoidgeorge,7,3,4,5
+SkBkbYaVH,10,lemmings,chase,8,6,3,4
+SkBkbYaVH,11,chase,bait,6,2,3,3
+SkBkbYaVH,12,sokoban,bait,7,8,6,8
+SkBkbYaVH,13,sokoban,avoidgeorge,7,2,3,4
+SkBkbYaVH,14,helper,avoidgeorge,9,3,5,7
+BkNHuFa4S,0,chase,sokoban,10,1,1,8
+BkNHuFa4S,1,chase,bait,8,1,1,8
+BkNHuFa4S,2,avoidgeorge,bait,7,1,1,7
+BkNHuFa4S,3,helper,bait,6,1,1,5
+BkNHuFa4S,4,lemmings,sokoban,9,1,1,7
+BkNHuFa4S,5,avoidgeorge,chase,6,1,1,6
+BkNHuFa4S,6,lemmings,bait,6,1,1,7
+BkNHuFa4S,7,sokoban,bait,7,1,1,7
+BkNHuFa4S,8,sokoban,helper,6,1,1,7
+BkNHuFa4S,9,avoidgeorge,lemmings,7,1,1,7
+BkNHuFa4S,10,chase,lemmings,9,1,1,8
+BkNHuFa4S,11,lemmings,helper,6,1,1,4
+BkNHuFa4S,12,avoidgeorge,helper,7,1,1,6
+BkNHuFa4S,13,chase,helper,6,1,1,5
+BkNHuFa4S,14,avoidgeorge,sokoban,5,1,1,5
+S19X0KaEB,0,bait,sokoban,2,6,5,6
+S19X0KaEB,1,avoidgeorge,helper,10,7,7,8
+S19X0KaEB,2,lemmings,sokoban,8,7,6,8
+S19X0KaEB,3,bait,helper,1,5,5,8
+S19X0KaEB,4,avoidgeorge,lemmings,3,7,7,9
+S19X0KaEB,5,chase,sokoban,5,7,7,8
+S19X0KaEB,6,lemmings,chase,5,7,8,8
+S19X0KaEB,7,bait,chase,1,4,6,8
+S19X0KaEB,8,bait,avoidgeorge,1,6,6,9
+S19X0KaEB,9,helper,lemmings,1,6,7,9
+S19X0KaEB,10,helper,sokoban,1,7,8,9
+S19X0KaEB,11,avoidgeorge,chase,2,6,8,9
+S19X0KaEB,12,helper,chase,1,5,5,9
+B1XW8cTEB,1,helper,sokoban,8,7,5,7
+B1XW8cTEB,2,sokoban,avoidgeorge,8,6,7,4
+B1XW8cTEB,4,helper,avoidgeorge,8,4,4,3
+B1XW8cTEB,5,sokoban,lemmings,9,6,4,6
+B1XW8cTEB,6,chase,sokoban,8,6,4,7
+B1XW8cTEB,7,bait,helper,7,5,7,4
+B1XW8cTEB,0,chase,lemmings,10,6,8,7
+B1XW8cTEB,3,bait,chase,5,7,7,4
+B1XW8cTEB,8,chase,helper,9,5,3,7
+B1XW8cTEB,9,lemmings,avoidgeorge,9,7,5,7
+B1XW8cTEB,10,chase,avoidgeorge,7,5,5,8
+B1XW8cTEB,11,helper,lemmings,7,5,3,4
+B1XW8cTEB,12,bait,avoidgeorge,8,6,6,7
+B1XW8cTEB,13,bait,sokoban,8,7,5,7
+B1XW8cTEB,14,bait,lemmings,7,5,5,7
+rJeGM9TNS,0,helper,bait,2,1,2,10
+rJeGM9TNS,1,sokoban,helper,1,2,2,10
+rJeGM9TNS,2,lemmings,sokoban,8,5,4,10
+rJeGM9TNS,3,avoidgeorge,bait,1,2,2,10
+rJeGM9TNS,4,helper,chase,1,2,3,10
+rJeGM9TNS,5,avoidgeorge,sokoban,2,1,1,10
+rJeGM9TNS,6,avoidgeorge,chase,5,5,5,10
+rJeGM9TNS,7,lemmings,helper,1,2,2,10
+rJeGM9TNS,8,sokoban,bait,9,5,5,10
+rJeGM9TNS,9,lemmings,bait,7,5,5,10
+rJeGM9TNS,10,avoidgeorge,lemmings,5,5,5,10
+rJeGM9TNS,11,avoidgeorge,helper,10,5,5,10
+rJeGM9TNS,12,bait,chase,5,2,2,10
+rJeGM9TNS,13,sokoban,chase,7,3,3,10
+rJeGM9TNS,14,lemmings,chase,7,4,4,10
+SySXv9pVH,0,lemmings,sokoban,5,4,4,7
+SySXv9pVH,1,chase,sokoban,5,2,2,5
+SySXv9pVH,2,helper,bait,1,2,2,7
+SySXv9pVH,3,chase,bait,2,1,1,6
+SySXv9pVH,4,sokoban,helper,2,1,1,6
+SySXv9pVH,5,lemmings,helper,2,1,1,8
+SySXv9pVH,6,helper,avoidgeorge,7,5,5,8
+SySXv9pVH,7,chase,avoidgeorge,1,1,1,7
+SySXv9pVH,8,bait,avoidgeorge,1,1,1,8
+SySXv9pVH,9,lemmings,bait,1,1,1,7
+SySXv9pVH,10,sokoban,avoidgeorge,1,1,1,5
+SySXv9pVH,11,chase,lemmings,9,2,2,6
+SySXv9pVH,12,sokoban,bait,5,2,1,8
+SySXv9pVH,13,lemmings,avoidgeorge,6,1,1,8
+SySXv9pVH,14,chase,helper,5,1,1,7
+S13WO9aVH,0,chase,avoidgeorge,5,5,4,5
+S13WO9aVH,1,avoidgeorge,helper,8,4,5,5
+S13WO9aVH,2,chase,helper,4,5,5,5
+S13WO9aVH,3,avoidgeorge,bait,3,5,5,5
+S13WO9aVH,4,chase,bait,3,5,5,5
+S13WO9aVH,5,sokoban,chase,5,5,5,5
+S13WO9aVH,6,bait,lemmings,4,5,4,5
+S13WO9aVH,7,sokoban,lemmings,4,5,5,5
+S13WO9aVH,8,sokoban,helper,4,5,5,5
+S13WO9aVH,9,bait,helper,4,5,5,5
+S13WO9aVH,10,avoidgeorge,lemmings,5,5,5,5
+S13WO9aVH,11,chase,lemmings,5,5,5,5
+S13WO9aVH,12,lemmings,helper,5,5,5,5
+S13WO9aVH,13,sokoban,avoidgeorge,4,5,5,5
+S13WO9aVH,14,sokoban,bait,3,5,5,5

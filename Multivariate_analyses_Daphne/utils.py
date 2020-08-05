@@ -444,6 +444,8 @@ def compute_avg_iscs(iscs, axis=0):
 def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.05, threshold=False, cut_coords=[42, 28, 26], vmax=None):
 
     '''
+    Plots the t statistics onto the anatomical image. The pvalues are used to select a subset of
+    t statistics (so for thresholding). 
 
     Parameters
     ----------
@@ -463,9 +465,14 @@ def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.0
     vmax: Upper bound for plotting, passed to matplotlib.pyplot.imshow. By default vmax=None.
           (UB is specified by largest t value.)
 
-    '''
-    sns.set_palette(sns.color_palette("Spectral", 30))
+    
+    Returns
+    ----------
+        
+    isc_nifti: the statistical map image (.nii) - 
 
+
+    '''
 
     coords = tuple(coords) # needs to be a tuple in order to work
 
@@ -529,7 +536,7 @@ def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.0
         );
 
         #ax.set_title(f't map with threshold p < {theta}'); 
-
+    return isc_nifti
 
 
 def prep_for_surface_plot(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.05):
@@ -588,6 +595,9 @@ def prep_for_surface_plot(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.
     isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
         
     return isc_nifti
+
+
+
 
 
 

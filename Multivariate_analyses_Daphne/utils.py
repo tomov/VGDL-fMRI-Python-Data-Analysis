@@ -469,7 +469,10 @@ def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.0
     Returns
     ----------
         
-    isc_nifti: the statistical map image (.nii) - 
+    isc_nifti: the statistical map image (.nii) - use this for active visualisation 
+    like
+
+    view = plotting.view_img(stat_img, threshold=.2) >>> view 
 
 
     '''

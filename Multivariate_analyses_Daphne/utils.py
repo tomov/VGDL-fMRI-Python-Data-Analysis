@@ -601,6 +601,232 @@ def prep_for_surface_plot(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.
 
 
 
+def get_iscs_across_levels(levels_betas, T, num_subjects=8):
+
+    '''
+    
+    Parameters
+    ----------
+
+    levels_betas: the betas from the levels. Shape is [54, voxels, subjects]
+        
+    num_subjects: the number of participants.
+
+    T: the top voxel
+
+
+    Returns
+    -------
+    
+    '''
+
+    print(f'Getting the intersubject corelations for voxel {T}')
+
+    # === 1. Separate levels_betas for isc analyses ===
+
+    betas_level_one = []
+    betas_level_two = []
+    betas_level_three = []
+    betas_level_four = []
+    betas_level_five = []
+    betas_level_six = []
+    betas_level_seven = []
+    betas_level_eight = []
+    betas_level_nine = []
+
+    num_subjects = 8
+
+    for s in range(num_subjects):
+        #print(s)
+        # take the array for that subject 
+        levels_betas_sub = levels_betas[:,:,s]
+        
+        # level 1
+        lvl_one_betas_sub = levels_betas_sub[0::9]
+        betas_level_one.append(lvl_one_betas_sub)
+        
+        # level 2
+        lvl_two_betas_sub = levels_betas_sub[1::9]
+        betas_level_two.append(lvl_two_betas_sub)
+        
+        # level 3
+        lvl_three_betas_sub = levels_betas_sub[2::9]
+        betas_level_three.append(lvl_three_betas_sub)
+        
+        # level 4
+        lvl_four_betas_sub = levels_betas_sub[3::9]
+        betas_level_four.append(lvl_four_betas_sub)
+        
+        # level 5
+        lvl_five_betas_sub = levels_betas_sub[4::9]
+        betas_level_five.append(lvl_five_betas_sub)
+        
+        # level 6
+        lvl_six_betas_sub = levels_betas_sub[5::9]
+        betas_level_six.append(lvl_six_betas_sub)
+        
+        # level 7
+        lvl_seven_betas_sub = levels_betas_sub[6::9]
+        betas_level_seven.append(lvl_seven_betas_sub)
+        
+        # level 8
+        lvl_eight_betas_sub = levels_betas_sub[7::9]
+        betas_level_eight.append(lvl_eight_betas_sub)
+        
+        # level 9
+        lvl_nine_betas_sub = levels_betas_sub[8::9]
+        betas_level_nine.append(lvl_nine_betas_sub)
+        
+    # convert lists to np arrays
+    betas_level_one = np.array(betas_level_one)
+    betas_level_two = np.array(betas_level_two)
+    betas_level_three = np.array(betas_level_three)
+    betas_level_four = np.array(betas_level_four)
+    betas_level_five = np.array(betas_level_five)
+    betas_level_six = np.array(betas_level_six)
+    betas_level_seven = np.array(betas_level_seven)
+    betas_level_eight = np.array(betas_level_eight)
+    betas_level_nine = np.array(betas_level_nine)
+
+    # sanity check
+    print(betas_level_one.shape) # [subjects, games, voxels]
+
+
+
+    # === 2. Swap axes to get data in right shape ===
+
+    # do isc for each level
+    # compute the isc correlations using the leave one out approach
+    betas_level_one = np.swapaxes(betas_level_one, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_one = np.swapaxes(betas_level_one, 1, 2)
+
+    betas_level_two = np.swapaxes(betas_level_two, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_two = np.swapaxes(betas_level_two, 1, 2)
+
+    betas_level_three = np.swapaxes(betas_level_three, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_three = np.swapaxes(betas_level_three, 1, 2)
+
+    betas_level_four = np.swapaxes(betas_level_four, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_four = np.swapaxes(betas_level_four, 1, 2)
+
+    betas_level_five = np.swapaxes(betas_level_five, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_five = np.swapaxes(betas_level_five, 1, 2)
+
+    betas_level_six = np.swapaxes(betas_level_six, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_six = np.swapaxes(betas_level_six, 1, 2)
+
+    betas_level_seven = np.swapaxes(betas_level_seven, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_seven = np.swapaxes(betas_level_seven, 1, 2)
+
+    betas_level_eight = np.swapaxes(betas_level_eight, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_eight = np.swapaxes(betas_level_eight, 1, 2)
+
+    betas_level_nine = np.swapaxes(betas_level_nine, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_nine = np.swapaxes(betas_level_nine, 1, 2)
+
+
+    # 3. === Pick a voxel (this voxel should be the most intense voxel from some ROI) ===
+
+
+    # select all items from column e.g. 5 (equivalent to [:, 4, :] but this keeps it 3D)
+    # to make indexing easier, let's use a T for the voxel we want to select
+
+    topVox_betas_lvl_one = betas_level_one[:, T:T+1, :]
+
+    topVox_betas_lvl_two = betas_level_two[:, T:T+1, :]
+
+    topVox_betas_lvl_three = betas_level_three[:, T:T+1, :]
+
+    topVox_betas_lvl_four = betas_level_four[:, T:T+1, :]
+
+    topVox_betas_lvl_five = betas_level_five[:, T:T+1, :]
+
+    topVox_betas_lvl_six = betas_level_six[:, T:T+1, :]
+
+    topVox_betas_lvl_seven = betas_level_seven[:, T:T+1, :]
+
+    topVox_betas_lvl_eight = betas_level_eight[:, T:T+1, :]
+
+    topVox_betas_lvl_nine = betas_level_nine[:, T:T+1, :]
+
+
+    # === 4. Do the ISC for the chosen voxel ===
+    # We obtain a scalar value for each level, because we collapse the vector of r coefficients (using Fischer Z first)
+    isc_r_topVox_one = float(isc(topVox_betas_lvl_one, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_two = float(isc(topVox_betas_lvl_two, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_three = float(isc(topVox_betas_lvl_three, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_four = float(isc(topVox_betas_lvl_four, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_five = float(isc(topVox_betas_lvl_five, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_six = float(isc(topVox_betas_lvl_six, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_seven = float(isc(topVox_betas_lvl_seven, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_eight = float(isc(topVox_betas_lvl_eight, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_nine = float(isc(topVox_betas_lvl_nine, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+
+    # === 5. Collect the correlation coefficients
+
+    isc_r_values_levels =  [isc_r_topVox_one, isc_r_topVox_two, isc_r_topVox_three, isc_r_topVox_four, isc_r_topVox_five,
+                            isc_r_topVox_six, isc_r_topVox_seven, isc_r_topVox_eight, isc_r_topVox_nine]
+
+    return isc_r_values_levels
+
+
+
+def plot_r_values_levels(top_voxel, isc_r_values_levels, levels=list(range(1,10))):
+
+    '''
+
+    
+    Parameters
+    ----------
+        
+    top_voxel: the most intense voxel for which you did the isc.
+
+    isc_r_values_levels: a 1d array of len 9, one r per level.
+
+    Returns
+    -------
+    
+    a bar plot.
+
+    '''
+
+    f, ax = plt.subplots(1,1, figsize = (12, 5), dpi=70)
+    f.suptitle(f'R values for voxel {top_voxel} across levels')
+    ax.bar(levels, isc_r_values_levels, color='b', axes=ax);
+    ax.set_xticks(levels)
+    ax.set_ylim(-1,1)
+    ax.set_ylabel('r');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

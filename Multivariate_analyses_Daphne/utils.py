@@ -771,8 +771,7 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
     isc_r_topVox_nine = float(isc(topVox_betas_lvl_nine, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
 
 
-    # === 5. Collect the correlation coefficients
-
+    # === 5. Collect the correlation coefficients ===
     isc_r_values_levels =  [isc_r_topVox_one, isc_r_topVox_two, isc_r_topVox_three, isc_r_topVox_four, isc_r_topVox_five,
                             isc_r_topVox_six, isc_r_topVox_seven, isc_r_topVox_eight, isc_r_topVox_nine]
 
@@ -783,8 +782,6 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
 def plot_r_values_levels(top_voxel, isc_r_values_levels, levels=list(range(1,10))):
 
     '''
-
-    
     Parameters
     ----------
         
@@ -796,7 +793,6 @@ def plot_r_values_levels(top_voxel, isc_r_values_levels, levels=list(range(1,10)
     -------
     
     a bar plot.
-
     '''
 
     f, ax = plt.subplots(1,1, figsize = (12, 5), dpi=70)

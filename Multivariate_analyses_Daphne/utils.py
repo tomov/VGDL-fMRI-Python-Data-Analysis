@@ -689,9 +689,7 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
     betas_level_nine = np.array(betas_level_nine)
 
     # sanity check
-    print(betas_level_one.shape) # [subjects, games, voxels]
-
-
+    #print(betas_level_one.shape) # [subjects, games, voxels]
 
     # === 2. Swap axes to get data in right shape ===
 
@@ -727,27 +725,26 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
 
     # 3. === Pick a voxel (this voxel should be the most intense voxel from some ROI) ===
 
-
+    # Python indexing starts with 0, so select element T-1
     # select all items from column e.g. 5 (equivalent to [:, 4, :] but this keeps it 3D)
     # to make indexing easier, let's use a T for the voxel we want to select
+    topVox_betas_lvl_one = betas_level_one[:, T-1:T, :]
 
-    topVox_betas_lvl_one = betas_level_one[:, T:T+1, :]
+    topVox_betas_lvl_two = betas_level_two[:, T-1:T, :]
 
-    topVox_betas_lvl_two = betas_level_two[:, T:T+1, :]
+    topVox_betas_lvl_three = betas_level_three[:, T-1:T, :]
 
-    topVox_betas_lvl_three = betas_level_three[:, T:T+1, :]
+    topVox_betas_lvl_four = betas_level_four[:, T-1:T, :]
 
-    topVox_betas_lvl_four = betas_level_four[:, T:T+1, :]
+    topVox_betas_lvl_five = betas_level_five[:, T-1:T, :]
 
-    topVox_betas_lvl_five = betas_level_five[:, T:T+1, :]
+    topVox_betas_lvl_six = betas_level_six[:, T-1:T, :]
 
-    topVox_betas_lvl_six = betas_level_six[:, T:T+1, :]
+    topVox_betas_lvl_seven = betas_level_seven[:, T-1:T, :]
 
-    topVox_betas_lvl_seven = betas_level_seven[:, T:T+1, :]
+    topVox_betas_lvl_eight = betas_level_eight[:, T-1:T, :]
 
-    topVox_betas_lvl_eight = betas_level_eight[:, T:T+1, :]
-
-    topVox_betas_lvl_nine = betas_level_nine[:, T:T+1, :]
+    topVox_betas_lvl_nine = betas_level_nine[:, T-1:T, :]
 
 
     # === 4. Do the ISC for the chosen voxel ===
@@ -772,8 +769,9 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
 
 
     # === 5. Collect the correlation coefficients ===
-    isc_r_values_levels =  [isc_r_topVox_one, isc_r_topVox_two, isc_r_topVox_three, isc_r_topVox_four, isc_r_topVox_five,
+    isc_r_values_levels = [isc_r_topVox_one, isc_r_topVox_two, isc_r_topVox_three, isc_r_topVox_four, isc_r_topVox_five,
                             isc_r_topVox_six, isc_r_topVox_seven, isc_r_topVox_eight, isc_r_topVox_nine]
+    isc_r_values_levels = [round(i, 2) for i in isc_r_values_levels]                 
 
     return isc_r_values_levels
 

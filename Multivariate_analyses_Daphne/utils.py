@@ -28,6 +28,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from scipy import stats
 import seaborn as sns
+import math
 
 
 def decode_variable(file, item):
@@ -746,8 +747,32 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
 
     topVox_betas_lvl_nine = betas_level_nine[:, T-1:T, :]
 
+    # 4. === Get standard deviations for error bars ===
+    #  (std of betas from voxel) / sqrt(num_subjects)
 
-    # === 4. Do the ISC for the chosen voxel ===
+    SEm_one = round((np.std(topVox_betas_lvl_one))/math.sqrt(num_subjects),2)
+
+    SEm_two = round((np.std(topVox_betas_lvl_two))/math.sqrt(num_subjects),2)
+
+    SEm_three = round((np.std(topVox_betas_lvl_three))/math.sqrt(num_subjects),2)
+
+    SEm_four = round((np.std(topVox_betas_lvl_four))/math.sqrt(num_subjects),2)
+
+    SEm_five = round((np.std(topVox_betas_lvl_five))/math.sqrt(num_subjects),2)
+
+    SEm_six = round((np.std(topVox_betas_lvl_six))/math.sqrt(num_subjects),2)
+
+    SEm_seven = round((np.std(topVox_betas_lvl_seven))/math.sqrt(num_subjects),2)
+
+    SEm_eight = round((np.std(topVox_betas_lvl_eight))/math.sqrt(num_subjects),2)
+    
+    SEm_nine = round((np.std(topVox_betas_lvl_nine))/math.sqrt(num_subjects),2)
+    
+    # put them into a list for plotting
+    errors = [SEm_one, SEm_two, SEm_three, SEm_four, SEm_five, SEm_six, SEm_seven, SEm_eight, SEm_nine]
+
+
+    # === 5. Do the ISC for the chosen voxel ===
     # We obtain a scalar value for each level, because we collapse the vector of r coefficients (using Fischer Z first)
     isc_r_topVox_one = float(isc(topVox_betas_lvl_one, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
 
@@ -773,11 +798,11 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
                             isc_r_topVox_six, isc_r_topVox_seven, isc_r_topVox_eight, isc_r_topVox_nine]
     isc_r_values_levels = [round(i, 2) for i in isc_r_values_levels]                 
 
-    return isc_r_values_levels
+    return isc_r_values_levels, errors
 
 
 
-def plot_r_values_levels(top_voxel, isc_r_values_levels, levels=list(range(1,10))):
+def plot_r_values_levels(top_voxel, isc_r_values_levels, errors, levels=list(range(1,10))):
 
     '''
     Parameters
@@ -795,11 +820,11 @@ def plot_r_values_levels(top_voxel, isc_r_values_levels, levels=list(range(1,10)
 
     f, ax = plt.subplots(1,1, figsize = (12, 5), dpi=70)
     f.suptitle(f'R values for voxel {top_voxel} across levels')
-    ax.bar(levels, isc_r_values_levels, color='b', axes=ax);
+    ax.errorbar(levels, isc_r_values_levels, yerr=errors, fmt='o', color='Black', elinewidth=2, capthick=2, errorevery=1, alpha=1, ms=3, capsize=5, axes=ax)
+    ax.bar(levels, isc_r_values_levels)
     ax.set_xticks(levels)
     ax.set_ylim(-1,1)
     ax.set_ylabel('r');
-
 
 
 

@@ -747,7 +747,7 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
 
     topVox_betas_lvl_nine = betas_level_nine[:, T-1:T, :]
 
-    # 4. === Get standard deviations for error bars ===
+    # 4. === Get standard deviations and SE for error bars ===
     #  (std of betas from voxel) / sqrt(num_subjects)
 
     SEm_one = round((np.std(topVox_betas_lvl_one))/math.sqrt(num_subjects),2)
@@ -793,7 +793,7 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
     isc_r_topVox_nine = float(isc(topVox_betas_lvl_nine, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
 
 
-    # === 5. Collect the correlation coefficients ===
+    # === 6. Collect the correlation coefficients ===
     isc_r_values_levels = [isc_r_topVox_one, isc_r_topVox_two, isc_r_topVox_three, isc_r_topVox_four, isc_r_topVox_five,
                             isc_r_topVox_six, isc_r_topVox_seven, isc_r_topVox_eight, isc_r_topVox_nine]
     isc_r_values_levels = [round(i, 2) for i in isc_r_values_levels]                 
@@ -827,7 +827,45 @@ def plot_r_values_levels(top_voxel, isc_r_values_levels, errors, levels=list(ran
     ax.set_ylabel('r');
 
 
+def get_vox_from_coords(coords_mat, native_coords):
 
+    ''' 
+    Returns the voxel number that belongs to a given coordinate.
+    
+
+    Parameters
+    ----------
+        
+    coords_mat: whole brain mask coordinates in native voxel space.
+
+    native_coords: the native coordinates that correspond to a certain voxel.
+
+    Returns
+    -------
+    
+    The voxel that 
+
+    
+    '''
+
+    # iterate through all coords from whole brain mask
+    for v in range(len(coords_mat[0])):
+        
+        # x,y,z arrays are
+        x_arr = coords_mat[0, :]
+        y_arr = coords_mat[1, :]
+        z_arr = coords_mat[2, :]
+        
+        # take coordinates for voxel v
+        x = x_arr[v]
+        y = y_arr[v]
+        z = z_arr[v]
+
+        if x == int(native_coords[0]) and y == int(native_coords[1]) and z == int(native_coords[2]):
+            top_V = v
+            print(f'The coordinates correspond to voxel: {top_V}.')
+
+    return top_V
 
 
 

@@ -25,6 +25,7 @@ from brainiak import image, io
 from brainiak.isc import isc, isfc, permutation_isc
 from brainiak.isc import compute_summary_statistic
 import matplotlib.pyplot as plt
+from nibabel.affines import apply_affine
 import pandas as pd
 from scipy import stats
 import seaborn as sns
@@ -870,10 +871,49 @@ def get_vox_from_coords(coords_mat, native_coords):
 
 
 
+def find_top_voxel_in_roi(roi_mask, regions_thresholded_img, coords_mat, mask_nii, mean_nii):
+    
+
+    # convert to nifti object to plot
+    roi_mask_nifti = nib.Nifti1Image(roi_mask, regions_thresholded_img.affine, regions_thresholded_img.header) 
+
+    # The mask_nii mask overlayed on mean_nii
+    plotting.plot_roi(roi_img=roi_mask_nifti, bg_img=mean_nii, black_bg=False, colorbar=True, title='The ROI (t statistics)');
+
+    # check largest t values
+    max_t_values = np.sort(roi_mask.flatten())[::-1][:20] # get top 20 t stats
+    max_tstat = max_t_values[0] # take the highest t statistic
+
+    print(f'Largest values \n {max_t_values} \n')
+    print(f'Going for the voxel with a t stat of {max_tstat}\n')
+     
+    top_vox_coords = np.where(roi_mask==max_tstat) # get x,y,z coords for voxel with the highest t statistic
+    print(f'The coordinates of the voxel with the highest t value: {top_vox_coords}')
+
+    # get top vox corresponding to coordinates (return this)
+    top_vox_in_roi = get_vox_from_coords(coords_mat, top_vox_coords) # corresponding voxel
+
+    # === Sanity check: plot the coordinate back on brain ===
+
+    # make all items in mask 1 execpt the top voxel, make that one 10
+    nonzero_indices = np.nonzero(roi_mask)
+    roi_boolean = np.zeros(roi_mask.shape)
+    roi_boolean[nonzero_indices] = 1 # convert all nonzero indices to a one
+    roi_boolean[top_vox_coords] = 10 # unfortunately can't see 1 voxel :(
+
+    # put in simple lsit
+    top_vox_coords = [int(top_vox_coords[0]), int(top_vox_coords[1]), int(top_vox_coords[2])]
+
+    # translate back to mni space to check where the top voxel is 
+    mni_coords = apply_affine(aff=mask_nii.affine, pts=top_vox_coords) # from cor2mni
+
+    # convert to nifti object to plot
+    roi_sanitycheck_nifti = nib.Nifti1Image(roi_boolean, regions_thresholded_img.affine, regions_thresholded_img.header) 
+    plotting.plot_stat_map(stat_map_img=roi_sanitycheck_nifti, bg_img=mean_nii, 
+                            black_bg=False, cut_coords=mni_coords, title=f'Mapping the top voxel (v={top_vox_in_roi}) back onto brain');
 
 
-
-
+    return top_vox_in_roi
 
 
 

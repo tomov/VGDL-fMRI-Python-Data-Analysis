@@ -25,9 +25,11 @@ from brainiak import image, io
 from brainiak.isc import isc, isfc, permutation_isc
 from brainiak.isc import compute_summary_statistic
 import matplotlib.pyplot as plt
+from nibabel.affines import apply_affine
 import pandas as pd
 from scipy import stats
 import seaborn as sns
+import math
 
 
 def decode_variable(file, item):
@@ -469,7 +471,10 @@ def plot_statistical_map(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.0
     Returns
     ----------
         
-    isc_nifti: the statistical map image (.nii) - 
+    isc_nifti: the statistical map image (.nii) - use this for active visualisation 
+    like
+
+    view = plotting.view_img(stat_img, threshold=.2) >>> view 
 
 
     '''
@@ -595,6 +600,328 @@ def prep_for_surface_plot(coords, tstats, pvalues, brain_nii, mask_nii, theta=0.
     isc_nifti = nib.Nifti1Image(isc_vol, mask_nii.affine, mask_nii.header)
         
     return isc_nifti
+
+
+
+def get_iscs_across_levels(levels_betas, T, num_subjects=8):
+
+    '''
+    
+    Parameters
+    ----------
+
+    levels_betas: the betas from the levels. Shape is [54, voxels, subjects]
+        
+    num_subjects: the number of participants.
+
+    T: the top voxel
+
+
+    Returns
+    -------
+    
+    '''
+
+    print(f'Getting the intersubject corelations for voxel {T}')
+
+    # === 1. Separate levels_betas for isc analyses ===
+
+    betas_level_one = []
+    betas_level_two = []
+    betas_level_three = []
+    betas_level_four = []
+    betas_level_five = []
+    betas_level_six = []
+    betas_level_seven = []
+    betas_level_eight = []
+    betas_level_nine = []
+
+    num_subjects = 8
+
+    for s in range(num_subjects):
+        #print(s)
+        # take the array for that subject 
+        levels_betas_sub = levels_betas[:,:,s]
+        
+        # level 1
+        lvl_one_betas_sub = levels_betas_sub[0::9]
+        betas_level_one.append(lvl_one_betas_sub)
+        
+        # level 2
+        lvl_two_betas_sub = levels_betas_sub[1::9]
+        betas_level_two.append(lvl_two_betas_sub)
+        
+        # level 3
+        lvl_three_betas_sub = levels_betas_sub[2::9]
+        betas_level_three.append(lvl_three_betas_sub)
+        
+        # level 4
+        lvl_four_betas_sub = levels_betas_sub[3::9]
+        betas_level_four.append(lvl_four_betas_sub)
+        
+        # level 5
+        lvl_five_betas_sub = levels_betas_sub[4::9]
+        betas_level_five.append(lvl_five_betas_sub)
+        
+        # level 6
+        lvl_six_betas_sub = levels_betas_sub[5::9]
+        betas_level_six.append(lvl_six_betas_sub)
+        
+        # level 7
+        lvl_seven_betas_sub = levels_betas_sub[6::9]
+        betas_level_seven.append(lvl_seven_betas_sub)
+        
+        # level 8
+        lvl_eight_betas_sub = levels_betas_sub[7::9]
+        betas_level_eight.append(lvl_eight_betas_sub)
+        
+        # level 9
+        lvl_nine_betas_sub = levels_betas_sub[8::9]
+        betas_level_nine.append(lvl_nine_betas_sub)
+        
+    # convert lists to np arrays
+    betas_level_one = np.array(betas_level_one)
+    betas_level_two = np.array(betas_level_two)
+    betas_level_three = np.array(betas_level_three)
+    betas_level_four = np.array(betas_level_four)
+    betas_level_five = np.array(betas_level_five)
+    betas_level_six = np.array(betas_level_six)
+    betas_level_seven = np.array(betas_level_seven)
+    betas_level_eight = np.array(betas_level_eight)
+    betas_level_nine = np.array(betas_level_nine)
+
+    # sanity check
+    #print(betas_level_one.shape) # [subjects, games, voxels]
+
+    # === 2. Swap axes to get data in right shape ===
+
+    # do isc for each level
+    # compute the isc correlations using the leave one out approach
+    betas_level_one = np.swapaxes(betas_level_one, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_one = np.swapaxes(betas_level_one, 1, 2)
+
+    betas_level_two = np.swapaxes(betas_level_two, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_two = np.swapaxes(betas_level_two, 1, 2)
+
+    betas_level_three = np.swapaxes(betas_level_three, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_three = np.swapaxes(betas_level_three, 1, 2)
+
+    betas_level_four = np.swapaxes(betas_level_four, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_four = np.swapaxes(betas_level_four, 1, 2)
+
+    betas_level_five = np.swapaxes(betas_level_five, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_five = np.swapaxes(betas_level_five, 1, 2)
+
+    betas_level_six = np.swapaxes(betas_level_six, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_six = np.swapaxes(betas_level_six, 1, 2)
+
+    betas_level_seven = np.swapaxes(betas_level_seven, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_seven = np.swapaxes(betas_level_seven, 1, 2)
+
+    betas_level_eight = np.swapaxes(betas_level_eight, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_eight = np.swapaxes(betas_level_eight, 1, 2)
+
+    betas_level_nine = np.swapaxes(betas_level_nine, 0, 1) # need to get [TRs, voxels, subjects]
+    betas_level_nine = np.swapaxes(betas_level_nine, 1, 2)
+
+
+    # 3. === Pick a voxel (this voxel should be the most intense voxel from some ROI) ===
+
+    # Python indexing starts with 0, so select element T-1
+    # select all items from column e.g. 5 (equivalent to [:, 4, :] but this keeps it 3D)
+    # to make indexing easier, let's use a T for the voxel we want to select
+    topVox_betas_lvl_one = betas_level_one[:, T-1:T, :]
+
+    topVox_betas_lvl_two = betas_level_two[:, T-1:T, :]
+
+    topVox_betas_lvl_three = betas_level_three[:, T-1:T, :]
+
+    topVox_betas_lvl_four = betas_level_four[:, T-1:T, :]
+
+    topVox_betas_lvl_five = betas_level_five[:, T-1:T, :]
+
+    topVox_betas_lvl_six = betas_level_six[:, T-1:T, :]
+
+    topVox_betas_lvl_seven = betas_level_seven[:, T-1:T, :]
+
+    topVox_betas_lvl_eight = betas_level_eight[:, T-1:T, :]
+
+    topVox_betas_lvl_nine = betas_level_nine[:, T-1:T, :]
+
+    # 4. === Get standard deviations and SE for error bars ===
+    #  (std of betas from voxel) / sqrt(num_subjects)
+
+    SEm_one = round((np.std(topVox_betas_lvl_one))/math.sqrt(num_subjects),2)
+
+    SEm_two = round((np.std(topVox_betas_lvl_two))/math.sqrt(num_subjects),2)
+
+    SEm_three = round((np.std(topVox_betas_lvl_three))/math.sqrt(num_subjects),2)
+
+    SEm_four = round((np.std(topVox_betas_lvl_four))/math.sqrt(num_subjects),2)
+
+    SEm_five = round((np.std(topVox_betas_lvl_five))/math.sqrt(num_subjects),2)
+
+    SEm_six = round((np.std(topVox_betas_lvl_six))/math.sqrt(num_subjects),2)
+
+    SEm_seven = round((np.std(topVox_betas_lvl_seven))/math.sqrt(num_subjects),2)
+
+    SEm_eight = round((np.std(topVox_betas_lvl_eight))/math.sqrt(num_subjects),2)
+    
+    SEm_nine = round((np.std(topVox_betas_lvl_nine))/math.sqrt(num_subjects),2)
+    
+    # put them into a list for plotting
+    errors = [SEm_one, SEm_two, SEm_three, SEm_four, SEm_five, SEm_six, SEm_seven, SEm_eight, SEm_nine]
+
+
+    # === 5. Do the ISC for the chosen voxel ===
+    # We obtain a scalar value for each level, because we collapse the vector of r coefficients (using Fischer Z first)
+    isc_r_topVox_one = float(isc(topVox_betas_lvl_one, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_two = float(isc(topVox_betas_lvl_two, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_three = float(isc(topVox_betas_lvl_three, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_four = float(isc(topVox_betas_lvl_four, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_five = float(isc(topVox_betas_lvl_five, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_six = float(isc(topVox_betas_lvl_six, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_seven = float(isc(topVox_betas_lvl_seven, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_eight = float(isc(topVox_betas_lvl_eight, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+    isc_r_topVox_nine = float(isc(topVox_betas_lvl_nine, pairwise=False, tolerate_nans=True, summary_statistic='mean'))
+
+
+    # === 6. Collect the correlation coefficients ===
+    isc_r_values_levels = [isc_r_topVox_one, isc_r_topVox_two, isc_r_topVox_three, isc_r_topVox_four, isc_r_topVox_five,
+                            isc_r_topVox_six, isc_r_topVox_seven, isc_r_topVox_eight, isc_r_topVox_nine]
+    isc_r_values_levels = [round(i, 2) for i in isc_r_values_levels]                 
+
+    return isc_r_values_levels, errors
+
+
+
+def plot_r_values_levels(top_voxel, isc_r_values_levels, errors, levels=list(range(1,10))):
+
+    '''
+    Parameters
+    ----------
+        
+    top_voxel: the most intense voxel for which you did the isc.
+
+    isc_r_values_levels: a 1d array of len 9, one r per level.
+
+    Returns
+    -------
+    
+    a bar plot.
+    '''
+
+    f, ax = plt.subplots(1,1, figsize = (12, 5), dpi=70)
+    f.suptitle(f'R values for voxel {top_voxel} across levels')
+    ax.errorbar(levels, isc_r_values_levels, yerr=errors, fmt='o', color='Black', elinewidth=2, capthick=2, errorevery=1, alpha=1, ms=3, capsize=5, axes=ax)
+    ax.bar(levels, isc_r_values_levels)
+    ax.set_xticks(levels)
+    ax.set_ylim(-1,1)
+    ax.set_ylabel('r');
+
+
+def get_vox_from_coords(coords_mat, native_coords):
+
+    ''' 
+    Returns the voxel number that belongs to a given coordinate.
+    
+
+    Parameters
+    ----------
+        
+    coords_mat: whole brain mask coordinates in native voxel space.
+
+    native_coords: the native coordinates that correspond to a certain voxel.
+
+    Returns
+    -------
+    
+    The voxel that 
+
+    
+    '''
+
+    # iterate through all coords from whole brain mask
+    for v in range(len(coords_mat[0])):
+        
+        # x,y,z arrays are
+        x_arr = coords_mat[0, :]
+        y_arr = coords_mat[1, :]
+        z_arr = coords_mat[2, :]
+        
+        # take coordinates for voxel v
+        x = x_arr[v]
+        y = y_arr[v]
+        z = z_arr[v]
+
+        if x == int(native_coords[0]) and y == int(native_coords[1]) and z == int(native_coords[2]):
+            top_V = v
+            print(f'The coordinates correspond to voxel: {top_V}.')
+
+    return top_V
+
+
+
+
+def find_top_voxel_in_roi(roi_mask, regions_thresholded_img, coords_mat, mask_nii, mean_nii):
+    
+
+    # convert to nifti object to plot
+    roi_mask_nifti = nib.Nifti1Image(roi_mask, regions_thresholded_img.affine, regions_thresholded_img.header) 
+
+    # The mask_nii mask overlayed on mean_nii
+    plotting.plot_roi(roi_img=roi_mask_nifti, bg_img=mean_nii, black_bg=False, colorbar=True, title='The ROI (t statistics)');
+
+    # check largest t values
+    max_t_values = np.sort(roi_mask.flatten())[::-1][:20] # get top 20 t stats
+    max_tstat = max_t_values[0] # take the highest t statistic
+
+    print(f'Largest values \n {max_t_values} \n')
+    print(f'Going for the voxel with a t stat of {max_tstat}\n')
+     
+    top_vox_coords = np.where(roi_mask==max_tstat) # get x,y,z coords for voxel with the highest t statistic
+    print(f'The coordinates of the voxel with the highest t value: {top_vox_coords}')
+
+    # get top vox corresponding to coordinates (return this)
+    top_vox_in_roi = get_vox_from_coords(coords_mat, top_vox_coords) # corresponding voxel
+
+    # === Sanity check: plot the coordinate back on brain ===
+
+    # make all items in mask 1 execpt the top voxel, make that one 10
+    nonzero_indices = np.nonzero(roi_mask)
+    roi_boolean = np.zeros(roi_mask.shape)
+    roi_boolean[nonzero_indices] = 1 # convert all nonzero indices to a one
+    roi_boolean[top_vox_coords] = 10 # unfortunately can't see 1 voxel :(
+
+    # put in simple lsit
+    top_vox_coords = [int(top_vox_coords[0]), int(top_vox_coords[1]), int(top_vox_coords[2])]
+
+    # translate back to mni space to check where the top voxel is 
+    mni_coords = apply_affine(aff=mask_nii.affine, pts=top_vox_coords) # from cor2mni
+
+    # convert to nifti object to plot
+    roi_sanitycheck_nifti = nib.Nifti1Image(roi_boolean, regions_thresholded_img.affine, regions_thresholded_img.header) 
+    roi_map = plotting.plot_stat_map(stat_map_img=roi_sanitycheck_nifti, bg_img=mean_nii, 
+                            black_bg=False, cut_coords=mni_coords, title=f'Mapping the top voxel (v={top_vox_in_roi}) back onto brain');
+
+    return top_vox_in_roi
+
+
+
+
+
+
+
+
+
 
 
 

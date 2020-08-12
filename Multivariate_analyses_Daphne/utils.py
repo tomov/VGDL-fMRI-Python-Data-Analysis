@@ -906,13 +906,23 @@ def find_top_voxel_in_roi(roi_mask, regions_thresholded_img, coords_mat, mask_ni
 
     # translate back to mni space to check where the top voxel is 
     mni_coords = apply_affine(aff=mask_nii.affine, pts=top_vox_coords) # from cor2mni
+    # reshape mni coordinates to add the markers
+    mni_coords_rs = mni_coords.reshape(1,3)
 
     # convert to nifti object to plot
     roi_sanitycheck_nifti = nib.Nifti1Image(roi_boolean, regions_thresholded_img.affine, regions_thresholded_img.header) 
     roi_map = plotting.plot_stat_map(stat_map_img=roi_sanitycheck_nifti, bg_img=mean_nii, 
                             black_bg=False, cut_coords=mni_coords, title=f'Mapping the top voxel (v={top_vox_in_roi}) back onto brain');
 
+    # Add marker
+    roi_map.add_markers(
+        marker_coords=mni_coords_rs, 
+        marker_color='lawngreen',
+        marker_size=40,
+    )
+
     return top_vox_in_roi
+
 
 
 

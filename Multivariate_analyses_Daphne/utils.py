@@ -727,26 +727,26 @@ def get_iscs_across_levels(levels_betas, T, num_subjects=8):
 
     # 3. === Pick a voxel (this voxel should be the most intense voxel from some ROI) ===
 
-    # Python indexing starts with 0, so select element T-1
-    # select all items from column e.g. 5 (equivalent to [:, 4, :] but this keeps it 3D)
-    # to make indexing easier, let's use a T for the voxel we want to select
-    topVox_betas_lvl_one = betas_level_one[:, T-1:T, :]
+    # IMPORTANT: Momchils affine's matrix is the same so if the code says its voxel 5, 
+    # I should get the 5th voxel in Python (which is actually #6 then bc of zero-indexing)
+    
+    topVox_betas_lvl_one = betas_level_one[:, T:T+1, :]
 
-    topVox_betas_lvl_two = betas_level_two[:, T-1:T, :]
+    topVox_betas_lvl_two = betas_level_two[:, T:T+1, :]
 
-    topVox_betas_lvl_three = betas_level_three[:, T-1:T, :]
+    topVox_betas_lvl_three = betas_level_three[:, T:T+1, :]
 
-    topVox_betas_lvl_four = betas_level_four[:, T-1:T, :]
+    topVox_betas_lvl_four = betas_level_four[:, T:T+1, :]
 
-    topVox_betas_lvl_five = betas_level_five[:, T-1:T, :]
+    topVox_betas_lvl_five = betas_level_five[:, T:T+1, :]
 
-    topVox_betas_lvl_six = betas_level_six[:, T-1:T, :]
+    topVox_betas_lvl_six = betas_level_six[:, T:T+1, :]
 
-    topVox_betas_lvl_seven = betas_level_seven[:, T-1:T, :]
+    topVox_betas_lvl_seven = betas_level_seven[:, T:T+1, :]
 
-    topVox_betas_lvl_eight = betas_level_eight[:, T-1:T, :]
+    topVox_betas_lvl_eight = betas_level_eight[:, T:T+1, :]
 
-    topVox_betas_lvl_nine = betas_level_nine[:, T-1:T, :]
+    topVox_betas_lvl_nine = betas_level_nine[:, T:T+1, :]
 
     # 4. === Get standard deviations and SE for error bars ===
     #  (std of betas from voxel) / sqrt(num_subjects)

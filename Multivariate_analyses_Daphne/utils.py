@@ -844,9 +844,8 @@ def get_vox_from_coords(coords_mat, native_coords):
     Returns
     -------
     
-    The voxel that 
+    The voxel number
 
-    
     '''
 
     # iterate through all coords from whole brain mask
@@ -884,11 +883,11 @@ def find_top_voxel_in_roi(roi_mask, regions_thresholded_img, coords_mat, mask_ni
     max_t_values = np.sort(roi_mask.flatten())[::-1][:20] # get top 20 t stats
     max_tstat = max_t_values[0] # take the highest t statistic
 
-    print(f'Largest values \n {max_t_values} \n')
-    print(f'Going for the voxel with a t stat of {max_tstat}\n')
+    #print(f'Largest values \n {max_t_values} \n')
+    print(f'Largest t statistic: {round(max_tstat,2)}\n')
      
     top_vox_coords = np.where(roi_mask==max_tstat) # get x,y,z coords for voxel with the highest t statistic
-    print(f'The coordinates of the voxel with the highest t value: {top_vox_coords}')
+    print(f'The coordinates of the voxel with the highest t value (native space): {top_vox_coords}')
 
     # get top vox corresponding to coordinates (return this)
     top_vox_in_roi = get_vox_from_coords(coords_mat, top_vox_coords) # corresponding voxel
@@ -921,7 +920,34 @@ def find_top_voxel_in_roi(roi_mask, regions_thresholded_img, coords_mat, mask_ni
         marker_size=40,
     )
 
-    return top_vox_in_roi
+    return top_vox_in_roi, mni_coords
+
+
+def map_vox_on_brain(mean_nii, mask_nii, mni_coords, voxel=None):
+	'''
+	Maps a given voxel on the anatomical brain image using the mni coords.
+	'''
+
+
+	mni_coords = np.array(mni_coords)
+
+	zeros_vol = np.zeros(mask_nii.shape)
+
+	zeros_nifti = nib.Nifti1Image(zeros_vol, mask_nii.affine, mask_nii.header)
+
+	vox_map = plotting.plot_stat_map(stat_map_img=zeros_nifti, bg_img=mean_nii, 
+	                            black_bg=False, cut_coords=mni_coords, 
+	                            title=f'');
+
+	# reshape mni coordinates to add the markers 
+	mni_coords_rs = mni_coords.reshape(1,3)
+
+	# Add marker
+	vox_map.add_markers(
+	    marker_coords=mni_coords_rs, 
+	    marker_color='lawngreen',
+	    marker_size=40,
+	)
 
 
 

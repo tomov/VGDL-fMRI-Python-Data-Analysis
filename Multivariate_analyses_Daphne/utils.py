@@ -952,10 +952,75 @@ def map_vox_on_brain(mean_nii, mask_nii, mni_coords, voxel=None):
 
 
 
+def correlate_one_sub(R, encoding_voxels, updating_voxels):
+    '''
+    Correlates the time series between two sets of voxels.
+    
+    Parameters
+    ----------
+    
+    R: the residuals for one subject
+    updating_voxels: the indices of the updating voxels
+    encoding_voxels: the indices of the encoding voxels
+    
+    Returns
+    -------
+    
+    corr_matrix: asymmetric correlation matrix for that subject
+    
+    '''
+    
+    # select the voxels from the residuals
+    updating_time_series = R[:, updating_voxels]
+    encoding_time_series = R[:, encoding_voxels]
+
+    N = len(encoding_time_series[1])
+    corr_matrix = np.zeros((N,N))
+
+
+    for i in range(N): # iterate through voxels (see img above)
+
+        corr_col = []
+        # pick the ith column from encoding 
+        encoding_vec = encoding_time_series[:, i]
+
+        # correlate it with each col (j) from updating time series
+        for j in range(N):
+
+            updating_vec = updating_time_series[:, j]
+
+            # correlate column i with column j
+            corr, _ = stats.pearsonr(encoding_vec, updating_vec)
+
+            corr_col.append(round(corr,2)) 
+
+        corr_matrix[:, i] = corr_col # insert correlations into correlation matrix
+#         print(f'--- Theory encoding col {i} ---')
+#         print(corr_matrix)
+
+    return corr_matrix
 
 
 
+def get_significant_stats(pvalues, tstats, alpha=0.01):
 
+    '''
+    Given an nd array of tstats and pvalues, return only the t statistics < alpha (significance level) 
+    '''
+    
+    # make empty matrix for the significant t stats
+    sig_M = np.zeros(pvalues.shape)
+
+    # take indices of p values < alpha
+    indices = np.where(pvalues < alpha)
+
+    # get these t stats
+    selected_tstats = tstats[indices]
+
+    # map them in the right place
+    sig_M[indices] = selected_tstats
+    
+    return sig_M
 
 
 

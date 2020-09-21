@@ -4,7 +4,7 @@ This repository contains Python code and Jupyter notebooks used to analyse fMRI 
 
 ### What's in the folder: Analyses_Daphne? 🤔
 
-This folder contains the deliverables from Daphne, resulting from the summer research assistantship with Momchil from Jun-Aug 2020. 
+This folder contains the deliverables from Daphne, as result of the summer research assistantship with Momchil from Jun-Aug 2020. 
 You will find code on preprocessing data (🟠), how to find regions of interest (🔴), intersubject correlation (🟢) and functional connectivity analyses (🔵).
 
 If anything is unclear, feel free to [send me an email](mailto:daphn3cor@gmail.com). 

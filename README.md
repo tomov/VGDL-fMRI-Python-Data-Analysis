@@ -17,7 +17,7 @@ All the notebooks in this folder use the functions from `utils.py` to keep them 
 (almost) each of the notebooks include a summary of what is done and are well documented. 
 Some also include links that point to resources where you can learn more about the respective analysis.
 
-#### Notebooks where I preprocess data or stored as reference
+#### Notebooks where I preprocess data or just stored for reference
 
 - `Preprocess_smooth_betas.ipynb` is where the `.mat` files are preprocessed and the BOLD data is reordered. 
 We looked at beta series for boxcars, blocks, levels, and games. 🟠

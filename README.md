@@ -7,6 +7,8 @@ This repository contains Python code and Jupyter notebooks used to analyse fMRI 
 This folder contains the deliverables from Daphne, resulting from the summer research assistantship with Momchil from Jun-Aug 2020. 
 You will find code on preprocessing data (🟠), how to find regions of interest (🔴), intersubject correlation (🟢) and functional connectivity analyses (🔵).
 
+If anything is unclear, feel free to [send me an email](mailto:daphn3cor@gmail.com). 
+
 ### Python scripts
 
 - `utils.py` includes all the functions used for preprocessing the data, performing analyses, plotting and more. 
@@ -46,4 +48,3 @@ the most intense voxel for each of the found ROIs. 🔴
 
 - `Functional_connectivity_between_subjects.ipynb` as the name suggests, here we do the look at the functional connectivity
 across subjects. 🔵
-

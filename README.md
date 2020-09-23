@@ -24,7 +24,7 @@ Some also include links that point to resources where you can learn more about t
 - `Preprocess_smooth_betas.ipynb` is where the `.mat` files are preprocessed and the BOLD data is reordered. 
 We looked at beta series for boxcars, blocks, levels, and games. 🟠
 
-- `Startingpoint.ipynb` is a probably not very useful but kept it here for potential debugging. 
+- `Startingpoint.ipynb` is probably not very useful but kept it here for potential debugging. 
 
 #### Analysis notebooks
 
@@ -44,7 +44,7 @@ the most intense voxel for each of the found ROIs. 🔴
 - In `Running_on_cluster.ipynb` we get the data for all the subjects later used in `Functional_connectivity_within_subjects.ipynb`. 🔵
 
 - `Functional_connectivity_within_subjects.ipynb` does a standard FC analysis, correlating across different brain areas 
-(i.e. the ROIs found by Momchil & the ones from me) within a subjects brain. It also includes a bit on how to perform granger causality on voxel pairs. 🔵
+(i.e. the ROIs found by Momchil & the ones from me) _within_ a subjects brain. It also includes a bit on how to perform granger causality on voxel pairs. 🔵
 
 - `Functional_connectivity_between_subjects.ipynb` as the name suggests, here we do the look at the functional connectivity
 across subjects. 🔵
